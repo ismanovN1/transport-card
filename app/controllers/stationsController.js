@@ -1,6 +1,11 @@
 const getStops = require("../services/getStops");
 const fs = require("fs/promises");
 const path = require("path");
+const {
+  getStationsRoutes,
+  setStationsRoutes,
+} = require("../cache/memoryCache");
+const { buildRouteStore } = require("../services/build-route-store");
 
 async function getStations(req, res) {
   try {
@@ -8,6 +13,21 @@ async function getStations(req, res) {
     const stations = await getStops();
 
     res.json(stations);
+  } catch (error) {
+    res.status(500).json(error);
+  }
+}
+
+async function fetchStationsRoutes(req, res) {
+  try {
+    let data = getStationsRoutes();
+    if (!data) {
+      const routesPath = path.join(__dirname, "..", "data", "stopsStore.json");
+      data = await fs.readFile(routesPath, "utf-8");
+      setStationsRoutes(data);
+    }
+
+    res.send(data);
   } catch (error) {
     res.status(500).json(error);
   }
@@ -39,4 +59,5 @@ async function getRoute(req, res) {
 module.exports = {
   getStations,
   getRoute,
+  fetchStationsRoutes,
 };

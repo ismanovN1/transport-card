@@ -5,6 +5,7 @@ const getTableAll = require("../services/getTableAll");
 const routeNums = require("../data/routeNums.json");
 const stationTitles = require("../data/stationTitles.json");
 const moment = require("moment-timezone");
+const { buildRouteStore } = require("../services/build-route-store");
 
 const vehicles = new Map();
 let stations = new Map();
@@ -79,6 +80,7 @@ async function updateVehiclesStates() {
       });
     }
   }
+  lastSyncDate = new Date().valueOf();
 }
 
 const updateTableCur2 = async () => {
@@ -88,7 +90,7 @@ const updateTableCur2 = async () => {
   stations.clear();
 
   table.forEach((item) => {
-    if(Number(item.tc_len2target) === -1) return
+    if (Number(item.tc_len2target) === -1) return;
     const key = `${item.srv_id}-${item.uniqueid}`;
     const vehicle = vehicles.get(key);
     const station = stations.get(Number(item.st_id)) || {};
@@ -104,11 +106,12 @@ const updateTableCur2 = async () => {
     ];
     stations.set(Number(item.st_id), station);
   });
+  lastSyncCurTableDate = new Date().valueOf();
 };
 
 async function getVehicles(req, res) {
   try {
-    if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 20)
+    if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 10)
       await updateVehiclesStates();
 
     res.json(Array.from(vehicles.values()));
@@ -121,17 +124,15 @@ let lastSyncCurTableDate;
 
 async function getStationCurTable(req, res) {
   try {
-
     if (vehicles.size < 1) await updateVehiclesStates();
     if (
       stations.size < 1 ||
       !lastSyncCurTableDate ||
-      (new Date().valueOf() - lastSyncCurTableDate) / 1000 > 20
+      (new Date().valueOf() - lastSyncCurTableDate) / 1000 > 10
     )
       await updateTableCur2();
 
     const station = stations.get(Number(req.query.st_id));
-
 
     res.json(station);
   } catch (e) {
