@@ -1,4 +1,4 @@
-const { setStationsRoutes } = require("../cache/memoryCache");
+const { setStationsRoutes, setAllRoutes } = require("../cache/memoryCache");
 const getMarshVariants = require("./getMarshVariants");
 const getMarshes = require("./getMarshes");
 const getRaceCard = require("./getRaceCard");
@@ -38,6 +38,7 @@ async function buildRouteStore() {
 
       for (const direction of directions) {
         const drTo = direction === "A" ? A : B;
+        let distanceSum = 0;
         const stops = raceCard
           .filter((item) => item.rl_racetype === direction)
           .sort((a, b) => a.rc_orderby - b.rc_orderby)
@@ -54,20 +55,24 @@ async function buildRouteStore() {
                 direction: drTo,
               },
             ];
+            const distance = parseFloat(item.rc_distance);
+            const distanceToStop = distanceSum + 0;
+            distanceSum += distance;
             return {
               order: item.rc_orderby,
               st_id: item.st_id,
-              distance: parseFloat(item.rc_distance),
+              distance,
               isFinal: item.rc_kkp === "E",
               isFirst: item.rc_kkp === "B",
               isControlPoint: item.rc_kp === "1",
+              distanceToStop,
             };
           });
 
         const geometry = raceCoord
           .filter((item) => item.rl_racetype === direction)
           .sort((a, b) => a.rd_orderby - b.rd_orderby)
-          .map((item) => [item.rd_long, item.rd_lat]);
+          .map((item) => [parseFloat(item.rd_long), parseFloat(item.rd_lat)]);
 
         if (stops.length && geometry.length) {
           mvRoutes[direction] = { stops, geometry };
@@ -94,6 +99,7 @@ async function buildRouteStore() {
       const filePath = path.join(__dirname + "/../data/", "stopsStore.json");
       fs.writeFileSync(filePath, JSON.stringify(stopsStore, null, 2), "utf-8");
       setStationsRoutes(null);
+      setAllRoutes(null);
     }
 
     if (routes) {

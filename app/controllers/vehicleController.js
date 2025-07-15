@@ -1,22 +1,60 @@
 const getNariad = require("../services/getNariad");
 const getTableCur2 = require("../services/getTableCur2");
 const getUnits = require("../services/getUnits");
+const getSysInfo = require("../services/getSysInfo");
 const getTableAll = require("../services/getTableAll");
 const routeNums = require("../data/routeNums.json");
+const path = require("path");
+const fs = require("fs");
 const stationTitles = require("../data/stationTitles.json");
 const moment = require("moment-timezone");
-const { buildRouteStore } = require("../services/build-route-store");
+const { setRouteStopsDistance, getRouteStopsDistance: getCachedRouteStopsDistance } = require("../cache/memoryCache");
 
 const vehicles = new Map();
 let stations = new Map();
 
 let lastSyncDate;
+let navUpdateTime;
+
+const getRouteStopsDistance = () => {
+  try {
+    let res = getCachedRouteStopsDistance();
+    if (!res) {
+      const routesPath = path.join(__dirname, "..", "data", "routesStore.json");
+      const jsonData = fs.readFile(routesPath, "utf-8");
+      const data = JSON.parse(jsonData).reduce(
+        (acc, item) => ({
+          ...acc,
+          [`${item.mv_id}A`]: item.directions.A.stops.reduce(
+            (acc, s) => ({ ...acc, [s.st_id]: s.distanceToStop }),
+            {}
+          ),
+          [`${item.mv_id}B`]: item.directions.B.stops.reduce(
+            (acc, s) => ({ ...acc, [s.st_id]: s.distanceToStop }),
+            {}
+          ),
+        }),
+        {}
+      );
+      setRouteStopsDistance(data);
+      res = data;
+    }
+
+    return res;
+  } catch (error) {
+    return null;
+  }
+};
 
 async function updateVehiclesStates() {
   lastSyncDate = new Date().valueOf();
   const nariads = await getNariad();
+  const sysInfo = await getSysInfo();
   const units = await getUnits();
   const tableAll = await getTableAll();
+
+  if (sysInfo.NavUpdateTime === navUpdateTime) return;
+  navUpdateTime = sysInfo.NavUpdateTime;
 
   vehicles.clear();
   for (const nariad of nariads) {
@@ -47,12 +85,13 @@ async function updateVehiclesStates() {
         stateNum: unit.u_statenum,
         tt_id: unit.tt_id,
         model: unit.u_model,
-        speed: unit.u_speed,
+        coord: [parseFloat(unit.u_long), parseFloat(unit.u_lat)],
         bearing: unit.u_course,
         syncDate: moment(unit.u_timenav).toISOString(),
       });
     }
   }
+
 
   for (const t of tableAll) {
     const key = `${t.srv_id}-${t.uniqueid}`;
@@ -65,7 +104,7 @@ async function updateVehiclesStates() {
       ta_len2target >= 0
     ) {
       if (!moment(vehicle.ta_arrivetime).isAfter(vehicle.syncDate)) continue;
-      const distance = vehicle.distance + (ta_len2target || 0);
+      const distance = vehicle.distance + (ta_len2target || 0)
 
       vehicles.set(key, {
         ...vehicle,
@@ -98,6 +137,7 @@ const updateTableCur2 = async () => {
       ...(station[item.mr_id] || []),
       {
         vehicle: vehicle?.stateNum,
+        vehicleId: key,
         mr_num: vehicle?.mr_num || routeNums[item.mr_id],
         nextStation: stationTitles[vehicle?.nextStops?.[0]?.st_id],
         arrivetime: moment(item.tc_arrivetime).toISOString(),
@@ -111,10 +151,13 @@ const updateTableCur2 = async () => {
 
 async function getVehicles(req, res) {
   try {
-    if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 10)
+    if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 12)
       await updateVehiclesStates();
 
-    res.json(Array.from(vehicles.values()));
+    res.json({
+      navUpdateTime,
+      vehicles: Array.from(vehicles.values()),
+    });
   } catch (error) {
     res.status(500).json(error);
   }
