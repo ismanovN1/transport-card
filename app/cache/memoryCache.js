@@ -28,6 +28,26 @@ function getRouteStopsDistance() {
   return routeStopsDistance;
 }
 
+let stations = null;
+
+function setCachedStations(data) {
+  stations = data;
+}
+
+function getCachedStations() {
+  return stations;
+}
+
+let routesStations = null;
+
+function setCachedRoutesStations(data) {
+  routesStations = data;
+}
+
+function getCachedRoutesStations() {
+  return routesStations;
+}
+
 module.exports = {
   getStationsRoutes,
   setStationsRoutes,
@@ -35,4 +55,8 @@ module.exports = {
   setAllRoutes,
   getRouteStopsDistance,
   setRouteStopsDistance,
+  setCachedStations,
+  getCachedStations,
+  setCachedRoutesStations,
+  getCachedRoutesStations,
 };
