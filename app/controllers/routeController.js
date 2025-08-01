@@ -61,7 +61,22 @@ async function getRoutes(req, res) {
     res.status(500).json(error);
   }
 }
+async function getRoutesData(req, res) {
+  try {
+
+    const routesPath = path.join(__dirname, "..", "data", "routes.json");
+    const jsonData = await fs.readFile(routesPath, "utf-8");
+   
+
+    res.send(jsonData);
+  } catch (error) {
+    console.log(error);
+
+    res.status(500).json(error);
+  }
+}
 
 module.exports = {
   getRoutes,
+  getRoutesData
 };
