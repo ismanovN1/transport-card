@@ -33,7 +33,7 @@ async function fetchRouteStations(req, res) {
     if (routesStations) return res.send(routesStations);
 
     let stations = getStationsRoutes();
-    if (!stations || refresh) {
+    if (!stations) {
       stations = await getStops();
       setCachedStations(stations);
     }
