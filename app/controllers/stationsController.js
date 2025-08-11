@@ -7,13 +7,14 @@ const {
   setCachedStations,
   setCachedRoutesStations,
   getCachedRoutesStations,
+  getCachedStations,
 } = require("../cache/memoryCache");
 
 async function getStations(req, res) {
   try {
     const { refresh } = req.query;
 
-    let data = setCachedStations();
+    let data = getCachedStations();
     if (!data || refresh) {
       data = await getStops();
       setCachedStations(data);
@@ -32,7 +33,7 @@ async function fetchRouteStations(req, res) {
 
     if (routesStations) return res.send(routesStations);
 
-    let stations = getStationsRoutes();
+    let stations = getCachedStations();
     if (!stations) {
       stations = await getStops();
       setCachedStations(stations);
