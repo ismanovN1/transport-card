@@ -1,7 +1,8 @@
 const { Parser } = require("xml2js");
 
 module.exports = async function getRaceCoord(mv_id) {
-  const myHeaders = new Headers();
+  try {
+    const myHeaders = new Headers();
   const credentials = Buffer.from(`SOCCRD:100625`).toString("base64");
   myHeaders.append("Authorization", `Basic ${credentials}`);
 
@@ -26,4 +27,9 @@ module.exports = async function getRaceCoord(mv_id) {
     (await parser.parseStringPromise(response))?.tbracecoord?.row || [];
 
   return data.sort((a, b) => (a.rd_orderby > b.rd_orderby ? 1 : -1));
+  } catch (error) {
+    console.log("mv_id", mv_id);
+    throw new Error(error);
+    
+  }
 };

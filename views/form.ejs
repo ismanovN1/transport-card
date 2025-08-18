@@ -1,0 +1,10 @@
+<section class="card p-4 shadow-sm">
+  <h2 class="mb-3 text-primary">Добавить остановки в черный список</h2>
+  <form action="/api/black-list" method="post">
+    <div class="mb-3">
+      <label class="form-label">Идентификатор остановок</label>
+      <input type="text" name="id" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Добавлять</button>
+  </form>
+</section>

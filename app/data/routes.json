@@ -15,15 +15,15 @@
   {
     "mr_id": "3",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "22",
     "mr_title": "Ул.Можайского - жилой массив Ферма-2",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Ul.Mojayskogo - jiloy massiv Ferma-2",
     "mr_regnum": "22",
-    "mv_id": "605",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "583",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "4",
@@ -41,7 +41,7 @@
   {
     "mr_id": "5",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "10",
     "mr_title": "Ул.Серова - ул.Академика Губкина (кольцевой)",
     "ok_id": "92401",
@@ -113,8 +113,8 @@
     "ag_id": "1",
     "mr_note": "Rechnoy port - ul.Gavrilova",
     "mr_regnum": "54",
-    "mv_id": "611",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "11",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "11",
@@ -152,8 +152,8 @@
     "ag_id": "1",
     "mr_note": "Pereulok Duslyik - Privokzalnay",
     "mr_regnum": "30",
-    "mv_id": "609",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "528",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "16",
@@ -171,7 +171,7 @@
   {
     "mr_id": "17",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "1",
     "mr_title": "Речной порт - жилой массив Дербышки",
     "ok_id": "92401",
@@ -210,7 +210,7 @@
   {
     "mr_id": "22",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "46",
     "mr_title": "Жилой комплекс Экопарк Дубрава - Профилакторий",
     "ok_id": "92401",
@@ -249,7 +249,7 @@
   {
     "mr_id": "25",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "53",
     "mr_title": "Речной порт - ул.Ленинградская",
     "ok_id": "92401",
@@ -412,8 +412,8 @@
     "ag_id": "1",
     "mr_note": "Stantsiya metro Ploschad G.Tukaya - Kuyuki",
     "mr_regnum": "90",
-    "mv_id": "608",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "418",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "41",
@@ -581,8 +581,8 @@
     "ag_id": "1",
     "mr_note": "CHehovskiy ryinok - ul.Korolenko (koltsevoy)",
     "mr_regnum": "281",
-    "mv_id": "610",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "427",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "59",
@@ -646,8 +646,8 @@
     "ag_id": "1",
     "mr_note": "Ul.Akademika Saharova - ul.Gudovantseva",
     "mr_regnum": "89",
-    "mv_id": "606",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "501",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "70",
@@ -659,8 +659,8 @@
     "ag_id": "1",
     "mr_note": "Gorodskaya klinicheskaya bolnitsa №5 - jiloy massiv Konstantinovka",
     "mr_regnum": "71",
-    "mv_id": "607",
-    "mv_startdate": "2025-05-13 00:00:00"
+    "mv_id": "537",
+    "mv_startdate": "2025-07-24 00:00:00"
   },
   {
     "mr_id": "72",
@@ -789,8 +789,8 @@
     "ag_id": "1",
     "mr_note": "Ul.Akademika Glushko, d.15 - Rechnoy port",
     "mr_regnum": "403",
-    "mv_id": "242",
-    "mv_startdate": "2022-01-01 00:00:00"
+    "mv_id": "620",
+    "mv_startdate": "2025-08-01 00:00:00"
   },
   {
     "mr_id": "139",

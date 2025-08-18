@@ -1813,10 +1813,10 @@
     }
   },
   {
-    "mv_id": "605",
+    "mv_id": "583",
     "mr_id": "3",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "22",
     "mr_title": "Ул.Можайского - жилой массив Ферма-2",
     "directions": {
@@ -2014,7 +2014,7 @@
           {
             "order": "22",
             "st_id": "1001",
-            "distance": 0.953,
+            "distance": 1.083,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -2022,174 +2022,192 @@
           },
           {
             "order": "23",
-            "st_id": "244",
-            "distance": 1.069,
+            "st_id": "71",
+            "distance": 0.286,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 13.639
+            "isControlPoint": true,
+            "distanceToStop": 13.769
           },
           {
             "order": "24",
+            "st_id": "301",
+            "distance": 0.287,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 14.055
+          },
+          {
+            "order": "25",
+            "st_id": "72",
+            "distance": 0.383,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 14.342
+          },
+          {
+            "order": "26",
             "st_id": "74",
             "distance": 1.021,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.707999999999998
+            "distanceToStop": 14.725000000000001
           },
           {
-            "order": "25",
+            "order": "27",
             "st_id": "75",
             "distance": 0.327,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.729
+            "distanceToStop": 15.746000000000002
           },
           {
-            "order": "26",
+            "order": "28",
             "st_id": "76",
             "distance": 0.384,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.056
+            "distanceToStop": 16.073000000000004
           },
           {
-            "order": "27",
+            "order": "29",
             "st_id": "77",
             "distance": 1.147,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.44
+            "distanceToStop": 16.457000000000004
           },
           {
-            "order": "28",
+            "order": "30",
             "st_id": "78",
             "distance": 0.498,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.587
+            "distanceToStop": 17.604000000000003
           },
           {
-            "order": "29",
+            "order": "31",
             "st_id": "79",
             "distance": 0.522,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.085
+            "distanceToStop": 18.102000000000004
           },
           {
-            "order": "30",
+            "order": "32",
             "st_id": "80",
             "distance": 0.479,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.607
+            "distanceToStop": 18.624000000000002
           },
           {
-            "order": "31",
+            "order": "33",
             "st_id": "81",
             "distance": 0.621,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.086
-          },
-          {
-            "order": "32",
-            "st_id": "82",
-            "distance": 0.512,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": true,
-            "distanceToStop": 19.706999999999997
-          },
-          {
-            "order": "33",
-            "st_id": "83",
-            "distance": 0.391,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 20.218999999999998
+            "distanceToStop": 19.103
           },
           {
             "order": "34",
-            "st_id": "84",
-            "distance": 0.623,
+            "st_id": "82",
+            "distance": 0.531,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 20.61
+            "isControlPoint": true,
+            "distanceToStop": 19.724
           },
           {
             "order": "35",
+            "st_id": "83",
+            "distance": 0.401,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 20.255
+          },
+          {
+            "order": "36",
+            "st_id": "84",
+            "distance": 0.594,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 20.656
+          },
+          {
+            "order": "37",
             "st_id": "85",
             "distance": 1.19,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.233
+            "distanceToStop": 21.25
           },
           {
-            "order": "36",
+            "order": "38",
             "st_id": "86",
             "distance": 0.291,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.423000000000002
+            "distanceToStop": 22.44
           },
           {
-            "order": "37",
+            "order": "39",
             "st_id": "87",
             "distance": 0.699,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.714000000000002
+            "distanceToStop": 22.731
           },
           {
-            "order": "38",
+            "order": "40",
             "st_id": "88",
             "distance": 0.318,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.413000000000004
+            "distanceToStop": 23.430000000000003
           },
           {
-            "order": "39",
+            "order": "41",
             "st_id": "89",
             "distance": 0.391,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.731000000000005
+            "distanceToStop": 23.748000000000005
           },
           {
-            "order": "40",
+            "order": "42",
             "st_id": "1779",
             "distance": 0.25,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.122000000000007
+            "distanceToStop": 24.139000000000003
           },
           {
-            "order": "41",
+            "order": "43",
             "st_id": "132",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 24.372000000000007
+            "distanceToStop": 24.389000000000003
           }
         ],
         "geometry": [
@@ -3002,52 +3020,48 @@
             55.793314
           ],
           [
-            49.149105,
-            55.793025
+            49.147903,
+            55.792437
           ],
           [
-            49.149826,
-            55.792871
+            49.147438,
+            55.790526
           ],
           [
-            49.151348,
-            55.792719
+            49.147325,
+            55.790047
           ],
           [
-            49.152371,
-            55.792623
+            49.147277,
+            55.789912
           ],
           [
-            49.153058,
-            55.792565
+            49.147089,
+            55.789213
           ],
           [
-            49.153342,
-            55.792532
+            49.14692,
+            55.788441
           ],
           [
-            49.15382,
-            55.792487
+            49.147859,
+            55.788359
           ],
           [
-            49.155574,
-            55.792336
+            49.151513,
+            55.788031
           ],
           [
-            49.156422,
-            55.792273
+            49.15178,
+            55.788005
           ],
           [
-            49.156304,
-            55.791888
+            49.15303,
+            55.787881
           ],
           [
-            49.156019,
-            55.790791
-          ],
-          [
-            49.155601,
-            55.789309
+            49.154097,
+            55.787791
           ],
           [
             49.155105,
@@ -9982,7 +9996,7 @@
     "mv_id": "569",
     "mr_id": "5",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "10",
     "mr_title": "Ул.Серова - ул.Академика Губкина (кольцевой)",
     "directions": {
@@ -10510,20 +10524,20 @@
             55.822764
           ],
           [
-            49.047028,
-            55.822491
+            49.04706,
+            55.822513
           ],
           [
-            49.047858,
-            55.822109
+            49.047779,
+            55.822205
           ],
           [
-            49.048235,
-            55.821934
+            49.048267,
+            55.821979
           ],
           [
-            49.049199,
-            55.821476
+            49.049319,
+            55.82145
           ],
           [
             49.049926,
@@ -18446,7 +18460,7 @@
     }
   },
   {
-    "mv_id": "611",
+    "mv_id": "11",
     "mr_id": "10",
     "tt_id": "1",
     "mt_id": "3",
@@ -18539,7 +18553,7 @@
           {
             "order": "10",
             "st_id": "70",
-            "distance": 0.985,
+            "distance": 1.115,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -18547,111 +18561,120 @@
           },
           {
             "order": "11",
-            "st_id": "244",
-            "distance": 1.178,
+            "st_id": "71",
+            "distance": 0.286,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 5.409000000000001
+            "isControlPoint": true,
+            "distanceToStop": 5.539000000000001
           },
           {
             "order": "12",
+            "st_id": "301",
+            "distance": 0.343,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 5.825
+          },
+          {
+            "order": "13",
             "st_id": "111",
             "distance": 1.103,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.587000000000001
+            "distanceToStop": 6.168
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "342",
             "distance": 2.356,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.69
+            "distanceToStop": 7.271
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "1364",
             "distance": 0.298,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.046
+            "distanceToStop": 9.626999999999999
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "349",
             "distance": 0.403,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.344
+            "distanceToStop": 9.924999999999999
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "322",
             "distance": 0.491,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 10.747
+            "distanceToStop": 10.328
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "323",
             "distance": 0.811,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.238
+            "distanceToStop": 10.818999999999999
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "324",
             "distance": 0.733,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.049
+            "distanceToStop": 11.629999999999999
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "13",
             "distance": 0.515,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.782
+            "distanceToStop": 12.363
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "278",
             "distance": 0.521,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 13.297
+            "distanceToStop": 12.878
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "279",
             "distance": 0.565,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.818000000000001
+            "distanceToStop": 13.399000000000001
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "266",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 14.383000000000001
+            "distanceToStop": 13.964
           }
         ],
         "geometry": [
@@ -18960,64 +18983,36 @@
             55.793314
           ],
           [
-            49.149105,
-            55.793025
+            49.147903,
+            55.792437
           ],
           [
-            49.149826,
-            55.792871
+            49.147438,
+            55.790526
           ],
           [
-            49.151348,
-            55.792719
+            49.147325,
+            55.790047
           ],
           [
-            49.152371,
-            55.792623
+            49.147277,
+            55.789912
           ],
           [
-            49.153058,
-            55.792565
+            49.147089,
+            55.789213
           ],
           [
-            49.153342,
-            55.792532
+            49.14692,
+            55.788441
           ],
           [
-            49.15382,
-            55.792487
+            49.147859,
+            55.788359
           ],
           [
-            49.155574,
-            55.792336
-          ],
-          [
-            49.156422,
-            55.792273
-          ],
-          [
-            49.156304,
-            55.791888
-          ],
-          [
-            49.156019,
-            55.790791
-          ],
-          [
-            49.155601,
-            55.789309
-          ],
-          [
-            49.155105,
-            55.787696
-          ],
-          [
-            49.154097,
-            55.787791
-          ],
-          [
-            49.15303,
-            55.787881
+            49.151513,
+            55.788031
           ],
           [
             49.15178,
@@ -19304,8 +19299,8 @@
             55.829401
           ],
           [
-            49.134082,
-            55.831842
+            49.134077,
+            55.831691
           ],
           [
             49.134061,
@@ -19716,8 +19711,8 @@
             55.832685
           ],
           [
-            49.133612,
-            55.831818
+            49.133551,
+            55.831701
           ],
           [
             49.133717,
@@ -24826,7 +24821,7 @@
     }
   },
   {
-    "mv_id": "609",
+    "mv_id": "528",
     "mr_id": "15",
     "tt_id": "1",
     "mt_id": "3",
@@ -25108,7 +25103,7 @@
           {
             "order": "31",
             "st_id": "111",
-            "distance": 1.023,
+            "distance": 1.024,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -25121,7 +25116,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 16.711000000000002
+            "distanceToStop": 16.712
           },
           {
             "order": "33",
@@ -25130,7 +25125,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.715000000000003
+            "distanceToStop": 17.716
           },
           {
             "order": "34",
@@ -25139,7 +25134,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.025000000000002
+            "distanceToStop": 18.026
           },
           {
             "order": "35",
@@ -25148,7 +25143,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.489
+            "distanceToStop": 18.49
           },
           {
             "order": "36",
@@ -25157,7 +25152,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.812
+            "distanceToStop": 18.813
           },
           {
             "order": "37",
@@ -25166,7 +25161,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 19.543000000000003
+            "distanceToStop": 19.544
           },
           {
             "order": "38",
@@ -25175,7 +25170,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.159000000000002
+            "distanceToStop": 20.16
           },
           {
             "order": "39",
@@ -25184,7 +25179,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 20.819000000000003
+            "distanceToStop": 20.82
           },
           {
             "order": "40",
@@ -25193,7 +25188,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.203000000000003
+            "distanceToStop": 21.204
           },
           {
             "order": "41",
@@ -25202,7 +25197,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 21.711000000000002
+            "distanceToStop": 21.712
           },
           {
             "order": "42",
@@ -25211,7 +25206,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.997000000000003
+            "distanceToStop": 21.998
           },
           {
             "order": "43",
@@ -25220,7 +25215,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.477000000000004
+            "distanceToStop": 24.478
           },
           {
             "order": "44",
@@ -25229,7 +25224,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.091000000000005
+            "distanceToStop": 25.092000000000002
           },
           {
             "order": "45",
@@ -25238,7 +25233,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.644000000000005
+            "distanceToStop": 25.645000000000003
           },
           {
             "order": "46",
@@ -25247,7 +25242,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 26.218000000000007
+            "distanceToStop": 26.219000000000005
           },
           {
             "order": "47",
@@ -25256,7 +25251,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.756000000000007
+            "distanceToStop": 26.757000000000005
           },
           {
             "order": "48",
@@ -25265,7 +25260,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.20800000000001
+            "distanceToStop": 27.209000000000007
           },
           {
             "order": "49",
@@ -25274,7 +25269,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.84200000000001
+            "distanceToStop": 27.843000000000007
           },
           {
             "order": "50",
@@ -25283,7 +25278,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.33000000000001
+            "distanceToStop": 28.331000000000007
           },
           {
             "order": "51",
@@ -25292,7 +25287,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.81500000000001
+            "distanceToStop": 28.816000000000006
           },
           {
             "order": "52",
@@ -25301,7 +25296,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.10600000000001
+            "distanceToStop": 29.107000000000006
           },
           {
             "order": "53",
@@ -25310,7 +25305,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.02200000000001
+            "distanceToStop": 30.023000000000007
           },
           {
             "order": "54",
@@ -25319,7 +25314,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.50700000000001
+            "distanceToStop": 30.508000000000006
           },
           {
             "order": "55",
@@ -25328,7 +25323,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.96900000000001
+            "distanceToStop": 30.970000000000006
           },
           {
             "order": "56",
@@ -25337,7 +25332,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.47900000000001
+            "distanceToStop": 31.480000000000008
           },
           {
             "order": "57",
@@ -25346,7 +25341,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 32.30600000000001
+            "distanceToStop": 32.30700000000001
           },
           {
             "order": "58",
@@ -25355,7 +25350,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 32.921000000000014
+            "distanceToStop": 32.92200000000001
           },
           {
             "order": "59",
@@ -25364,7 +25359,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 33.41000000000001
+            "distanceToStop": 33.41100000000001
           },
           {
             "order": "60",
@@ -25373,7 +25368,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 33.99800000000001
+            "distanceToStop": 33.99900000000001
           },
           {
             "order": "61",
@@ -25382,7 +25377,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 34.62900000000001
+            "distanceToStop": 34.63000000000001
           },
           {
             "order": "62",
@@ -25391,7 +25386,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 35.16000000000001
+            "distanceToStop": 35.16100000000001
           },
           {
             "order": "63",
@@ -25400,7 +25395,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 35.64500000000001
+            "distanceToStop": 35.64600000000001
           },
           {
             "order": "64",
@@ -25409,7 +25404,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 36.26600000000001
+            "distanceToStop": 36.26700000000001
           },
           {
             "order": "65",
@@ -25418,7 +25413,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 36.92600000000001
+            "distanceToStop": 36.92700000000001
           }
         ],
         "geometry": [
@@ -27460,7 +27455,7 @@
           {
             "order": "32",
             "st_id": "70",
-            "distance": 0.985,
+            "distance": 1.115,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -27468,255 +27463,273 @@
           },
           {
             "order": "33",
-            "st_id": "244",
-            "distance": 1.069,
+            "st_id": "71",
+            "distance": 0.286,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 20.084
+            "isControlPoint": true,
+            "distanceToStop": 20.214
           },
           {
             "order": "34",
+            "st_id": "301",
+            "distance": 0.287,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 20.5
+          },
+          {
+            "order": "35",
+            "st_id": "72",
+            "distance": 0.383,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 20.787
+          },
+          {
+            "order": "36",
             "st_id": "74",
             "distance": 1.021,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.153
+            "distanceToStop": 21.169999999999998
           },
           {
-            "order": "35",
+            "order": "37",
             "st_id": "75",
             "distance": 0.327,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 22.174
+            "distanceToStop": 22.191
           },
           {
-            "order": "36",
+            "order": "38",
             "st_id": "76",
             "distance": 0.384,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.501
+            "distanceToStop": 22.518
           },
           {
-            "order": "37",
+            "order": "39",
             "st_id": "77",
             "distance": 1.147,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.885
+            "distanceToStop": 22.902
           },
           {
-            "order": "38",
+            "order": "40",
             "st_id": "78",
             "distance": 0.498,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.032
+            "distanceToStop": 24.049
           },
           {
-            "order": "39",
+            "order": "41",
             "st_id": "79",
             "distance": 0.522,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 24.53
+            "distanceToStop": 24.547
           },
           {
-            "order": "40",
+            "order": "42",
             "st_id": "80",
             "distance": 0.531,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.052
+            "distanceToStop": 25.069
           },
           {
-            "order": "41",
+            "order": "43",
             "st_id": "440",
             "distance": 0.554,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.583
+            "distanceToStop": 25.599999999999998
           },
           {
-            "order": "42",
+            "order": "44",
             "st_id": "441",
             "distance": 0.483,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.136999999999997
+            "distanceToStop": 26.153999999999996
           },
           {
-            "order": "43",
+            "order": "45",
             "st_id": "442",
             "distance": 0.866,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.619999999999997
+            "distanceToStop": 26.636999999999997
           },
           {
-            "order": "44",
+            "order": "46",
             "st_id": "444",
             "distance": 0.535,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 27.485999999999997
+            "distanceToStop": 27.502999999999997
           },
           {
-            "order": "45",
+            "order": "47",
             "st_id": "135",
             "distance": 0.581,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.020999999999997
+            "distanceToStop": 28.037999999999997
           },
           {
-            "order": "46",
+            "order": "48",
             "st_id": "136",
             "distance": 0.415,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.601999999999997
+            "distanceToStop": 28.618999999999996
           },
           {
-            "order": "47",
+            "order": "49",
             "st_id": "137",
             "distance": 0.427,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.016999999999996
+            "distanceToStop": 29.033999999999995
           },
           {
-            "order": "48",
+            "order": "50",
             "st_id": "138",
             "distance": 0.253,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 29.443999999999996
+            "distanceToStop": 29.460999999999995
           },
           {
-            "order": "49",
+            "order": "51",
             "st_id": "139",
             "distance": 0.715,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.696999999999996
+            "distanceToStop": 29.713999999999995
           },
           {
-            "order": "50",
+            "order": "52",
             "st_id": "140",
             "distance": 0.691,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.411999999999995
+            "distanceToStop": 30.428999999999995
           },
           {
-            "order": "51",
+            "order": "53",
             "st_id": "142",
             "distance": 0.268,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.102999999999994
+            "distanceToStop": 31.119999999999994
           },
           {
-            "order": "52",
+            "order": "54",
             "st_id": "143",
             "distance": 0.559,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.370999999999995
+            "distanceToStop": 31.387999999999995
           },
           {
-            "order": "53",
+            "order": "55",
             "st_id": "144",
             "distance": 0.384,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.929999999999996
+            "distanceToStop": 31.946999999999996
           },
           {
-            "order": "54",
+            "order": "56",
             "st_id": "304",
             "distance": 0.552,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 32.31399999999999
+            "distanceToStop": 32.330999999999996
           },
           {
-            "order": "55",
+            "order": "57",
             "st_id": "303",
             "distance": 0.378,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 32.86599999999999
+            "distanceToStop": 32.882999999999996
           },
           {
-            "order": "56",
+            "order": "58",
             "st_id": "1717",
             "distance": 0.149,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 33.24399999999999
+            "distanceToStop": 33.260999999999996
           },
           {
-            "order": "57",
+            "order": "59",
             "st_id": "446",
             "distance": 0.261,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 33.392999999999994
+            "distanceToStop": 33.41
           },
           {
-            "order": "58",
+            "order": "60",
             "st_id": "447",
             "distance": 0.321,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 33.653999999999996
+            "distanceToStop": 33.671
           },
           {
-            "order": "59",
+            "order": "61",
             "st_id": "449",
             "distance": 0.363,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 33.974999999999994
+            "distanceToStop": 33.992
           },
           {
-            "order": "60",
+            "order": "62",
             "st_id": "451",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 34.337999999999994
+            "distanceToStop": 34.355
           }
         ],
         "geometry": [
@@ -28661,52 +28674,48 @@
             55.793314
           ],
           [
-            49.149105,
-            55.793025
+            49.147903,
+            55.792437
           ],
           [
-            49.149826,
-            55.792871
+            49.147438,
+            55.790526
           ],
           [
-            49.151348,
-            55.792719
+            49.147325,
+            55.790047
           ],
           [
-            49.152371,
-            55.792623
+            49.147277,
+            55.789912
           ],
           [
-            49.153058,
-            55.792565
+            49.147089,
+            55.789213
           ],
           [
-            49.153342,
-            55.792532
+            49.14692,
+            55.788441
           ],
           [
-            49.15382,
-            55.792487
+            49.147859,
+            55.788359
           ],
           [
-            49.155574,
-            55.792336
+            49.151513,
+            55.788031
           ],
           [
-            49.156422,
-            55.792273
+            49.15178,
+            55.788005
           ],
           [
-            49.156304,
-            55.791888
+            49.15303,
+            55.787881
           ],
           [
-            49.156019,
-            55.790791
-          ],
-          [
-            49.155601,
-            55.789309
+            49.154097,
+            55.787791
           ],
           [
             49.155105,
@@ -31844,7 +31853,7 @@
     "mv_id": "421",
     "mr_id": "17",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "1",
     "mr_title": "Речной порт - жилой массив Дербышки",
     "directions": {
@@ -38991,7 +39000,7 @@
     "mv_id": "613",
     "mr_id": "22",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "46",
     "mr_title": "Жилой комплекс Экопарк Дубрава - Профилакторий",
     "directions": {
@@ -40653,8 +40662,16 @@
             55.845984
           ],
           [
+            48.923747,
+            55.846076
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.91926,
+            55.846647
           ],
           [
             48.917034,
@@ -40801,28 +40818,32 @@
             55.850235
           ],
           [
-            48.892151,
-            55.850051
+            48.892188,
+            55.850021
           ],
           [
-            48.892178,
-            55.849633
+            48.892253,
+            55.849631
           ],
           [
-            48.892226,
-            55.849239
+            48.892274,
+            55.849212
           ],
           [
-            48.892339,
-            55.848093
+            48.892387,
+            55.848065
           ],
           [
-            48.892414,
-            55.847545
+            48.89244,
+            55.847495
+          ],
+          [
+            48.892746,
+            55.845264
           ],
           [
             48.892709,
-            55.84534
+            55.845005
           ],
           [
             48.892338,
@@ -42061,27 +42082,31 @@
           ],
           [
             48.892709,
-            55.84534
+            55.845005
           ],
           [
-            48.892414,
-            55.847545
+            48.892746,
+            55.845264
           ],
           [
-            48.892339,
-            55.848093
+            48.89244,
+            55.847495
           ],
           [
-            48.892226,
-            55.849239
+            48.892387,
+            55.848065
           ],
           [
-            48.892178,
-            55.849633
+            48.892274,
+            55.849212
           ],
           [
-            48.892151,
-            55.850051
+            48.892253,
+            55.849631
+          ],
+          [
+            48.892188,
+            55.850021
           ],
           [
             48.892103,
@@ -42136,8 +42161,16 @@
             55.846957
           ],
           [
+            48.91926,
+            55.846647
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.923747,
+            55.846076
           ],
           [
             48.924444,
@@ -44210,8 +44243,16 @@
             55.845984
           ],
           [
+            48.923747,
+            55.846076
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.91926,
+            55.846647
           ],
           [
             48.917034,
@@ -44358,28 +44399,32 @@
             55.850235
           ],
           [
-            48.892151,
-            55.850051
+            48.892188,
+            55.850021
           ],
           [
-            48.892178,
-            55.849633
+            48.892253,
+            55.849631
           ],
           [
-            48.892226,
-            55.849239
+            48.892274,
+            55.849212
           ],
           [
-            48.892339,
-            55.848093
+            48.892387,
+            55.848065
           ],
           [
-            48.892414,
-            55.847545
+            48.89244,
+            55.847495
+          ],
+          [
+            48.892746,
+            55.845264
           ],
           [
             48.892709,
-            55.84534
+            55.845005
           ],
           [
             48.892338,
@@ -45330,27 +45375,31 @@
           ],
           [
             48.892709,
-            55.84534
+            55.845005
           ],
           [
-            48.892414,
-            55.847545
+            48.892746,
+            55.845264
           ],
           [
-            48.892339,
-            55.848093
+            48.89244,
+            55.847495
           ],
           [
-            48.892226,
-            55.849239
+            48.892387,
+            55.848065
           ],
           [
-            48.892178,
-            55.849633
+            48.892274,
+            55.849212
           ],
           [
-            48.892151,
-            55.850051
+            48.892253,
+            55.849631
+          ],
+          [
+            48.892188,
+            55.850021
           ],
           [
             48.892103,
@@ -45405,8 +45454,16 @@
             55.846957
           ],
           [
+            48.91926,
+            55.846647
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.923747,
+            55.846076
           ],
           [
             48.924444,
@@ -49470,7 +49527,7 @@
     "mv_id": "574",
     "mr_id": "25",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "53",
     "mr_title": "Речной порт - ул.Ленинградская",
     "directions": {
@@ -55239,16 +55296,16 @@
             55.851306
           ],
           [
-            48.883663,
-            55.852216
+            48.881779,
+            55.852648
           ],
           [
             48.879516,
             55.853103
           ],
           [
-            48.878177,
-            55.853391
+            48.878303,
+            55.853366
           ],
           [
             48.874803,
@@ -55315,56 +55372,60 @@
             55.864725
           ],
           [
-            48.856416,
-            55.865508
+            48.856534,
+            55.865505
           ],
           [
-            48.856696,
-            55.866829
+            48.856759,
+            55.866754
           ],
           [
-            48.856964,
-            55.868002
+            48.856963,
+            55.867785
           ],
           [
-            48.857044,
-            55.868356
+            48.857113,
+            55.868364
           ],
           [
-            48.857653,
-            55.871324
+            48.857714,
+            55.871308
           ],
           [
-            48.858746,
-            55.876672
+            48.858733,
+            55.876435
           ],
           [
-            48.859152,
-            55.878596
+            48.859259,
+            55.878588
           ],
           [
-            48.860293,
-            55.881596
+            48.860375,
+            55.881586
           ],
           [
-            48.861143,
-            55.883269
+            48.861169,
+            55.883208
           ],
           [
-            48.862033,
-            55.884519
+            48.862091,
+            55.884492
           ],
           [
-            48.863541,
-            55.885953
+            48.863599,
+            55.885842
           ],
           [
-            48.864353,
-            55.886529
+            48.864436,
+            55.886415
           ],
           [
-            48.870211,
-            55.889246
+            48.867279,
+            55.887814
+          ],
+          [
+            48.87024,
+            55.889153
           ],
           [
             48.881445,
@@ -55629,68 +55690,72 @@
             55.894037
           ],
           [
-            48.870211,
-            55.889246
+            48.87024,
+            55.889153
           ],
           [
-            48.864353,
-            55.886529
+            48.867279,
+            55.887814
           ],
           [
-            48.863541,
-            55.885953
+            48.864436,
+            55.886415
           ],
           [
-            48.862033,
-            55.884519
+            48.863599,
+            55.885842
           ],
           [
-            48.861143,
-            55.883269
+            48.862091,
+            55.884492
           ],
           [
-            48.860293,
-            55.881596
+            48.861169,
+            55.883208
           ],
           [
-            48.859152,
-            55.878596
+            48.860375,
+            55.881586
           ],
           [
-            48.858746,
-            55.876672
+            48.859259,
+            55.878588
           ],
           [
-            48.857653,
-            55.871324
+            48.858733,
+            55.876435
           ],
           [
-            48.857044,
-            55.868356
+            48.857714,
+            55.871308
           ],
           [
-            48.856964,
-            55.868002
+            48.857113,
+            55.868364
           ],
           [
-            48.856696,
-            55.866829
+            48.856963,
+            55.867785
           ],
           [
-            48.856416,
-            55.865508
+            48.856759,
+            55.866754
           ],
           [
-            48.855887,
-            55.864752
+            48.856534,
+            55.865505
           ],
           [
-            48.855664,
-            55.86298
+            48.856158,
+            55.86468
           ],
           [
-            48.85551,
-            55.862126
+            48.855793,
+            55.862809
+          ],
+          [
+            48.855643,
+            55.862085
           ],
           [
             48.854881,
@@ -55801,16 +55866,16 @@
             55.853555
           ],
           [
-            48.879439,
-            55.852963
+            48.878206,
+            55.853221
           ],
           [
             48.880258,
             55.852794
           ],
           [
-            48.881418,
-            55.852543
+            48.881671,
+            55.852497
           ],
           [
             48.882781,
@@ -73096,7 +73161,7 @@
     }
   },
   {
-    "mv_id": "608",
+    "mv_id": "418",
     "mr_id": "40",
     "tt_id": "1",
     "mt_id": "3",
@@ -73108,7 +73173,7 @@
           {
             "order": "1",
             "st_id": "112",
-            "distance": 0.718,
+            "distance": 0.692,
             "isFinal": false,
             "isFirst": true,
             "isControlPoint": true,
@@ -73116,48 +73181,48 @@
           },
           {
             "order": "2",
-            "st_id": "128",
-            "distance": 0.469,
+            "st_id": "373",
+            "distance": 0.411,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 0.718
+            "distanceToStop": 0.692
           },
           {
             "order": "3",
-            "st_id": "68",
-            "distance": 0.223,
+            "st_id": "374",
+            "distance": 0.556,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 1.1869999999999998
+            "isControlPoint": true,
+            "distanceToStop": 1.103
           },
           {
             "order": "4",
-            "st_id": "69",
-            "distance": 0.303,
+            "st_id": "375",
+            "distance": 0.345,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 1.41
+            "distanceToStop": 1.659
           },
           {
             "order": "5",
-            "st_id": "70",
-            "distance": 0.985,
+            "st_id": "301",
+            "distance": 0.287,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 1.7129999999999999
+            "distanceToStop": 2.004
           },
           {
             "order": "6",
-            "st_id": "244",
-            "distance": 1.069,
+            "st_id": "72",
+            "distance": 0.383,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 2.698
+            "distanceToStop": 2.291
           },
           {
             "order": "7",
@@ -73166,7 +73231,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.767
+            "distanceToStop": 2.674
           },
           {
             "order": "8",
@@ -73175,7 +73240,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 4.788
+            "distanceToStop": 3.695
           },
           {
             "order": "9",
@@ -73184,7 +73249,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.115
+            "distanceToStop": 4.022
           },
           {
             "order": "10",
@@ -73193,7 +73258,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.4990000000000006
+            "distanceToStop": 4.406000000000001
           },
           {
             "order": "11",
@@ -73202,7 +73267,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.646000000000001
+            "distanceToStop": 5.553000000000001
           },
           {
             "order": "12",
@@ -73211,7 +73276,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 7.144000000000001
+            "distanceToStop": 6.051000000000001
           },
           {
             "order": "13",
@@ -73220,7 +73285,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.666000000000001
+            "distanceToStop": 6.573000000000001
           },
           {
             "order": "14",
@@ -73229,7 +73294,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.197000000000001
+            "distanceToStop": 7.104000000000001
           },
           {
             "order": "15",
@@ -73238,7 +73303,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.751000000000001
+            "distanceToStop": 7.658000000000001
           },
           {
             "order": "16",
@@ -73247,7 +73312,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.234000000000002
+            "distanceToStop": 8.141000000000002
           },
           {
             "order": "17",
@@ -73256,7 +73321,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 10.100000000000001
+            "distanceToStop": 9.007000000000001
           },
           {
             "order": "18",
@@ -73265,7 +73330,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.598
+            "distanceToStop": 9.505
           },
           {
             "order": "19",
@@ -73274,7 +73339,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.513000000000002
+            "distanceToStop": 10.420000000000002
           },
           {
             "order": "20",
@@ -73283,7 +73348,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.055000000000001
+            "distanceToStop": 10.962000000000002
           },
           {
             "order": "21",
@@ -73292,7 +73357,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.375000000000002
+            "distanceToStop": 11.282000000000002
           },
           {
             "order": "22",
@@ -73301,7 +73366,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.961000000000002
+            "distanceToStop": 11.868000000000002
           },
           {
             "order": "23",
@@ -73310,7 +73375,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.600000000000001
+            "distanceToStop": 12.507000000000001
           },
           {
             "order": "24",
@@ -73319,7 +73384,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.951
+            "distanceToStop": 12.858
           },
           {
             "order": "25",
@@ -73328,7 +73393,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.259
+            "distanceToStop": 13.166
           },
           {
             "order": "26",
@@ -73337,7 +73402,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.638
+            "distanceToStop": 13.545
           },
           {
             "order": "27",
@@ -73346,7 +73411,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.284
+            "distanceToStop": 14.191
           },
           {
             "order": "28",
@@ -73355,7 +73420,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.9
+            "distanceToStop": 14.807
           },
           {
             "order": "29",
@@ -73364,7 +73429,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.456
+            "distanceToStop": 15.363
           },
           {
             "order": "30",
@@ -73373,7 +73438,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.016
+            "distanceToStop": 15.923
           },
           {
             "order": "31",
@@ -73382,7 +73447,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.357999999999997
+            "distanceToStop": 16.265
           },
           {
             "order": "32",
@@ -73391,7 +73456,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.737999999999996
+            "distanceToStop": 17.645
           },
           {
             "order": "33",
@@ -73400,7 +73465,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 18.928999999999995
+            "distanceToStop": 17.836
           },
           {
             "order": "34",
@@ -73409,7 +73474,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.400999999999996
+            "distanceToStop": 18.308
           },
           {
             "order": "35",
@@ -73418,7 +73483,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.705999999999996
+            "distanceToStop": 19.613
           },
           {
             "order": "36",
@@ -73427,7 +73492,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.521999999999995
+            "distanceToStop": 20.429
           },
           {
             "order": "37",
@@ -73436,7 +73501,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.841999999999995
+            "distanceToStop": 20.749
           },
           {
             "order": "38",
@@ -73445,7 +73510,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 22.062999999999995
+            "distanceToStop": 20.97
           }
         ],
         "geometry": [
@@ -73462,176 +73527,96 @@
             55.787758
           ],
           [
-            49.12328,
-            55.78793
+            49.123462,
+            55.787848
           ],
           [
-            49.12358,
-            55.788153
+            49.124535,
+            55.787363
           ],
           [
-            49.123891,
+            49.125199,
+            55.787093
+          ],
+          [
+            49.126315,
+            55.787044
+          ],
+          [
+            49.128788,
+            55.787358
+          ],
+          [
+            49.13413,
+            55.78875
+          ],
+          [
+            49.136458,
+            55.789383
+          ],
+          [
+            49.137714,
+            55.789714
+          ],
+          [
+            49.141059,
+            55.79059
+          ],
+          [
+            49.141462,
+            55.790621
+          ],
+          [
+            49.142136,
+            55.790454
+          ],
+          [
+            49.142894,
+            55.79025
+          ],
+          [
+            49.143286,
+            55.790042
+          ],
+          [
+            49.143661,
+            55.789532
+          ],
+          [
+            49.143685,
+            55.788715
+          ],
+          [
+            49.144468,
+            55.788676
+          ],
+          [
+            49.145745,
             55.788546
           ],
           [
-            49.124363,
-            55.78955
+            49.14692,
+            55.788441
           ],
           [
-            49.124524,
-            55.790003
+            49.147859,
+            55.788359
           ],
           [
-            49.124674,
-            55.791031
+            49.151513,
+            55.788031
           ],
           [
-            49.124862,
-            55.792511
+            49.15178,
+            55.788005
           ],
           [
-            49.124958,
-            55.793481
+            49.15303,
+            55.787881
           ],
           [
-            49.125012,
-            55.793924
-          ],
-          [
-            49.125076,
-            55.794453
-          ],
-          [
-            49.126385,
-            55.794316
-          ],
-          [
-            49.127882,
-            55.794165
-          ],
-          [
-            49.129014,
-            55.794037
-          ],
-          [
-            49.129592,
-            55.794005
-          ],
-          [
-            49.13155,
-            55.793889
-          ],
-          [
-            49.132451,
-            55.793832
-          ],
-          [
-            49.133459,
-            55.793784
-          ],
-          [
-            49.134066,
-            55.793754
-          ],
-          [
-            49.135138,
-            55.793703
-          ],
-          [
-            49.137071,
-            55.793543
-          ],
-          [
-            49.137962,
-            55.793465
-          ],
-          [
-            49.1384,
-            55.793428
-          ],
-          [
-            49.139779,
-            55.793323
-          ],
-          [
-            49.141554,
-            55.793178
-          ],
-          [
-            49.142166,
-            55.793314
-          ],
-          [
-            49.142708,
-            55.793594
-          ],
-          [
-            49.143292,
-            55.793904
-          ],
-          [
-            49.143843,
-            55.794192
-          ],
-          [
-            49.146093,
-            55.793712
-          ],
-          [
-            49.147428,
-            55.793486
-          ],
-          [
-            49.148152,
-            55.793314
-          ],
-          [
-            49.149105,
-            55.793025
-          ],
-          [
-            49.149826,
-            55.792871
-          ],
-          [
-            49.151348,
-            55.792719
-          ],
-          [
-            49.152371,
-            55.792623
-          ],
-          [
-            49.153058,
-            55.792565
-          ],
-          [
-            49.153342,
-            55.792532
-          ],
-          [
-            49.15382,
-            55.792487
-          ],
-          [
-            49.155574,
-            55.792336
-          ],
-          [
-            49.156422,
-            55.792273
-          ],
-          [
-            49.156304,
-            55.791888
-          ],
-          [
-            49.156019,
-            55.790791
-          ],
-          [
-            49.155601,
-            55.789309
+            49.154097,
+            55.787791
           ],
           [
             49.155105,
@@ -76627,8 +76612,16 @@
             55.845984
           ],
           [
+            48.923747,
+            55.846076
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.91926,
+            55.846647
           ],
           [
             48.917034,
@@ -77594,8 +77587,16 @@
             55.846957
           ],
           [
+            48.91926,
+            55.846647
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.923747,
+            55.846076
           ],
           [
             48.924444,
@@ -99910,7 +99911,7 @@
     }
   },
   {
-    "mv_id": "610",
+    "mv_id": "427",
     "mr_id": "58",
     "tt_id": "1",
     "mt_id": "1",
@@ -99921,8 +99922,8 @@
         "stops": [
           {
             "order": "1",
-            "st_id": "1093",
-            "distance": 0.495,
+            "st_id": "71",
+            "distance": 0.289,
             "isFinal": false,
             "isFirst": true,
             "isControlPoint": true,
@@ -99930,12 +99931,12 @@
           },
           {
             "order": "2",
-            "st_id": "244",
-            "distance": 1.178,
+            "st_id": "301",
+            "distance": 0.343,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 0.495
+            "distanceToStop": 0.289
           },
           {
             "order": "3",
@@ -99944,7 +99945,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 1.673
+            "distanceToStop": 0.632
           },
           {
             "order": "4",
@@ -99953,7 +99954,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 2.776
+            "distanceToStop": 1.7349999999999999
           },
           {
             "order": "5",
@@ -99962,7 +99963,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.132
+            "distanceToStop": 4.090999999999999
           },
           {
             "order": "6",
@@ -99971,7 +99972,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.43
+            "distanceToStop": 4.388999999999999
           },
           {
             "order": "7",
@@ -99980,16 +99981,16 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.833
+            "distanceToStop": 4.792
           },
           {
             "order": "8",
             "st_id": "323",
-            "distance": 1.544,
+            "distance": 1.557,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 6.324
+            "distanceToStop": 5.2829999999999995
           },
           {
             "order": "9",
@@ -99998,7 +99999,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.868
+            "distanceToStop": 6.84
           },
           {
             "order": "10",
@@ -100007,7 +100008,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 8.775
+            "distanceToStop": 7.747
           },
           {
             "order": "11",
@@ -100016,7 +100017,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.362
+            "distanceToStop": 8.334
           },
           {
             "order": "12",
@@ -100025,7 +100026,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 9.878
+            "distanceToStop": 8.85
           },
           {
             "order": "13",
@@ -100034,7 +100035,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.378
+            "distanceToStop": 9.35
           },
           {
             "order": "14",
@@ -100043,7 +100044,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.92
+            "distanceToStop": 9.892
           },
           {
             "order": "15",
@@ -100052,77 +100053,33 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 11.393
+            "distanceToStop": 10.365
           }
         ],
         "geometry": [
           [
-            49.148476,
-            55.790166
+            49.147134,
+            55.790189
           ],
           [
-            49.148404,
-            55.790367
+            49.147277,
+            55.789912
           ],
           [
-            49.149105,
-            55.793025
+            49.147089,
+            55.789213
           ],
           [
-            49.149826,
-            55.792871
+            49.14692,
+            55.788441
           ],
           [
-            49.151348,
-            55.792719
+            49.147859,
+            55.788359
           ],
           [
-            49.152371,
-            55.792623
-          ],
-          [
-            49.153058,
-            55.792565
-          ],
-          [
-            49.153342,
-            55.792532
-          ],
-          [
-            49.15382,
-            55.792487
-          ],
-          [
-            49.155574,
-            55.792336
-          ],
-          [
-            49.156422,
-            55.792273
-          ],
-          [
-            49.156304,
-            55.791888
-          ],
-          [
-            49.156019,
-            55.790791
-          ],
-          [
-            49.155601,
-            55.789309
-          ],
-          [
-            49.155105,
-            55.787696
-          ],
-          [
-            49.154097,
-            55.787791
-          ],
-          [
-            49.15303,
-            55.787881
+            49.151513,
+            55.788031
           ],
           [
             49.15178,
@@ -100685,7 +100642,7 @@
           {
             "order": "15",
             "st_id": "1001",
-            "distance": 0.953,
+            "distance": 1.085,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -100693,21 +100650,12 @@
           },
           {
             "order": "16",
-            "st_id": "244",
-            "distance": 0.67,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 10.99
-          },
-          {
-            "order": "17",
-            "st_id": "1093",
+            "st_id": "71",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 11.66
+            "distanceToStop": 11.122
           }
         ],
         "geometry": [
@@ -101264,60 +101212,16 @@
             55.793314
           ],
           [
-            49.149105,
-            55.793025
+            49.147903,
+            55.792437
           ],
           [
-            49.149826,
-            55.792871
+            49.147438,
+            55.790526
           ],
           [
-            49.151348,
-            55.792719
-          ],
-          [
-            49.152371,
-            55.792623
-          ],
-          [
-            49.152527,
-            55.792532
-          ],
-          [
-            49.152559,
-            55.792382
-          ],
-          [
-            49.152447,
-            55.792041
-          ],
-          [
-            49.152304,
-            55.791458
-          ],
-          [
-            49.152017,
-            55.790321
-          ],
-          [
-            49.15205,
-            55.789953
-          ],
-          [
-            49.151989,
-            55.789647
-          ],
-          [
-            49.149872,
-            55.789833
-          ],
-          [
-            49.148293,
-            55.789948
-          ],
-          [
-            49.148476,
-            55.790166
+            49.147134,
+            55.790189
           ]
         ]
       }
@@ -107611,7 +107515,7 @@
     }
   },
   {
-    "mv_id": "606",
+    "mv_id": "501",
     "mr_id": "63",
     "tt_id": "1",
     "mt_id": "3",
@@ -107812,7 +107716,7 @@
           {
             "order": "22",
             "st_id": "111",
-            "distance": 1.023,
+            "distance": 1.024,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -107825,7 +107729,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 14.093
+            "distanceToStop": 14.094000000000001
           },
           {
             "order": "24",
@@ -107834,7 +107738,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.097
+            "distanceToStop": 15.098
           },
           {
             "order": "25",
@@ -107843,7 +107747,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.407
+            "distanceToStop": 15.408000000000001
           },
           {
             "order": "26",
@@ -107852,7 +107756,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.956
+            "distanceToStop": 15.957
           },
           {
             "order": "27",
@@ -107861,7 +107765,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.644
+            "distanceToStop": 16.645
           },
           {
             "order": "28",
@@ -107870,7 +107774,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.076999999999998
+            "distanceToStop": 17.078
           },
           {
             "order": "29",
@@ -107879,7 +107783,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 19.325999999999997
+            "distanceToStop": 19.326999999999998
           },
           {
             "order": "30",
@@ -107888,7 +107792,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.269
+            "distanceToStop": 20.27
           },
           {
             "order": "31",
@@ -107897,7 +107801,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.099999999999998
+            "distanceToStop": 21.101
           },
           {
             "order": "32",
@@ -107906,7 +107810,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 21.514999999999997
+            "distanceToStop": 21.516
           },
           {
             "order": "33",
@@ -107915,7 +107819,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.998999999999995
+            "distanceToStop": 22
           },
           {
             "order": "34",
@@ -107924,7 +107828,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.398999999999994
+            "distanceToStop": 22.4
           },
           {
             "order": "35",
@@ -107933,7 +107837,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.919999999999995
+            "distanceToStop": 22.921
           },
           {
             "order": "36",
@@ -107942,7 +107846,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.783999999999995
+            "distanceToStop": 23.785
           },
           {
             "order": "37",
@@ -107951,7 +107855,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 24.581999999999994
+            "distanceToStop": 24.583
           },
           {
             "order": "38",
@@ -107960,7 +107864,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.488999999999994
+            "distanceToStop": 25.49
           },
           {
             "order": "39",
@@ -107969,7 +107873,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.066999999999993
+            "distanceToStop": 26.067999999999998
           },
           {
             "order": "40",
@@ -107978,7 +107882,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 26.474999999999994
+            "distanceToStop": 26.476
           },
           {
             "order": "41",
@@ -107987,7 +107891,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.057999999999993
+            "distanceToStop": 27.058999999999997
           },
           {
             "order": "42",
@@ -107996,7 +107900,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.394999999999992
+            "distanceToStop": 27.395999999999997
           },
           {
             "order": "43",
@@ -108005,7 +107909,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 28.144999999999992
+            "distanceToStop": 28.145999999999997
           },
           {
             "order": "44",
@@ -108014,7 +107918,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.72499999999999
+            "distanceToStop": 28.725999999999996
           },
           {
             "order": "45",
@@ -108023,7 +107927,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.09299999999999
+            "distanceToStop": 29.093999999999994
           },
           {
             "order": "46",
@@ -108032,7 +107936,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.65799999999999
+            "distanceToStop": 29.658999999999995
           },
           {
             "order": "47",
@@ -108041,7 +107945,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.91399999999999
+            "distanceToStop": 29.914999999999996
           },
           {
             "order": "48",
@@ -108050,7 +107954,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.13999999999999
+            "distanceToStop": 30.140999999999995
           },
           {
             "order": "49",
@@ -108059,7 +107963,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.47099999999999
+            "distanceToStop": 30.471999999999994
           },
           {
             "order": "50",
@@ -108068,7 +107972,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 30.82999999999999
+            "distanceToStop": 30.830999999999996
           },
           {
             "order": "51",
@@ -108077,25 +107981,25 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.21599999999999
+            "distanceToStop": 31.216999999999995
           },
           {
             "order": "52",
             "st_id": "538",
-            "distance": 0.311,
+            "distance": 0.238,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.67799999999999
+            "distanceToStop": 31.678999999999995
           },
           {
             "order": "53",
             "st_id": "392",
-            "distance": 0.706,
+            "distance": 0.779,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 31.98899999999999
+            "distanceToStop": 31.916999999999994
           },
           {
             "order": "54",
@@ -108104,7 +108008,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 32.69499999999999
+            "distanceToStop": 32.696
           }
         ],
         "geometry": [
@@ -109864,7 +109768,7 @@
           {
             "order": "34",
             "st_id": "1001",
-            "distance": 0.953,
+            "distance": 1.083,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -109872,147 +109776,165 @@
           },
           {
             "order": "35",
-            "st_id": "244",
-            "distance": 1.069,
+            "st_id": "71",
+            "distance": 0.286,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 18.198
+            "isControlPoint": true,
+            "distanceToStop": 18.328
           },
           {
             "order": "36",
+            "st_id": "301",
+            "distance": 0.287,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 18.614
+          },
+          {
+            "order": "37",
+            "st_id": "72",
+            "distance": 0.383,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 18.901
+          },
+          {
+            "order": "38",
             "st_id": "74",
             "distance": 0.925,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.267
+            "distanceToStop": 19.284
           },
           {
-            "order": "37",
+            "order": "39",
             "st_id": "713",
             "distance": 0.6,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 20.192
+            "distanceToStop": 20.209
           },
           {
-            "order": "38",
+            "order": "40",
             "st_id": "837",
             "distance": 0.511,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.792
+            "distanceToStop": 20.809
           },
           {
-            "order": "39",
+            "order": "41",
             "st_id": "839",
             "distance": 1.048,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.303
+            "distanceToStop": 21.32
           },
           {
-            "order": "40",
+            "order": "42",
             "st_id": "1877",
             "distance": 0.725,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.351
+            "distanceToStop": 22.368000000000002
           },
           {
-            "order": "41",
+            "order": "43",
             "st_id": "1878",
             "distance": 0.934,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.076
+            "distanceToStop": 23.093000000000004
           },
           {
-            "order": "42",
+            "order": "44",
             "st_id": "984",
             "distance": 0.232,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.01
+            "distanceToStop": 24.027000000000005
           },
           {
-            "order": "43",
+            "order": "45",
             "st_id": "986",
             "distance": 0.389,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 24.242
+            "distanceToStop": 24.259000000000004
           },
           {
-            "order": "44",
+            "order": "46",
             "st_id": "988",
             "distance": 0.726,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.631
+            "distanceToStop": 24.648000000000003
           },
           {
-            "order": "45",
+            "order": "47",
             "st_id": "990",
             "distance": 1.231,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.357
+            "distanceToStop": 25.374000000000002
           },
           {
-            "order": "46",
+            "order": "48",
             "st_id": "848",
             "distance": 0.599,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.588
+            "distanceToStop": 26.605000000000004
           },
           {
-            "order": "47",
+            "order": "49",
             "st_id": "1724",
             "distance": 0.469,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.187
+            "distanceToStop": 27.204000000000004
           },
           {
-            "order": "48",
+            "order": "50",
             "st_id": "146",
             "distance": 0.556,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.656000000000002
+            "distanceToStop": 27.673000000000005
           },
           {
-            "order": "49",
+            "order": "51",
             "st_id": "147",
             "distance": 0.346,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.212000000000003
+            "distanceToStop": 28.229000000000006
           },
           {
-            "order": "50",
+            "order": "52",
             "st_id": "302",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 28.558000000000003
+            "distanceToStop": 28.575000000000006
           }
         ],
         "geometry": [
@@ -110789,52 +110711,48 @@
             55.793314
           ],
           [
-            49.149105,
-            55.793025
+            49.147903,
+            55.792437
           ],
           [
-            49.149826,
-            55.792871
+            49.147438,
+            55.790526
           ],
           [
-            49.151348,
-            55.792719
+            49.147325,
+            55.790047
           ],
           [
-            49.152371,
-            55.792623
+            49.147277,
+            55.789912
           ],
           [
-            49.153058,
-            55.792565
+            49.147089,
+            55.789213
           ],
           [
-            49.153342,
-            55.792532
+            49.14692,
+            55.788441
           ],
           [
-            49.15382,
-            55.792487
+            49.147859,
+            55.788359
           ],
           [
-            49.155574,
-            55.792336
+            49.151513,
+            55.788031
           ],
           [
-            49.156422,
-            55.792273
+            49.15178,
+            55.788005
           ],
           [
-            49.156304,
-            55.791888
+            49.15303,
+            55.787881
           ],
           [
-            49.156019,
-            55.790791
-          ],
-          [
-            49.155601,
-            55.789309
+            49.154097,
+            55.787791
           ],
           [
             49.155105,
@@ -111205,7 +111123,7 @@
     }
   },
   {
-    "mv_id": "607",
+    "mv_id": "537",
     "mr_id": "70",
     "tt_id": "1",
     "mt_id": "3",
@@ -111253,7 +111171,7 @@
           {
             "order": "5",
             "st_id": "112",
-            "distance": 0.71,
+            "distance": 0.685,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -111261,210 +111179,201 @@
           },
           {
             "order": "6",
-            "st_id": "128",
-            "distance": 0.469,
+            "st_id": "373",
+            "distance": 0.411,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.26
+            "distanceToStop": 3.235
           },
           {
             "order": "7",
-            "st_id": "68",
-            "distance": 0.223,
+            "st_id": "374",
+            "distance": 0.556,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.7289999999999996
+            "distanceToStop": 3.646
           },
           {
             "order": "8",
-            "st_id": "69",
-            "distance": 0.303,
+            "st_id": "375",
+            "distance": 0.345,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.9519999999999995
+            "distanceToStop": 4.202
           },
           {
             "order": "9",
-            "st_id": "70",
-            "distance": 0.985,
+            "st_id": "301",
+            "distance": 0.343,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.255
+            "distanceToStop": 4.547
           },
           {
             "order": "10",
-            "st_id": "244",
-            "distance": 0.855,
+            "st_id": "111",
+            "distance": 0.416,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 5.24
+            "isControlPoint": true,
+            "distanceToStop": 4.89
           },
           {
             "order": "11",
+            "st_id": "512",
+            "distance": 0.724,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 5.306
+          },
+          {
+            "order": "12",
             "st_id": "245",
             "distance": 0.523,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.095000000000001
+            "distanceToStop": 6.03
           },
           {
-            "order": "12",
+            "order": "13",
             "st_id": "246",
             "distance": 0.385,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.618
+            "distanceToStop": 6.553
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "247",
             "distance": 0.669,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.003
+            "distanceToStop": 6.938
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "248",
             "distance": 0.321,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.672000000000001
+            "distanceToStop": 7.606999999999999
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "714",
             "distance": 0.669,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 7.993
+            "distanceToStop": 7.927999999999999
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "715",
             "distance": 0.621,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.662
+            "distanceToStop": 8.597
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "717",
             "distance": 0.344,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.283000000000001
+            "distanceToStop": 9.218
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "1380",
             "distance": 1.164,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.627
+            "distanceToStop": 9.562
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "1095",
             "distance": 0.665,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.791
+            "distanceToStop": 10.725999999999999
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "1097",
             "distance": 0.985,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.456
+            "distanceToStop": 11.390999999999998
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "1099",
             "distance": 0.51,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.440999999999999
+            "distanceToStop": 12.375999999999998
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "1797",
             "distance": 0.448,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.950999999999999
-          },
-          {
-            "order": "23",
-            "st_id": "1101",
-            "distance": 2.427,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 13.399
+            "distanceToStop": 12.885999999999997
           },
           {
             "order": "24",
-            "st_id": "1110",
-            "distance": 1.904,
+            "st_id": "1101",
+            "distance": 0.664,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.825999999999999
+            "distanceToStop": 13.333999999999998
           },
           {
             "order": "25",
-            "st_id": "1823",
-            "distance": 1.338,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 17.729999999999997
-          },
-          {
-            "order": "26",
             "st_id": "1105",
             "distance": 0.393,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.067999999999998
+            "distanceToStop": 13.997999999999998
           },
           {
-            "order": "27",
+            "order": "26",
             "st_id": "1107",
             "distance": 0.228,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.461
+            "distanceToStop": 14.390999999999998
           },
           {
-            "order": "28",
+            "order": "27",
             "st_id": "1232",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 19.689
+            "distanceToStop": 14.618999999999998
           }
         ],
         "geometry": [
@@ -111605,152 +111514,120 @@
             55.787758
           ],
           [
-            49.12328,
-            55.78793
+            49.123462,
+            55.787848
           ],
           [
-            49.12358,
-            55.788153
+            49.124535,
+            55.787363
           ],
           [
-            49.123891,
+            49.125199,
+            55.787093
+          ],
+          [
+            49.126315,
+            55.787044
+          ],
+          [
+            49.128788,
+            55.787358
+          ],
+          [
+            49.13413,
+            55.78875
+          ],
+          [
+            49.136458,
+            55.789383
+          ],
+          [
+            49.137714,
+            55.789714
+          ],
+          [
+            49.141059,
+            55.79059
+          ],
+          [
+            49.141462,
+            55.790621
+          ],
+          [
+            49.142136,
+            55.790454
+          ],
+          [
+            49.142894,
+            55.79025
+          ],
+          [
+            49.143286,
+            55.790042
+          ],
+          [
+            49.143661,
+            55.789532
+          ],
+          [
+            49.143685,
+            55.788715
+          ],
+          [
+            49.144468,
+            55.788676
+          ],
+          [
+            49.145745,
             55.788546
           ],
           [
-            49.124363,
-            55.78955
+            49.14692,
+            55.788441
           ],
           [
-            49.124524,
-            55.790003
+            49.147859,
+            55.788359
           ],
           [
-            49.124674,
-            55.791031
+            49.151513,
+            55.788031
           ],
           [
-            49.124862,
-            55.792511
+            49.15178,
+            55.788005
           ],
           [
-            49.124958,
-            55.793481
+            49.152019,
+            55.788933
           ],
           [
-            49.125012,
-            55.793924
+            49.152196,
+            55.789629
           ],
           [
-            49.125076,
-            55.794453
+            49.152293,
+            55.790018
           ],
           [
-            49.126385,
-            55.794316
+            49.152636,
+            55.790629
           ],
           [
-            49.127882,
-            55.794165
+            49.15292,
+            55.791617
           ],
           [
-            49.129014,
-            55.794037
+            49.153146,
+            55.792063
           ],
           [
-            49.129592,
-            55.794005
+            49.15336,
+            55.792319
           ],
           [
-            49.13155,
-            55.793889
-          ],
-          [
-            49.132451,
-            55.793832
-          ],
-          [
-            49.133459,
-            55.793784
-          ],
-          [
-            49.134066,
-            55.793754
-          ],
-          [
-            49.135138,
-            55.793703
-          ],
-          [
-            49.137071,
-            55.793543
-          ],
-          [
-            49.137962,
-            55.793465
-          ],
-          [
-            49.1384,
-            55.793428
-          ],
-          [
-            49.139779,
-            55.793323
-          ],
-          [
-            49.141554,
-            55.793178
-          ],
-          [
-            49.142166,
-            55.793314
-          ],
-          [
-            49.142708,
-            55.793594
-          ],
-          [
-            49.143292,
-            55.793904
-          ],
-          [
-            49.143843,
-            55.794192
-          ],
-          [
-            49.146093,
-            55.793712
-          ],
-          [
-            49.147428,
-            55.793486
-          ],
-          [
-            49.148152,
-            55.793314
-          ],
-          [
-            49.149105,
-            55.793025
-          ],
-          [
-            49.149826,
-            55.792871
-          ],
-          [
-            49.151348,
-            55.792719
-          ],
-          [
-            49.152371,
-            55.792623
-          ],
-          [
-            49.153058,
-            55.792565
-          ],
-          [
-            49.153342,
-            55.792532
+            49.153503,
+            55.792406
           ],
           [
             49.15382,
@@ -112085,136 +111962,12 @@
             55.80153
           ],
           [
-            49.265095,
-            55.80158
+            49.264669,
+            55.801415
           ],
           [
-            49.279306,
-            55.801939
-          ],
-          [
-            49.286226,
-            55.802113
-          ],
-          [
-            49.289997,
-            55.802026
-          ],
-          [
-            49.292529,
-            55.801746
-          ],
-          [
-            49.296413,
-            55.801216
-          ],
-          [
-            49.298209,
-            55.801002
-          ],
-          [
-            49.299447,
-            55.800699
-          ],
-          [
-            49.299597,
-            55.800624
-          ],
-          [
-            49.299612,
-            55.800493
-          ],
-          [
-            49.299612,
-            55.800403
-          ],
-          [
-            49.299751,
-            55.800334
-          ],
-          [
-            49.300588,
-            55.800265
-          ],
-          [
-            49.301763,
-            55.800156
-          ],
-          [
-            49.302021,
-            55.800141
-          ],
-          [
-            49.302289,
-            55.800159
-          ],
-          [
-            49.302434,
-            55.80024
-          ],
-          [
-            49.302546,
-            55.8004
-          ],
-          [
-            49.30259,
-            55.800557
-          ],
-          [
-            49.302639,
-            55.800708
-          ],
-          [
-            49.302725,
-            55.801118
-          ],
-          [
-            49.302676,
-            55.801245
-          ],
-          [
-            49.302489,
-            55.801332
-          ],
-          [
-            49.302219,
-            55.801342
-          ],
-          [
-            49.30118,
-            55.801305
-          ],
-          [
-            49.29993,
-            55.801148
-          ],
-          [
-            49.299431,
-            55.801085
-          ],
-          [
-            49.298209,
-            55.801002
-          ],
-          [
-            49.296413,
-            55.801216
-          ],
-          [
-            49.292529,
-            55.801746
-          ],
-          [
-            49.289997,
-            55.802026
-          ],
-          [
-            49.286226,
-            55.802113
-          ],
-          [
-            49.279306,
-            55.801939
+            49.264922,
+            55.801297
           ],
           [
             49.265095,
@@ -118219,8 +117972,16 @@
             55.845984
           ],
           [
+            48.923747,
+            55.846076
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.91926,
+            55.846647
           ],
           [
             48.917034,
@@ -118283,16 +118044,16 @@
             55.851306
           ],
           [
-            48.883663,
-            55.852216
+            48.881779,
+            55.852648
           ],
           [
             48.879516,
             55.853103
           ],
           [
-            48.878177,
-            55.853391
+            48.878303,
+            55.853366
           ],
           [
             48.874803,
@@ -119456,16 +119217,16 @@
             55.853555
           ],
           [
-            48.879439,
-            55.852963
+            48.878206,
+            55.853221
           ],
           [
             48.880258,
             55.852794
           ],
           [
-            48.881418,
-            55.852543
+            48.881671,
+            55.852497
           ],
           [
             48.882781,
@@ -119540,8 +119301,16 @@
             55.846957
           ],
           [
+            48.91926,
+            55.846647
+          ],
+          [
             48.923077,
             55.846164
+          ],
+          [
+            48.923747,
+            55.846076
           ],
           [
             48.924444,
@@ -126669,7 +126438,7 @@
     }
   },
   {
-    "mv_id": "242",
+    "mv_id": "620",
     "mr_id": "137",
     "tt_id": "2",
     "mt_id": "3",
@@ -127182,12 +126951,12 @@
             55.79243
           ],
           [
-            49.155695,
-            55.792482
+            49.156056,
+            55.792432
           ],
           [
-            49.15493,
-            55.792559
+            49.154935,
+            55.792538
           ],
           [
             49.153514,
@@ -127577,7 +127346,7 @@
           {
             "order": "6",
             "st_id": "112",
-            "distance": 0.637,
+            "distance": 0.71,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
@@ -127586,11 +127355,11 @@
           {
             "order": "7",
             "st_id": "128",
-            "distance": 0.542,
+            "distance": 0.469,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.3560000000000003
+            "distanceToStop": 3.4290000000000003
           },
           {
             "order": "8",
@@ -127599,7 +127368,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.8980000000000006
+            "distanceToStop": 3.898
           },
           {
             "order": "9",
@@ -127658,7 +127427,7 @@
           {
             "order": "15",
             "st_id": "1185",
-            "distance": 0.98,
+            "distance": 0.635,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -127666,75 +127435,84 @@
           },
           {
             "order": "16",
+            "st_id": "1934",
+            "distance": 0.344,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 8.061
+          },
+          {
+            "order": "17",
             "st_id": "1187",
             "distance": 0.647,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 8.406
+            "distanceToStop": 8.405
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "1582",
             "distance": 0.809,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.053
+            "distanceToStop": 9.052
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "843",
             "distance": 0.957,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.862
-          },
-          {
-            "order": "19",
-            "st_id": "302",
-            "distance": 0.46,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 10.819
+            "distanceToStop": 9.860999999999999
           },
           {
             "order": "20",
-            "st_id": "305",
-            "distance": 0.549,
+            "st_id": "302",
+            "distance": 0.455,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.279000000000002
+            "distanceToStop": 10.818
           },
           {
             "order": "21",
-            "st_id": "1197",
-            "distance": 0.683,
+            "st_id": "305",
+            "distance": 0.548,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.828000000000001
+            "distanceToStop": 11.273
           },
           {
             "order": "22",
-            "st_id": "1198",
-            "distance": 0.339,
+            "st_id": "1197",
+            "distance": 0.681,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.511000000000001
+            "distanceToStop": 11.821
           },
           {
             "order": "23",
+            "st_id": "1198",
+            "distance": 0.34,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 12.501999999999999
+          },
+          {
+            "order": "24",
             "st_id": "1328",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 12.850000000000001
+            "distanceToStop": 12.841999999999999
           }
         ],
         "geometry": [
@@ -156544,7 +156322,7 @@
           {
             "order": "1",
             "st_id": "719",
-            "distance": 1.48,
+            "distance": 1.225,
             "isFinal": false,
             "isFirst": true,
             "isControlPoint": true,
@@ -156552,6 +156330,15 @@
           },
           {
             "order": "2",
+            "st_id": "1222",
+            "distance": 0.255,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 1.225
+          },
+          {
+            "order": "3",
             "st_id": "444",
             "distance": 0.498,
             "isFinal": false,
@@ -156560,7 +156347,7 @@
             "distanceToStop": 1.48
           },
           {
-            "order": "3",
+            "order": "4",
             "st_id": "825",
             "distance": 0.915,
             "isFinal": false,
@@ -156569,7 +156356,7 @@
             "distanceToStop": 1.978
           },
           {
-            "order": "4",
+            "order": "5",
             "st_id": "488",
             "distance": 0.542,
             "isFinal": false,
@@ -156578,7 +156365,7 @@
             "distanceToStop": 2.893
           },
           {
-            "order": "5",
+            "order": "6",
             "st_id": "489",
             "distance": 0.32,
             "isFinal": false,
@@ -156587,7 +156374,7 @@
             "distanceToStop": 3.4349999999999996
           },
           {
-            "order": "6",
+            "order": "7",
             "st_id": "829",
             "distance": 0.586,
             "isFinal": false,
@@ -156596,7 +156383,7 @@
             "distanceToStop": 3.7549999999999994
           },
           {
-            "order": "7",
+            "order": "8",
             "st_id": "475",
             "distance": 0.639,
             "isFinal": false,
@@ -156605,7 +156392,7 @@
             "distanceToStop": 4.340999999999999
           },
           {
-            "order": "8",
+            "order": "9",
             "st_id": "476",
             "distance": 0.351,
             "isFinal": false,
@@ -156614,7 +156401,7 @@
             "distanceToStop": 4.9799999999999995
           },
           {
-            "order": "9",
+            "order": "10",
             "st_id": "477",
             "distance": 0.308,
             "isFinal": false,
@@ -156623,7 +156410,7 @@
             "distanceToStop": 5.3309999999999995
           },
           {
-            "order": "10",
+            "order": "11",
             "st_id": "478",
             "distance": 0.379,
             "isFinal": false,
@@ -156632,7 +156419,7 @@
             "distanceToStop": 5.638999999999999
           },
           {
-            "order": "11",
+            "order": "12",
             "st_id": "479",
             "distance": 0.646,
             "isFinal": false,
@@ -156641,7 +156428,7 @@
             "distanceToStop": 6.017999999999999
           },
           {
-            "order": "12",
+            "order": "13",
             "st_id": "480",
             "distance": 0.616,
             "isFinal": false,
@@ -156650,7 +156437,7 @@
             "distanceToStop": 6.663999999999999
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "481",
             "distance": 0.556,
             "isFinal": false,
@@ -156659,7 +156446,7 @@
             "distanceToStop": 7.2799999999999985
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "1615",
             "distance": 0.56,
             "isFinal": false,
@@ -156668,7 +156455,7 @@
             "distanceToStop": 7.8359999999999985
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "1811",
             "distance": 0.342,
             "isFinal": false,
@@ -156677,7 +156464,7 @@
             "distanceToStop": 8.395999999999999
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "483",
             "distance": 1.382,
             "isFinal": false,
@@ -156686,7 +156473,7 @@
             "distanceToStop": 8.738
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "1813",
             "distance": 0,
             "isFinal": true,

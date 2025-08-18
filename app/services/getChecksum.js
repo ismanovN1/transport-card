@@ -25,8 +25,8 @@ module.exports = async function getChecksum() {
   const data =
     (await parser.parseStringPromise(response))?.tbchecksum?.row || [];
 
-  return data?.reduce(
-    (acc, item) => ({ ...acc, [item.cs_tablename]: item.cs_checksum }),
+  return data?.map(
+    (item) => ({ tableName: item.cs_tablename, value: item.cs_checksum }),
     {}
   );
 };

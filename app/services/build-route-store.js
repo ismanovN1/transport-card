@@ -1,4 +1,4 @@
-const { setStationsRoutes, setAllRoutes } = require("../cache/memoryCache");
+const { setStationsRoutes, setAllRoutes, setStationsCheckSum } = require("../cache/memoryCache");
 const getMarshVariants = require("./getMarshVariants");
 const getMarshes = require("./getMarshes");
 const getRaceCard = require("./getRaceCard");
@@ -6,7 +6,7 @@ const getRaceCoord = require("./getRaceCoord");
 const fs = require("fs");
 const path = require("path");
 
-async function buildRouteStore() {
+async function buildRouteStore(onSuccess=undefined) {
   try {
     const routeStore = [];
     const stopsStore = {};
@@ -30,6 +30,7 @@ async function buildRouteStore() {
       const { mv_id, mr_id, mr_num, mr_title, tt_id, mt_id } = routes[key];
 
       const raceCard = await getRaceCard(mv_id);
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       const raceCoord = await getRaceCoord(mv_id);
 
       const directions = ["A", "B"];
@@ -110,6 +111,9 @@ async function buildRouteStore() {
         "utf-8"
       );
     }
+
+    onSuccess && onSuccess();
+    setStationsCheckSum(Math.random().toString(36).substring(2, 15));
 
     console.log(
       `✅ routeStore.json создан. Всего маршрутов: ${routeStore.length}`

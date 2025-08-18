@@ -9,14 +9,17 @@ const {
   getCachedRoutesStations,
   getCachedStations,
 } = require("../cache/memoryCache");
+const StationsBlackList = require("../models/StationsBlackList");
 
 async function getStations(req, res) {
   try {
     const { refresh } = req.query;
-
     let data = getCachedStations();
+
     if (!data || refresh) {
-      data = await getStops();
+      const blackList = (await StationsBlackList.find()).map((item) => item.id);
+      data = (await getStops()).filter(item=>!blackList.includes(item.id));
+      
       setCachedStations(data);
       setCachedRoutesStations(null);
     }

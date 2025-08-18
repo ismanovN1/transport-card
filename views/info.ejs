@@ -1,0 +1,18 @@
+<% title = "Черный список остановок" %>
+<section class="card p-4 shadow-sm">
+  <h2 class="mb-3 text-primary">Черный список остановок</h2>
+  <% if (stations.length === 0) { %>
+    <p>Никаких остановок в черном списке.</p>
+  <% } else { %>
+    <ul class="list-group">
+      <% stations.forEach(st => { %>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <%= st.title || st.id %>
+          <form action="/api/black-list/<%= st.id %>?_method=DELETE" method="post" style="display:inline;">
+            <button class="btn btn-sm btn-danger">Delete</button>
+          </form>
+        </li>
+      <% }) %>
+    </ul>
+  <% } %>
+</section>
