@@ -5,10 +5,11 @@ const cors = require('cors');
 const path = require('path');
 const moment = require('moment-timezone');
 const connectDB = require('./db');
-const {router: checksumController, checkSum} = require('./app/controllers/checksumController');
-const stationsBlackListController = require("./app/controllers/stationsBlackListController");;
+const { router: checksumController, checkSum } = require('./app/controllers/checksumController');
+const stationsBlackListController = require("./app/controllers/stationsBlackListController");
 const StationsBlackList = require("./app/models/StationsBlackList");
 const expressLayouts = require("express-ejs-layouts");
+const basicAuth = require("express-basic-auth"); // 🔹 added
 
 moment.tz.setDefault("Europe/Moscow")
 
@@ -31,13 +32,18 @@ app.use(express.urlencoded({ extended: true }));
 const methodOverride = require("method-override");
 app.use(methodOverride("_method"));
 
+// 🔹 Basic auth middleware
+const authMiddleware = basicAuth({
+  users: { admin: "password123" }, // change this!
+  challenge: true,
+});
 
-app.get("/form", (req, res) => {
+// Protect only these pages
+app.get("/add-to-black-list", authMiddleware, (req, res) => {
   res.render("form", { title: "Form Page" });
 });
 
-
-app.get("/info", async (req, res) => {
+app.get("/black-list", authMiddleware, async (req, res) => {
   const stations = await StationsBlackList.find();
   res.render("info", { stations });
 });
