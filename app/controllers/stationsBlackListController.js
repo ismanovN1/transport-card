@@ -12,7 +12,6 @@ const getChecksum = require("../services/getChecksum");
 const { buildRouteStore } = require("../services/build-route-store");
 const router = express.Router();
 
-// Create
 router.post("/", async (req, res) => {
   try {
     const stationId = req.body.id; // take from form input
@@ -48,13 +47,11 @@ router.post("/", async (req, res) => {
   }
 });
 
-// Read all
 router.get("/", async (req, res) => {
   const stations = await StationsBlackList.find();
   res.json(stations);
 });
 
-// Read one
 router.get("/:id", async (req, res) => {
   try {
     const station = await StationsBlackList.findOne({ id: req.params.id });
@@ -68,7 +65,6 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// Delete
 router.delete("/:id", async (req, res) => {
   try {
     const isExists = await StationsBlackList.findOne({ id: req.params.id });
