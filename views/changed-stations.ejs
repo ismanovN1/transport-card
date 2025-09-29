@@ -1,6 +1,7 @@
 <% title = "Измененные остановки" %>
 <section class="card p-4 shadow-sm">
-  <h2 class="mb-3 text-primary">Измененные остановки</h2>
+  <div class="d-flex justify-content-between align-items-center mb-1"><h2 class="mb-3 text-primary">Измененные остановки</h2>
+  <a class="btn btn-primary" href="/update-station">Добавить</a></div>
   <% if (stations.length === 0) { %>
   <p>Остановки не найдены.</p>
   <% } else { %>
