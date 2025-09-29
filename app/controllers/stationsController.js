@@ -10,16 +10,42 @@ const {
   getCachedStations,
 } = require("../cache/memoryCache");
 const StationsBlackList = require("../models/StationsBlackList");
+const StationsRenamed = require("../models/StationsRenamed");
 
 async function getStations(req, res) {
   try {
     const { refresh } = req.query;
     let data = getCachedStations();
 
-    if (!data || refresh) {
+    if (!data || refresh || !data.length) {
       const blackList = (await StationsBlackList.find()).map((item) => item.id);
-      data = (await getStops()).filter(item=>!blackList.includes(item.id));
-      
+
+      const renamed = await StationsRenamed.find();
+      const renamedMap = Object.fromEntries(
+        renamed.map((r) => [String(r.id), r.newTitle])
+      );
+
+      data = (await getStops()).reduce(
+        (acc, item) =>
+          !blackList.includes(item.id)
+            ? [
+                ...acc,
+                {
+                  ...item,
+                  properties: {
+                    ...item.properties,
+                    title:
+                      renamedMap[String(item.id)] ||
+                      item.properties?.title ||
+                      item.name ||
+                      "-",
+                  },
+                },
+              ]
+            : acc,
+        []
+      );
+
       setCachedStations(data);
       setCachedRoutesStations(null);
     }
@@ -50,14 +76,13 @@ async function fetchRouteStations(req, res) {
         ...acc,
         [`${item.mv_id}A`]: item.directions.A.stops.map((s) => ({
           title:
-            stations.find((st) => st.id === String(s.st_id))?.properties?.title ||
-            "",
+            stations.find((st) => st.id === String(s.st_id))?.properties
+              ?.title || "",
           st_id: s.st_id,
         })),
         [`${item.mv_id}B`]: item.directions.B.stops.map((s) => ({
           title:
-            stations.find((st) => st.id === s.st_id)?.properties?.title ||
-            "",
+            stations.find((st) => st.id === s.st_id)?.properties?.title || "",
           st_id: s.st_id,
         })),
       }),

@@ -1,0 +1,20 @@
+<% title = "Измененные остановки" %>
+<section class="card p-4 shadow-sm">
+  <h2 class="mb-3 text-primary">Измененные остановки</h2>
+  <% if (stations.length === 0) { %>
+  <p>Остановки не найдены.</p>
+  <% } else { %>
+  <ul class="list-group">
+    <% stations.forEach(st => { %>
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span><b><%= st.id %></b> – <%= st.newTitle %></span>
+      <div class="d-flex gap-2">
+        <form action="/control/stations/<%= st.id %>?_method=DELETE" method="post" style="display:inline;">
+            <button class="btn btn-sm btn-danger">Удалить из списка</button>
+        </form>
+      </div>
+    </li>
+    <% }) %>
+  </ul>
+  <% } %>
+</section>

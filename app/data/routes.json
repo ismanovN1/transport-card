@@ -80,7 +80,7 @@
   {
     "mr_id": "8",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "15",
     "mr_title": "Комбинат Здоровье - ул.Адоратского",
     "ok_id": "92401",
@@ -132,15 +132,15 @@
   {
     "mr_id": "13",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "47",
     "mr_title": "Ул.Батыршина - Деревня Универсиады",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Ul.Batyirshina - Derevnya Universiadyi",
     "mr_regnum": "47",
-    "mv_id": "540",
-    "mv_startdate": "2024-07-08 00:00:00"
+    "mv_id": "626",
+    "mv_startdate": "2025-09-20 00:00:00"
   },
   {
     "mr_id": "15",
@@ -158,7 +158,7 @@
   {
     "mr_id": "16",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "6",
     "mr_title": "Речной порт - жилой массив Северный",
     "ok_id": "92401",
@@ -210,7 +210,7 @@
   {
     "mr_id": "22",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "46",
     "mr_title": "Жилой комплекс Экопарк Дубрава - Профилакторий",
     "ok_id": "92401",
@@ -218,7 +218,7 @@
     "mr_note": "Jiloy kompleks Ekopark Dubrava - Profilaktoriy",
     "mr_regnum": "46",
     "mv_id": "613",
-    "mv_startdate": "2025-05-14 00:00:00"
+    "mv_startdate": "2025-08-30 00:00:00"
   },
   {
     "mr_id": "23",
@@ -231,7 +231,7 @@
     "mr_note": "Teatr G.Kamala - Profilaktoriy",
     "mr_regnum": "72",
     "mv_id": "614",
-    "mv_startdate": "2025-05-14 00:00:00"
+    "mv_startdate": "2025-08-30 00:00:00"
   },
   {
     "mr_id": "24",
@@ -308,8 +308,8 @@
     "ag_id": "1",
     "mr_note": "Jiloy massiv Zalesnyiy - Novonikolaevskiy",
     "mr_regnum": "361",
-    "mv_id": "31",
-    "mv_startdate": "2010-01-11 00:00:00"
+    "mv_id": "624",
+    "mv_startdate": "2025-08-30 00:00:00"
   },
   {
     "mr_id": "31",
@@ -379,7 +379,7 @@
   {
     "mr_id": "38",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "9",
     "mr_title": "Жилой массив Дербышки - жилой массив Аки",
     "ok_id": "92401",
@@ -418,7 +418,7 @@
   {
     "mr_id": "41",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "36",
     "mr_title": "Вещевой рынок - Осиново",
     "ok_id": "92401",
@@ -426,7 +426,7 @@
     "mr_note": "Veschevoy ryinok - Osinovo",
     "mr_regnum": "36",
     "mv_id": "612",
-    "mv_startdate": "2025-05-14 00:00:00"
+    "mv_startdate": "2025-08-30 00:00:00"
   },
   {
     "mr_id": "42",
@@ -457,7 +457,7 @@
   {
     "mr_id": "44",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "63",
     "mr_title": "Станция метро Яшьлек - жилой массив Левченко",
     "ok_id": "92401",
@@ -646,8 +646,8 @@
     "ag_id": "1",
     "mr_note": "Ul.Akademika Saharova - ul.Gudovantseva",
     "mr_regnum": "89",
-    "mv_id": "501",
-    "mv_startdate": "2025-07-24 00:00:00"
+    "mv_id": "625",
+    "mv_startdate": "2025-09-13 00:00:00"
   },
   {
     "mr_id": "70",
@@ -711,8 +711,8 @@
     "ag_id": "1",
     "mr_note": "Ul.Gorkovskoe shosse - SO Tekstilschik",
     "mr_regnum": "9101",
-    "mv_id": "386",
-    "mv_startdate": "2022-04-15 00:00:00"
+    "mv_id": "601",
+    "mv_startdate": "2025-04-18 00:00:00"
   },
   {
     "mr_id": "81",
@@ -737,8 +737,8 @@
     "ag_id": "1",
     "mr_note": "Kafe Polet - SNT Zarehe",
     "mr_regnum": "9109",
-    "mv_id": "592",
-    "mv_startdate": "2025-04-18 00:00:00"
+    "mv_id": "621",
+    "mv_startdate": "2025-08-23 00:00:00"
   },
   {
     "mr_id": "134",
@@ -847,15 +847,15 @@
   {
     "mr_id": "143",
     "tt_id": "2",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "8",
     "mr_title": "Площадь Свободы - Деревня Универсиады",
     "ok_id": "",
     "ag_id": "1",
     "mr_note": "Ploschad Svobodyi - Derevnya Universiadyi",
     "mr_regnum": "408",
-    "mv_id": "374",
-    "mv_startdate": "2021-11-17 00:00:00"
+    "mv_id": "627",
+    "mv_startdate": "2025-09-20 00:00:00"
   },
   {
     "mr_id": "145",
@@ -951,7 +951,7 @@
   {
     "mr_id": "183",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "70",
     "mr_title": "Чеховский рынок - ст.м.Проспект Победы",
     "ok_id": "",
