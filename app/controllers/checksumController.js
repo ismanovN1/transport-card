@@ -33,6 +33,9 @@ const checkSum = async () => {
 
     const savedCheckSum = await CheckSum.find({}, { _id: 0, __v: 0, createdAt: 0, updatedAt: 0 }).lean();
 
+    console.log("Current CheckSum:", res);
+    console.log("Saved CheckSum:", savedCheckSum);
+    
     if (!savedCheckSum.length || !_.isEqual(res, savedCheckSum)) {
       buildRouteStore(() => {
         CheckSum.deleteMany({});

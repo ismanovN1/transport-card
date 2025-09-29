@@ -3,7 +3,7 @@
   <form action="/api/black-list" method="post">
     <div class="mb-3">
       <label class="form-label">Идентификатор остановок</label>
-      <input type="text" name="id" class="form-control" required />
+      <input type="text" name="id" value="<%= id ? id : '' %>" class="form-control" required />
     </div>
     <button type="submit" class="btn btn-primary">Добавлять</button>
   </form>

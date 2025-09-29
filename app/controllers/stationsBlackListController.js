@@ -8,19 +8,19 @@ const {
   setStationsRoutes,
 } = require("../cache/memoryCache");
 const getStops = require("../services/getStops");
-const getChecksum = require("../services/getChecksum");
-const { buildRouteStore } = require("../services/build-route-store");
 const router = express.Router();
 
-// Create
 router.post("/", async (req, res) => {
   try {
-    const stationId = req.body.id; // take from form input
+    const stationId = req.body.id;
     const isExists = await StationsBlackList.findOne({ id: stationId });
     if (isExists) {
-      return res
-        .status(400)
-        .json({ message: "Station already exists in blacklist" });
+      return res.render("error", {
+        title: "Ошибка",
+        message: "Ошибка",
+        description: "Указанная остановка уже в черный списке.",
+        goTo: "/black-list",
+      });
     }
 
     let data = getCachedStations();
@@ -30,7 +30,12 @@ router.post("/", async (req, res) => {
 
     const station = data?.find?.((st) => String(st.id) === String(stationId));
     if (!station) {
-      return res.status(404).json({ message: "Station not found" });
+      return res.render("error", {
+        title: "Ошибка",
+        message: "Остановка не найдена",
+        description: "Указанная остановка отсутствует в списке остановок.",
+        goTo: "/black-list",
+      });
     }
 
     await StationsBlackList.create(station.properties);
@@ -39,22 +44,29 @@ router.post("/", async (req, res) => {
     setCachedRoutesStations(null);
     setCachedStations(null);
 
-    res.status(201).json({
-      message: "Station added to blacklist",
-      station: station.properties?.id,
+    return res.render("success", {
+      title: "Успех",
+      message: "Остановкa добавлена",
+      description: "Остановкa добавлена в черный список.",
+      goTo: "/black-list",
+      autoRedirect: true,
     });
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    res.render("error", {
+      title: "Ошибка",
+      message: "Ошибка",
+      description: error.message || "Unknown Error",
+      goTo: "/black-list",
+      autoRedirect: false,
+    });
   }
 });
 
-// Read all
 router.get("/", async (req, res) => {
   const stations = await StationsBlackList.find();
   res.json(stations);
 });
 
-// Read one
 router.get("/:id", async (req, res) => {
   try {
     const station = await StationsBlackList.findOne({ id: req.params.id });
@@ -68,21 +80,36 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// Delete
 router.delete("/:id", async (req, res) => {
   try {
     const isExists = await StationsBlackList.findOne({ id: req.params.id });
     if (!isExists) {
-      return res.status(400).json({ message: "Station not found" });
+      return res.render("error", {
+        title: "Ошибка",
+        message: "Остановкa не найдена",
+        description: "Указанная остановка отсутствует в черный списке.",
+        goTo: "/black-list",
+      });
     }
     await StationsBlackList.findOneAndDelete({ id: req.params.id });
     setStationsCheckSum(Math.random().toString(36).substring(2, 15));
     setStationsRoutes(null);
     setCachedRoutesStations(null);
     setCachedStations(null);
-    res.json({ message: "Station deleted" });
+    res.render("success", {
+      title: "Успех",
+      message: "Остановкa удалена",
+      description: "Остановкa успешно удалена из черный список.",
+      goTo: "/black-list",
+      autoRedirect: true,
+    });
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    res.render("error", {
+      title: "Ошибка",
+      message: "Ошибка",
+      description: error.message || "Unknown Error",
+      goTo: "/changed-stations",
+    });
   }
 });
 

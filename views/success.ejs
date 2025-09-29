@@ -1,0 +1,34 @@
+<% title = title || "Success" %>
+
+<section class="card p-4 shadow-sm text-center">
+  <div class="mb-3">
+    <svg width="72" height="72" viewBox="0 0 24 24" fill="none" class="mb-3">
+      <circle cx="12" cy="12" r="11" stroke="#0d6efd" stroke-width="2" fill="rgba(13,110,253,0.08)"/>
+      <path d="M7 12.5l2.8 2.8L17 8" stroke="#0d6efd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <h2 class="text-primary"><%= message || "Success" %></h2>
+
+  <% if (description) { %>
+    <p class="text-muted mb-3"><%= description %></p>
+  <% } %>
+
+  <div>
+    <% if (goTo) { %>
+      <a href="<%= goTo %>" class="btn btn-primary me-2">Хорошо</a>
+    <% } else { %>
+      <button class="btn btn-primary" onclick="history.back()">
+        Назад
+      </button>
+    <% } %>
+  </div>
+
+  <% if (goTo && typeof autoRedirect === 'undefined' ? true : autoRedirect) { %>
+    <script>
+      setTimeout(() => {
+        window.location.href = "<%= goTo %>";
+      }, 5000);
+    </script>
+  <% } %>
+</section>

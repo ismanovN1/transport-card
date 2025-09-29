@@ -1,0 +1,27 @@
+<% title = "Изменить название остановки" %>
+<section class="card p-4 shadow-sm">
+  <h2 class="mb-3 text-primary">Изменить название остановки</h2>
+  <form action="/control/stations?_method=PUT" method="post">
+    <div class="mb-3">
+      <label class="form-label">ID</label>
+      <input 
+        type="text" 
+        name="id" 
+        class="form-control" 
+        value="<%= station ? station.id : '' %>" 
+        required 
+      />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Новое название</label>
+      <input 
+        type="text" 
+        name="title" 
+        class="form-control" 
+        value="<%= station ? station.title : '' %>" 
+        required 
+      />
+    </div>
+    <button type="submit" class="btn btn-success">Изменить</button>
+  </form>
+</section>
