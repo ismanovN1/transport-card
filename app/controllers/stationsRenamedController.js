@@ -12,7 +12,6 @@ const StationsBlackList = require("../models/StationsBlackList");
 
 const router = express.Router();
 
-// Барлық станциялар (қара тізімсіз)
 router.get("/", async (req, res) => {
   let data = getCachedStations();
   if (!data) {
@@ -27,7 +26,11 @@ router.get("/", async (req, res) => {
   const stations = data.map((st) => ({
     id: st.id,
     title:
-      renamedMap[st.id] || st.properties?.title || st.name || "Без названия",
+      st.properties?.oldTitle ||
+      st.properties?.title ||
+      st.name ||
+      "Без названия",
+    newTitle: renamedMap[st.id],
   }));
 
   res.render("all-stations", { stations });
@@ -39,7 +42,6 @@ router.get("/changed-stations", async (req, res) => {
   res.render("changed-stations", { stations: renamed });
 });
 
-// Белгілі бір станцияны алу
 router.get("/update-station", async (req, res) => {
   let data = getCachedStations();
   if (!data) {
@@ -56,7 +58,8 @@ router.get("/update-station", async (req, res) => {
     res.render("update-form", {
       station: {
         id: station.id,
-        title: renamed?.newTitle || station.properties?.title || "Без названия",
+        title: station.properties?.title || "Без названия",
+        newTitle: renamed?.newTitle,
       },
     });
   } else {

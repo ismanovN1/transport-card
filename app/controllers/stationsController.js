@@ -39,6 +39,9 @@ async function getStations(req, res) {
                       item.properties?.title ||
                       item.name ||
                       "-",
+                    oldTitle: renamedMap[String(item.id)]
+                      ? item.properties?.title
+                      : undefined,
                   },
                 },
               ]
