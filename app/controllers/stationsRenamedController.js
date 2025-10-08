@@ -17,7 +17,6 @@ router.get("/", async (req, res) => {
   if (!data) {
     const blackList = (await StationsBlackList.find()).map((i) => i.id);
     data = (await getStops()).filter((item) => !blackList.includes(item.id));
-    setCachedStations(data);
   }
 
   const renamed = await StationsRenamed.find();
@@ -47,7 +46,6 @@ router.get("/update-station", async (req, res) => {
   if (!data) {
     const blackList = (await StationsBlackList.find()).map((i) => i.id);
     data = (await getStops()).filter((item) => !blackList.includes(item.id));
-    setCachedStations(data);
   }
 
   if (req.query.id) {
@@ -99,7 +97,6 @@ router.put("/", async (req, res) => {
       { upsert: true, new: true }
     );
 
-    // cache refresh
     setStationsCheckSum(Math.random().toString(36).substring(2, 15));
     setStationsRoutes(null);
     setCachedRoutesStations(null);
