@@ -8,6 +8,7 @@ const {
   setCachedRoutesStations,
   getCachedRoutesStations,
   getCachedStations,
+  setStationsCheckSum,
 } = require("../cache/memoryCache");
 const StationsBlackList = require("../models/StationsBlackList");
 const StationsRenamed = require("../models/StationsRenamed");
@@ -39,13 +40,16 @@ async function getStations(req, res) {
                       item.properties?.title ||
                       item.name ||
                       "-",
+                    oldTitle: renamedMap[String(item.id)]
+                      ? item.properties?.title
+                      : undefined,
                   },
                 },
               ]
             : acc,
         []
       );
-
+      setStationsCheckSum(Math.random().toString(36).substring(2, 15));
       setCachedStations(data);
       setCachedRoutesStations(null);
     }

@@ -12,13 +12,11 @@ const StationsBlackList = require("../models/StationsBlackList");
 
 const router = express.Router();
 
-// Барлық станциялар (қара тізімсіз)
 router.get("/", async (req, res) => {
   let data = getCachedStations();
   if (!data) {
     const blackList = (await StationsBlackList.find()).map((i) => i.id);
     data = (await getStops()).filter((item) => !blackList.includes(item.id));
-    setCachedStations(data);
   }
 
   const renamed = await StationsRenamed.find();
@@ -27,7 +25,11 @@ router.get("/", async (req, res) => {
   const stations = data.map((st) => ({
     id: st.id,
     title:
-      renamedMap[st.id] || st.properties?.title || st.name || "Без названия",
+      st.properties?.oldTitle ||
+      st.properties?.title ||
+      st.name ||
+      "Без названия",
+    newTitle: renamedMap[st.id],
   }));
 
   res.render("all-stations", { stations });
@@ -39,13 +41,11 @@ router.get("/changed-stations", async (req, res) => {
   res.render("changed-stations", { stations: renamed });
 });
 
-// Белгілі бір станцияны алу
 router.get("/update-station", async (req, res) => {
   let data = getCachedStations();
   if (!data) {
     const blackList = (await StationsBlackList.find()).map((i) => i.id);
     data = (await getStops()).filter((item) => !blackList.includes(item.id));
-    setCachedStations(data);
   }
 
   if (req.query.id) {
@@ -56,7 +56,8 @@ router.get("/update-station", async (req, res) => {
     res.render("update-form", {
       station: {
         id: station.id,
-        title: renamed?.newTitle || station.properties?.title || "Без названия",
+        title: station.properties?.title || "Без названия",
+        newTitle: renamed?.newTitle,
       },
     });
   } else {
@@ -96,7 +97,6 @@ router.put("/", async (req, res) => {
       { upsert: true, new: true }
     );
 
-    // cache refresh
     setStationsCheckSum(Math.random().toString(36).substring(2, 15));
     setStationsRoutes(null);
     setCachedRoutesStations(null);
