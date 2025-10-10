@@ -8,7 +8,10 @@ const path = require("path");
 const fs = require("fs");
 const stationTitles = require("../data/stationTitles.json");
 const moment = require("moment-timezone");
-const { setRouteStopsDistance, getRouteStopsDistance: getCachedRouteStopsDistance } = require("../cache/memoryCache");
+const {
+  setRouteStopsDistance,
+  getRouteStopsDistance: getCachedRouteStopsDistance,
+} = require("../cache/memoryCache");
 
 const vehicles = new Map();
 let stations = new Map();
@@ -92,7 +95,6 @@ async function updateVehiclesStates() {
     }
   }
 
-
   for (const t of tableAll) {
     const key = `${t.srv_id}-${t.uniqueid}`;
     const vehicle = vehicles.get(key);
@@ -104,7 +106,7 @@ async function updateVehiclesStates() {
       ta_len2target >= 0
     ) {
       if (!moment(vehicle.ta_arrivetime).isAfter(vehicle.syncDate)) continue;
-      const distance = vehicle.distance + (ta_len2target || 0)
+      const distance = vehicle.distance + (ta_len2target || 0);
 
       vehicles.set(key, {
         ...vehicle,
@@ -148,11 +150,11 @@ const updateTableCur2 = async () => {
   });
   lastSyncCurTableDate = new Date().valueOf();
 };
-
+updateVehiclesStates();
 async function getVehicles(req, res) {
   try {
     if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 12)
-      await updateVehiclesStates();
+      updateVehiclesStates();
 
     res.json({
       navUpdateTime,
