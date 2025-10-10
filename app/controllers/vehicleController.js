@@ -154,7 +154,7 @@ const updateTableCur2 = async () => {
 const syncData = () => {
   if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 12)
     updateVehiclesStates();
-  let currentHour = now.hour();
+  let currentHour = moment().hour();
   const timeout = currentHour > 21 || currentHour < 7 ? 500000 : 60000;
   setTimeout(() => {
     syncData();
