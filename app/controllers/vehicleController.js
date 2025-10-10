@@ -150,7 +150,19 @@ const updateTableCur2 = async () => {
   });
   lastSyncCurTableDate = new Date().valueOf();
 };
-updateVehiclesStates();
+
+const syncData = () => {
+  if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 12)
+    updateVehiclesStates();
+  let currentHour = now.hour();
+  const timeout = currentHour > 21 || currentHour < 7 ? 500000 : 60000;
+  setTimeout(() => {
+    syncData();
+  }, timeout);
+};
+
+syncData();
+
 async function getVehicles(req, res) {
   try {
     if (!lastSyncDate || (new Date().valueOf() - lastSyncDate) / 1000 > 12)
