@@ -76,7 +76,6 @@ router.put("/", async (req, res) => {
     if (!data) {
       const blackList = (await StationsBlackList.find()).map((i) => i.id);
       data = (await getStops()).filter((item) => !blackList.includes(item.id));
-      setCachedStations(data);
     }
 
     const isExists = data?.find((item) => String(item.id === String(id)));
