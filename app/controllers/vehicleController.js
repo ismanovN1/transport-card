@@ -50,78 +50,82 @@ const getRouteStopsDistance = () => {
 };
 
 async function updateVehiclesStates() {
-  lastSyncDate = new Date().valueOf();
-  const nariads = await getNariad();
-  const sysInfo = await getSysInfo();
-  const units = await getUnits();
-  const tableAll = await getTableAll();
+  try {
+    lastSyncDate = new Date().valueOf();
+    const nariads = await getNariad();
+    const sysInfo = await getSysInfo();
+    const units = await getUnits();
+    const tableAll = await getTableAll();
 
-  if (sysInfo.NavUpdateTime === navUpdateTime) return;
-  navUpdateTime = sysInfo.NavUpdateTime;
+    if (sysInfo.NavUpdateTime === navUpdateTime) return;
+    navUpdateTime = sysInfo.NavUpdateTime;
 
-  vehicles.clear();
-  for (const nariad of nariads) {
-    const distance = parseFloat(nariad.nr_pos);
-    const key = `${nariad.srv_id}-${nariad.uniqueid}`;
-    if (distance >= 0)
-      vehicles.set(key, {
-        id: key,
-        distance,
-        mv_id: nariad.mv_id,
-        mr_num: routeNums[nariad.mr_id],
-        nr_status: nariad.nr_status,
-        rl_racetype: nariad.rl_racetype,
-      });
-  }
-
-  for (const unit of units) {
-    const key = `${unit.srv_id}-${unit.uniqueid}`;
-    if (!["1", "2", "3"].includes(unit.tt_id)) {
-      vehicles.delete(key);
-      continue;
+    vehicles.clear();
+    for (const nariad of nariads) {
+      const distance = parseFloat(nariad.nr_pos);
+      const key = `${nariad.srv_id}-${nariad.uniqueid}`;
+      if (distance >= 0)
+        vehicles.set(key, {
+          id: key,
+          distance,
+          mv_id: nariad.mv_id,
+          mr_num: routeNums[nariad.mr_id],
+          nr_status: nariad.nr_status,
+          rl_racetype: nariad.rl_racetype,
+        });
     }
-    const vehicle = vehicles.get(key);
-    if (vehicle) {
-      vehicles.set(key, {
-        ...vehicle,
-        garageNumber: unit.u_garagnum,
-        stateNum: unit.u_statenum,
-        tt_id: unit.tt_id,
-        model: unit.u_model,
-        coord: [parseFloat(unit.u_long), parseFloat(unit.u_lat)],
-        bearing: unit.u_course,
-        syncDate: moment(unit.u_timenav).toISOString(),
-      });
+
+    for (const unit of units) {
+      const key = `${unit.srv_id}-${unit.uniqueid}`;
+      if (!["1", "2", "3"].includes(unit.tt_id)) {
+        vehicles.delete(key);
+        continue;
+      }
+      const vehicle = vehicles.get(key);
+      if (vehicle) {
+        vehicles.set(key, {
+          ...vehicle,
+          garageNumber: unit.u_garagnum,
+          stateNum: unit.u_statenum,
+          tt_id: unit.tt_id,
+          model: unit.u_model,
+          coord: [parseFloat(unit.u_long), parseFloat(unit.u_lat)],
+          bearing: unit.u_course,
+          syncDate: moment(unit.u_timenav).toISOString(),
+        });
+      }
     }
-  }
 
-  for (const t of tableAll) {
-    const key = `${t.srv_id}-${t.uniqueid}`;
-    const vehicle = vehicles.get(key);
-    const ta_len2target = parseFloat(t.ta_len2target);
+    for (const t of tableAll) {
+      const key = `${t.srv_id}-${t.uniqueid}`;
+      const vehicle = vehicles.get(key);
+      const ta_len2target = parseFloat(t.ta_len2target);
 
-    if (
-      vehicle &&
-      vehicle.rl_racetype === t.rl_racetype &&
-      ta_len2target >= 0
-    ) {
-      if (!moment(vehicle.ta_arrivetime).isAfter(vehicle.syncDate)) continue;
-      const distance = vehicle.distance + (ta_len2target || 0);
+      if (
+        vehicle &&
+        vehicle.rl_racetype === t.rl_racetype &&
+        ta_len2target >= 0
+      ) {
+        if (!moment(vehicle.ta_arrivetime).isAfter(vehicle.syncDate)) continue;
+        const distance = vehicle.distance + (ta_len2target || 0);
 
-      vehicles.set(key, {
-        ...vehicle,
-        nextStops: [
-          ...(vehicle.nextStops || []),
-          {
-            st_id: t.st_id,
-            distance,
-            ta_arrivetime: moment(t.ta_arrivetime).toISOString(),
-          },
-        ].sort((a, b) => (a.distance > b.distance ? 1 : -1)),
-      });
+        vehicles.set(key, {
+          ...vehicle,
+          nextStops: [
+            ...(vehicle.nextStops || []),
+            {
+              st_id: t.st_id,
+              distance,
+              ta_arrivetime: moment(t.ta_arrivetime).toISOString(),
+            },
+          ].sort((a, b) => (a.distance > b.distance ? 1 : -1)),
+        });
+      }
     }
+    lastSyncDate = new Date().valueOf();
+  } catch (error) {
+    console.log("updateVehiclesStates error:", error);
   }
-  lastSyncDate = new Date().valueOf();
 }
 
 const updateTableCur2 = async () => {
