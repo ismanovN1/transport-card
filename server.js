@@ -74,5 +74,5 @@ app.listen(port, () => {
   checkSum();
   setInterval(() => {
     checkSum();
-  }, 1000 * 60 * 180);
+  }, 1000 * 60 * 360);
 });
