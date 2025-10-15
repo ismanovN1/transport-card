@@ -125,6 +125,9 @@ async function updateVehiclesStates() {
     lastSyncDate = new Date().valueOf();
   } catch (error) {
     console.log("updateVehiclesStates error:", error);
+    setTimeout(() => {
+      updateVehiclesStates();
+    }, 3000);
   }
 }
 
