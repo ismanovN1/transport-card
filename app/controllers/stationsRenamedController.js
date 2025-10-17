@@ -14,13 +14,42 @@ const router = express.Router();
 
 router.get("/", async (req, res) => {
   let data = getCachedStations();
-  if (!data) {
-    const blackList = (await StationsBlackList.find()).map((i) => i.id);
-    data = (await getStops()).filter((item) => !blackList.includes(item.id));
-  }
 
-  const renamed = await StationsRenamed.find();
-  const renamedMap = Object.fromEntries(renamed.map((r) => [r.id, r.newTitle]));
+  if (!data?.length) {
+    const blackList = (await StationsBlackList.find()).map((item) => item.id);
+
+    const renamed = await StationsRenamed.find();
+    const renamedMap = Object.fromEntries(
+      renamed.map((r) => [String(r.id), r.newTitle])
+    );
+
+    data = (await getStops()).reduce(
+      (acc, item) =>
+        !blackList.includes(item.id)
+          ? [
+              ...acc,
+              {
+                ...item,
+                properties: {
+                  ...item.properties,
+                  title:
+                    renamedMap[String(item.id)] ||
+                    item.properties?.title ||
+                    item.name ||
+                    "-",
+                  oldTitle: renamedMap[String(item.id)]
+                    ? item.properties?.title
+                    : undefined,
+                },
+              },
+            ]
+          : acc,
+      []
+    );
+    setStationsCheckSum(Math.random().toString(36).substring(2, 15));
+    setCachedStations(data);
+    setCachedRoutesStations(null);
+  }
 
   const stations = data.map((st) => ({
     id: st.id,
@@ -29,7 +58,7 @@ router.get("/", async (req, res) => {
       st.properties?.title ||
       st.name ||
       "Без названия",
-    newTitle: renamedMap[st.id],
+    newTitle: st.properties?.oldTitle ? st.properties?.title : "",
   }));
 
   res.render("all-stations", { stations });
