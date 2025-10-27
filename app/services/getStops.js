@@ -22,14 +22,26 @@ module.exports = async function getStops() {
     trim: true,
   });
 
-  const data = (await parser.parseStringPromise(response))?.tbstops?.row || [];
+  let data = (await parser.parseStringPromise(response))?.tbstops?.row || [];
+
+
+  if (!data?.length) {
+    try {
+      data = require("../data/stops.json");
+    } catch (error) {
+      console.log("read stops.json", error);
+    }
+  }
 
   return data?.map((item) => {
     const { st_long, st_lat, st_id, ok_id, st_title } = item;
     return {
       type: "Feature",
       id: item.st_id,
-      geometry: { type: "Point", coordinates: [Number(st_long), Number(st_lat)] },
+      geometry: {
+        type: "Point",
+        coordinates: [Number(st_long), Number(st_lat)],
+      },
       properties: {
         title: st_title,
         id: st_id,

@@ -31,15 +31,19 @@ const checkSum = async () => {
   try {
     const res = await getChecksum();
 
-    const savedCheckSum = await CheckSum.find({}, { _id: 0, __v: 0, createdAt: 0, updatedAt: 0 }).lean();
+    const savedCheckSum = await CheckSum.find({
+      tableName: "checksum"
+    })
 
-    console.log("Current CheckSum:", res);
-    console.log("Saved CheckSum:", savedCheckSum);
-    
-    if (!savedCheckSum.length || !_.isEqual(res, savedCheckSum)) {
+
+    const stringifiedRes = JSON.stringify(res);
+    if (!savedCheckSum.length || stringifiedRes !== savedCheckSum[0]?.value) {
       buildRouteStore(() => {
-        CheckSum.deleteMany({});
-        CheckSum.insertMany(res);
+        CheckSum.findOneAndUpdate(
+          { tableName: "checksum" },
+          { value: stringifiedRes },
+          { upsert: true, new: true }
+        ).exec();
       });
 
       console.log("CheckSum updated");
