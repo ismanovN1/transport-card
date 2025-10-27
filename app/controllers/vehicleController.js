@@ -6,12 +6,14 @@ const getTableAll = require("../services/getTableAll");
 const routeNums = require("../data/routeNums.json");
 const path = require("path");
 const fs = require("fs");
-const stationTitles = require("../data/stationTitles.json");
 const moment = require("moment-timezone");
 const {
   setRouteStopsDistance,
   getRouteStopsDistance: getCachedRouteStopsDistance,
+  getStationsCheckSum,
+  getCachedStations,
 } = require("../cache/memoryCache");
+const { normalizeStations } = require("./stationsController");
 
 const vehicles = new Map();
 let stations = new Map();
@@ -131,9 +133,27 @@ async function updateVehiclesStates() {
   }
 }
 
+const stationsTitles = new Map()
+
+const updateStationsTitles = async () => {
+  if( !stationsTitles.get('checksum') || stationsTitles.get('checksum') !== getStationsCheckSum()) {
+    let stations = getCachedStations();
+
+    if (!stations || !stations.length) {
+      stations = await normalizeStations();
+    }
+    stations.forEach(item=>{
+      stationsTitles.set(item.properties.id, item.properties.title)
+    })
+
+    stationsTitles.set('checksum', getStationsCheckSum())
+  }
+}
+
 const updateTableCur2 = async () => {
   lastSyncCurTableDate = new Date().valueOf();
   const table = await getTableCur2();
+  await updateStationsTitles()
 
   stations.clear();
 
@@ -148,7 +168,7 @@ const updateTableCur2 = async () => {
         vehicle: vehicle?.stateNum,
         vehicleId: key,
         mr_num: vehicle?.mr_num || routeNums[item.mr_id],
-        nextStation: stationTitles[vehicle?.nextStops?.[0]?.st_id],
+        nextStation: stationsTitles.get(vehicle?.nextStops?.[0]?.st_id),
         arrivetime: moment(item.tc_arrivetime).toISOString(),
         tt_id: vehicle?.tt_id,
       },

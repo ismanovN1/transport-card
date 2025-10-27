@@ -13,45 +13,51 @@ const {
 const StationsBlackList = require("../models/StationsBlackList");
 const StationsRenamed = require("../models/StationsRenamed");
 
+const normalizeStations = async () => {
+  const blackList = (await StationsBlackList.find()).map((item) => item.id);
+
+  const renamed = await StationsRenamed.find();
+  const renamedMap = Object.fromEntries(
+    renamed.map((r) => [String(r.id), r.newTitle])
+  );
+
+  const data = (await getStops()).reduce(
+    (acc, item) =>
+      !blackList.includes(item.id)
+        ? [
+            ...acc,
+            {
+              ...item,
+              properties: {
+                ...item.properties,
+                title:
+                  renamedMap[String(item.id)] ||
+                  item.properties?.title ||
+                  item.name ||
+                  "-",
+                oldTitle: renamedMap[String(item.id)]
+                  ? item.properties?.title
+                  : undefined,
+              },
+            },
+          ]
+        : acc,
+    []
+  );
+  setStationsCheckSum(Math.random().toString(36).substring(2, 15));
+  setCachedStations(data);
+  setCachedRoutesStations(null);
+
+  return data;
+};
+
 async function getStations(req, res) {
   try {
     const { refresh } = req.query;
     let data = getCachedStations();
 
     if (!data || refresh || !data.length) {
-      const blackList = (await StationsBlackList.find()).map((item) => item.id);
-
-      const renamed = await StationsRenamed.find();
-      const renamedMap = Object.fromEntries(
-        renamed.map((r) => [String(r.id), r.newTitle])
-      );
-
-      data = (await getStops()).reduce(
-        (acc, item) =>
-          !blackList.includes(item.id)
-            ? [
-                ...acc,
-                {
-                  ...item,
-                  properties: {
-                    ...item.properties,
-                    title:
-                      renamedMap[String(item.id)] ||
-                      item.properties?.title ||
-                      item.name ||
-                      "-",
-                    oldTitle: renamedMap[String(item.id)]
-                      ? item.properties?.title
-                      : undefined,
-                  },
-                },
-              ]
-            : acc,
-        []
-      );
-      setStationsCheckSum(Math.random().toString(36).substring(2, 15));
-      setCachedStations(data);
-      setCachedRoutesStations(null);
+      data = await normalizeStations();
     }
 
     res.json(data);
@@ -122,4 +128,5 @@ module.exports = {
   getStations,
   fetchStationsRoutes,
   fetchRouteStations,
+  normalizeStations
 };
