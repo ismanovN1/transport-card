@@ -1,4 +1,8 @@
-const { setStationsRoutes, setAllRoutes, setStationsCheckSum } = require("../cache/memoryCache");
+const {
+  setStationsRoutes,
+  setAllRoutes,
+  setStationsCheckSum,
+} = require("../cache/memoryCache");
 const getMarshVariants = require("./getMarshVariants");
 const getMarshes = require("./getMarshes");
 const getRaceCard = require("./getRaceCard");
@@ -6,13 +10,15 @@ const getRaceCoord = require("./getRaceCoord");
 const fs = require("fs");
 const path = require("path");
 
-async function buildRouteStore(onSuccess=undefined) {
+async function buildRouteStore(onSuccess = undefined) {
+  console.log(" === START SYNC === ");
+
   try {
     const routeStore = [];
     const stopsStore = {};
     const marshes = await getMarshes();
     const routes = (await getMarshVariants()).reduce((acc, item) => {
-      const lastMv = acc[item.mt_id];
+      const lastMv = acc[item.mr_id];
       if (lastMv && lastMv.mv_startdate > item.mv_startdate) {
         return acc;
       }
@@ -28,10 +34,23 @@ async function buildRouteStore(onSuccess=undefined) {
 
     for (const key in routes) {
       const { mv_id, mr_id, mr_num, mr_title, tt_id, mt_id } = routes[key];
-
-      const raceCard = await getRaceCard(mv_id);
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      const raceCoord = await getRaceCoord(mv_id);
+      let raceCard;
+      let raceCoord;
+      await (async () => {
+        try {
+          raceCard = await getRaceCard(mv_id);
+          await new Promise((resolve) => setTimeout(resolve, 1200));
+          raceCoord = await getRaceCoord(mv_id);
+        } catch (error) {
+          try {
+            raceCard = await getRaceCard(mv_id);
+            await new Promise((resolve) => setTimeout(resolve, 1200));
+            raceCoord = await getRaceCoord(mv_id);
+          } catch (error) {
+            throw new Error("getRaceCard, getRaceCoord -> ERROR");
+          }
+        }
+      })();
 
       const directions = ["A", "B"];
       const [A, B] = (mr_title || "").split(" - ");

@@ -1816,7 +1816,7 @@
     "mv_id": "583",
     "mr_id": "3",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "22",
     "mr_title": "Ул.Можайского - жилой массив Ферма-2",
     "directions": {
@@ -5117,10 +5117,10 @@
     }
   },
   {
-    "mv_id": "565",
+    "mv_id": "636",
     "mr_id": "4",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "45",
     "mr_title": "Жилой массив Ферма-2 - Су Анасы",
     "directions": {
@@ -8181,7 +8181,7 @@
           {
             "order": "67",
             "st_id": "238",
-            "distance": 0.921,
+            "distance": 0.279,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -8189,66 +8189,75 @@
           },
           {
             "order": "68",
+            "st_id": "720",
+            "distance": 0.643,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 37.825
+          },
+          {
+            "order": "69",
             "st_id": "85",
             "distance": 1.19,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 38.467
+            "distanceToStop": 38.468
           },
           {
-            "order": "69",
+            "order": "70",
             "st_id": "86",
             "distance": 0.291,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 39.657
+            "distanceToStop": 39.658
           },
           {
-            "order": "70",
+            "order": "71",
             "st_id": "87",
             "distance": 0.699,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 39.94799999999999
+            "distanceToStop": 39.949
           },
           {
-            "order": "71",
+            "order": "72",
             "st_id": "88",
             "distance": 0.318,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 40.64699999999999
+            "distanceToStop": 40.647999999999996
           },
           {
-            "order": "72",
+            "order": "73",
             "st_id": "89",
             "distance": 0.391,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 40.96499999999999
+            "distanceToStop": 40.965999999999994
           },
           {
-            "order": "73",
+            "order": "74",
             "st_id": "1779",
             "distance": 0.25,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 41.35599999999999
+            "distanceToStop": 41.35699999999999
           },
           {
-            "order": "74",
+            "order": "75",
             "st_id": "132",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 41.60599999999999
+            "distanceToStop": 41.60699999999999
           }
         ],
         "geometry": [
@@ -14031,7 +14040,7 @@
     "mv_id": "432",
     "mr_id": "7",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "35а",
     "mr_title": "Станция метро Площадь Г.Тукая - Авторынок (кольцевой)",
     "directions": {
@@ -17005,10 +17014,10 @@
     }
   },
   {
-    "mv_id": "542",
+    "mv_id": "639",
     "mr_id": "9",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "75",
     "mr_title": "Комбинат Здоровье - Универсам 2",
     "directions": {
@@ -17143,7 +17152,7 @@
           {
             "order": "15",
             "st_id": "321",
-            "distance": 0.419,
+            "distance": 0.293,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -17151,57 +17160,66 @@
           },
           {
             "order": "16",
+            "st_id": "1788",
+            "distance": 0.126,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 9.079
+          },
+          {
+            "order": "17",
             "st_id": "322",
             "distance": 0.491,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.205000000000002
-          },
-          {
-            "order": "17",
-            "st_id": "323",
-            "distance": 0.811,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 9.696000000000002
+            "distanceToStop": 9.205
           },
           {
             "order": "18",
+            "st_id": "323",
+            "distance": 0.812,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 9.696
+          },
+          {
+            "order": "19",
             "st_id": "324",
             "distance": 0.733,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 10.507000000000001
+            "distanceToStop": 10.508
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "13",
             "distance": 0.75,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.240000000000002
+            "distanceToStop": 11.241
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "326",
             "distance": 0.307,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.990000000000002
+            "distanceToStop": 11.991
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "327",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 12.297000000000002
+            "distanceToStop": 12.298
           }
         ],
         "geometry": [
@@ -17742,8 +17760,8 @@
             55.829401
           ],
           [
-            49.134082,
-            55.831842
+            49.134077,
+            55.831691
           ],
           [
             49.134061,
@@ -18128,8 +18146,8 @@
             55.832685
           ],
           [
-            49.133612,
-            55.831818
+            49.133551,
+            55.831701
           ],
           [
             49.133717,
@@ -20286,7 +20304,7 @@
     "mv_id": "434",
     "mr_id": "11",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "29",
     "mr_title": "Строительный институт - ул.Гудованцева",
     "directions": {
@@ -22317,7 +22335,7 @@
     }
   },
   {
-    "mv_id": "626",
+    "mv_id": "644",
     "mr_id": "13",
     "tt_id": "1",
     "mt_id": "1",
@@ -23636,7 +23654,7 @@
           {
             "order": "2",
             "st_id": "394",
-            "distance": 0.476,
+            "distance": 0.447,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
@@ -23645,20 +23663,20 @@
           {
             "order": "3",
             "st_id": "96",
-            "distance": 0.285,
+            "distance": 0.4,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 0.875
+            "distanceToStop": 0.8460000000000001
           },
           {
             "order": "4",
             "st_id": "97",
-            "distance": 0.642,
+            "distance": 0.557,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 1.16
+            "distanceToStop": 1.246
           },
           {
             "order": "5",
@@ -23667,7 +23685,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 1.802
+            "distanceToStop": 1.803
           },
           {
             "order": "6",
@@ -23676,7 +23694,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 2.418
+            "distanceToStop": 2.419
           },
           {
             "order": "7",
@@ -23685,7 +23703,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.4130000000000003
+            "distanceToStop": 3.414
           },
           {
             "order": "8",
@@ -23694,7 +23712,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.974
+            "distanceToStop": 3.975
           },
           {
             "order": "9",
@@ -23703,7 +23721,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.369
+            "distanceToStop": 4.37
           },
           {
             "order": "10",
@@ -23712,7 +23730,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.707
+            "distanceToStop": 4.708
           },
           {
             "order": "11",
@@ -23721,7 +23739,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.6979999999999995
+            "distanceToStop": 5.699
           },
           {
             "order": "12",
@@ -23730,7 +23748,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 6.262
+            "distanceToStop": 6.263
           },
           {
             "order": "13",
@@ -23739,7 +23757,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.712999999999999
+            "distanceToStop": 6.7139999999999995
           },
           {
             "order": "14",
@@ -23748,7 +23766,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.215999999999999
+            "distanceToStop": 7.217
           },
           {
             "order": "15",
@@ -23757,7 +23775,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.019
+            "distanceToStop": 8.02
           },
           {
             "order": "16",
@@ -23766,7 +23784,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.656
+            "distanceToStop": 8.657
           },
           {
             "order": "17",
@@ -23775,7 +23793,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.023
+            "distanceToStop": 9.024000000000001
           },
           {
             "order": "18",
@@ -23784,7 +23802,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 9.481
+            "distanceToStop": 9.482000000000001
           },
           {
             "order": "19",
@@ -23793,7 +23811,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.052
+            "distanceToStop": 10.053
           },
           {
             "order": "20",
@@ -23802,7 +23820,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 10.712
+            "distanceToStop": 10.713000000000001
           },
           {
             "order": "21",
@@ -23811,7 +23829,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.096
+            "distanceToStop": 11.097000000000001
           },
           {
             "order": "22",
@@ -23820,7 +23838,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.563
+            "distanceToStop": 11.564000000000002
           },
           {
             "order": "23",
@@ -23829,7 +23847,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.805
+            "distanceToStop": 11.806000000000001
           },
           {
             "order": "24",
@@ -23838,7 +23856,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.149
+            "distanceToStop": 12.15
           },
           {
             "order": "25",
@@ -23847,7 +23865,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 14.328999999999999
+            "distanceToStop": 14.33
           },
           {
             "order": "26",
@@ -23856,7 +23874,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.271999999999998
+            "distanceToStop": 15.273
           },
           {
             "order": "27",
@@ -23865,7 +23883,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.102999999999998
+            "distanceToStop": 16.104
           },
           {
             "order": "28",
@@ -23874,7 +23892,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.517999999999997
+            "distanceToStop": 16.519
           },
           {
             "order": "29",
@@ -23883,7 +23901,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.074999999999996
+            "distanceToStop": 17.075999999999997
           },
           {
             "order": "30",
@@ -23892,7 +23910,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.591999999999995
+            "distanceToStop": 17.592999999999996
           },
           {
             "order": "31",
@@ -23901,7 +23919,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.794999999999995
+            "distanceToStop": 17.795999999999996
           },
           {
             "order": "32",
@@ -23910,7 +23928,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.224999999999994
+            "distanceToStop": 18.225999999999996
           },
           {
             "order": "33",
@@ -23919,19 +23937,28 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.853999999999996
+            "distanceToStop": 18.854999999999997
           },
           {
             "order": "34",
             "st_id": "1818",
-            "distance": 0.876,
+            "distance": 0.388,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.354999999999997
+            "distanceToStop": 19.355999999999998
           },
           {
             "order": "35",
+            "st_id": "1939",
+            "distance": 0.487,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 19.744
+          },
+          {
+            "order": "36",
             "st_id": "422",
             "distance": 0,
             "isFinal": true,
@@ -31862,7 +31889,7 @@
     "mv_id": "421",
     "mr_id": "17",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "1",
     "mr_title": "Речной порт - жилой массив Дербышки",
     "directions": {
@@ -33711,12 +33738,12 @@
             55.79243
           ],
           [
-            49.155695,
-            55.792482
+            49.156056,
+            55.792432
           ],
           [
-            49.15493,
-            55.792559
+            49.154935,
+            55.792538
           ],
           [
             49.153514,
@@ -33939,16 +33966,16 @@
             55.782545
           ],
           [
-            49.115093,
-            55.78222
+            49.114928,
+            55.782094
           ],
           [
-            49.114422,
-            55.781739
+            49.114392,
+            55.781705
           ],
           [
-            49.113752,
-            55.781254
+            49.11377,
+            55.78124
           ],
           [
             49.112734,
@@ -34071,10 +34098,10 @@
     }
   },
   {
-    "mv_id": "439",
+    "mv_id": "642",
     "mr_id": "19",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "60",
     "mr_title": "Ул.Химическая - жилой массив Дербышки",
     "directions": {
@@ -34227,7 +34254,7 @@
           {
             "order": "17",
             "st_id": "458",
-            "distance": 0.726,
+            "distance": 0.254,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
@@ -34235,15 +34262,24 @@
           },
           {
             "order": "18",
+            "st_id": "640",
+            "distance": 0.472,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 7.091999999999999
+          },
+          {
+            "order": "19",
             "st_id": "464",
             "distance": 0.99,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.563999999999999
+            "distanceToStop": 7.563999999999998
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "466",
             "distance": 0.722,
             "isFinal": false,
@@ -34252,7 +34288,7 @@
             "distanceToStop": 8.553999999999998
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "367",
             "distance": 0.78,
             "isFinal": false,
@@ -34261,7 +34297,7 @@
             "distanceToStop": 9.275999999999998
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "599",
             "distance": 0.59,
             "isFinal": false,
@@ -34270,7 +34306,7 @@
             "distanceToStop": 10.055999999999997
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "529",
             "distance": 0.309,
             "isFinal": false,
@@ -34279,7 +34315,7 @@
             "distanceToStop": 10.645999999999997
           },
           {
-            "order": "23",
+            "order": "24",
             "st_id": "519",
             "distance": 0.772,
             "isFinal": false,
@@ -34288,7 +34324,7 @@
             "distanceToStop": 10.954999999999997
           },
           {
-            "order": "24",
+            "order": "25",
             "st_id": "427",
             "distance": 0.388,
             "isFinal": false,
@@ -34297,7 +34333,7 @@
             "distanceToStop": 11.726999999999997
           },
           {
-            "order": "25",
+            "order": "26",
             "st_id": "428",
             "distance": 0.418,
             "isFinal": false,
@@ -34306,7 +34342,7 @@
             "distanceToStop": 12.114999999999997
           },
           {
-            "order": "26",
+            "order": "27",
             "st_id": "307",
             "distance": 0.497,
             "isFinal": false,
@@ -34315,7 +34351,7 @@
             "distanceToStop": 12.532999999999996
           },
           {
-            "order": "27",
+            "order": "28",
             "st_id": "308",
             "distance": 0.83,
             "isFinal": false,
@@ -34324,7 +34360,7 @@
             "distanceToStop": 13.029999999999996
           },
           {
-            "order": "28",
+            "order": "29",
             "st_id": "429",
             "distance": 0.845,
             "isFinal": false,
@@ -34333,7 +34369,7 @@
             "distanceToStop": 13.859999999999996
           },
           {
-            "order": "29",
+            "order": "30",
             "st_id": "430",
             "distance": 0.857,
             "isFinal": false,
@@ -34342,7 +34378,7 @@
             "distanceToStop": 14.704999999999997
           },
           {
-            "order": "30",
+            "order": "31",
             "st_id": "16",
             "distance": 0.411,
             "isFinal": false,
@@ -34351,175 +34387,175 @@
             "distanceToStop": 15.561999999999996
           },
           {
-            "order": "31",
+            "order": "32",
             "st_id": "17",
-            "distance": 0.662,
+            "distance": 0.664,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
             "distanceToStop": 15.972999999999995
           },
           {
-            "order": "32",
+            "order": "33",
             "st_id": "218",
-            "distance": 1.01,
+            "distance": 1.011,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 16.634999999999994
+            "distanceToStop": 16.636999999999997
           },
           {
-            "order": "33",
+            "order": "34",
             "st_id": "18",
             "distance": 1.006,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.644999999999996
+            "distanceToStop": 17.647999999999996
           },
           {
-            "order": "34",
+            "order": "35",
             "st_id": "276",
             "distance": 0.198,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.650999999999996
+            "distanceToStop": 18.653999999999996
           },
           {
-            "order": "35",
+            "order": "36",
             "st_id": "277",
             "distance": 0.627,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.848999999999997
+            "distanceToStop": 18.851999999999997
           },
           {
-            "order": "36",
+            "order": "37",
             "st_id": "437",
             "distance": 0.29,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.475999999999996
+            "distanceToStop": 19.478999999999996
           },
           {
-            "order": "37",
+            "order": "38",
             "st_id": "524",
             "distance": 0.7,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.765999999999995
-          },
-          {
-            "order": "38",
-            "st_id": "523",
-            "distance": 0.47,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": true,
-            "distanceToStop": 20.465999999999994
+            "distanceToStop": 19.768999999999995
           },
           {
             "order": "39",
+            "st_id": "523",
+            "distance": 0.467,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": true,
+            "distanceToStop": 20.468999999999994
+          },
+          {
+            "order": "40",
             "st_id": "522",
-            "distance": 0.285,
+            "distance": 0.288,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
             "distanceToStop": 20.935999999999993
           },
           {
-            "order": "40",
+            "order": "41",
             "st_id": "521",
-            "distance": 0.714,
+            "distance": 0.713,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.220999999999993
+            "distanceToStop": 21.223999999999993
           },
           {
-            "order": "41",
+            "order": "42",
             "st_id": "491",
             "distance": 0.432,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.93499999999999
+            "distanceToStop": 21.936999999999994
           },
           {
-            "order": "42",
+            "order": "43",
             "st_id": "1804",
             "distance": 0.566,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.36699999999999
+            "distanceToStop": 22.368999999999993
           },
           {
-            "order": "43",
+            "order": "44",
             "st_id": "493",
             "distance": 0.787,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.93299999999999
+            "distanceToStop": 22.93499999999999
           },
           {
-            "order": "44",
+            "order": "45",
             "st_id": "1760",
             "distance": 0.85,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.719999999999988
+            "distanceToStop": 23.72199999999999
           },
           {
-            "order": "45",
+            "order": "46",
             "st_id": "495",
             "distance": 0.531,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.56999999999999
+            "distanceToStop": 24.571999999999992
           },
           {
-            "order": "46",
+            "order": "47",
             "st_id": "497",
             "distance": 0.358,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.10099999999999
+            "distanceToStop": 25.10299999999999
           },
           {
-            "order": "47",
+            "order": "48",
             "st_id": "499",
             "distance": 0.647,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.45899999999999
+            "distanceToStop": 25.46099999999999
           },
           {
-            "order": "48",
+            "order": "49",
             "st_id": "500",
             "distance": 0.809,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.105999999999987
+            "distanceToStop": 26.10799999999999
           },
           {
-            "order": "49",
+            "order": "50",
             "st_id": "1601",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 26.91499999999999
+            "distanceToStop": 26.91699999999999
           }
         ],
         "geometry": [
@@ -37169,7 +37205,7 @@
     }
   },
   {
-    "mv_id": "495",
+    "mv_id": "640",
     "mr_id": "21",
     "tt_id": "1",
     "mt_id": "3",
@@ -38229,7 +38265,7 @@
           {
             "order": "12",
             "st_id": "609",
-            "distance": 0.273,
+            "distance": 0.862,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -38242,7 +38278,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.245
+            "distanceToStop": 11.834
           },
           {
             "order": "14",
@@ -38251,7 +38287,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.527
+            "distanceToStop": 12.116
           },
           {
             "order": "15",
@@ -38260,7 +38296,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.994
+            "distanceToStop": 12.583
           },
           {
             "order": "16",
@@ -38269,7 +38305,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.417
+            "distanceToStop": 13.006
           },
           {
             "order": "17",
@@ -38278,7 +38314,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 13.079
+            "distanceToStop": 13.668000000000001
           },
           {
             "order": "18",
@@ -38287,7 +38323,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.611
+            "distanceToStop": 14.200000000000001
           },
           {
             "order": "19",
@@ -38296,7 +38332,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.008000000000001
+            "distanceToStop": 14.597000000000001
           },
           {
             "order": "20",
@@ -38305,7 +38341,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.73
+            "distanceToStop": 15.319
           },
           {
             "order": "21",
@@ -38314,7 +38350,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.498000000000001
+            "distanceToStop": 16.087
           },
           {
             "order": "22",
@@ -38323,25 +38359,43 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.854000000000001
+            "distanceToStop": 16.443
           },
           {
             "order": "23",
             "st_id": "57",
-            "distance": 1.757,
+            "distance": 0.538,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.469
+            "distanceToStop": 17.058
           },
           {
             "order": "24",
+            "st_id": "58",
+            "distance": 0.753,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 17.596
+          },
+          {
+            "order": "25",
+            "st_id": "118",
+            "distance": 0.467,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 18.349
+          },
+          {
+            "order": "26",
             "st_id": "641",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 18.226000000000003
+            "distanceToStop": 18.816
           }
         ],
         "geometry": [
@@ -39009,7 +39063,7 @@
     "mv_id": "613",
     "mr_id": "22",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "46",
     "mr_title": "Жилой комплекс Экопарк Дубрава - Профилакторий",
     "directions": {
@@ -43326,7 +43380,7 @@
     "mv_id": "614",
     "mr_id": "23",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "72",
     "mr_title": "Театр им.Г.Камала - Профилакторий",
     "directions": {
@@ -46165,10 +46219,10 @@
     }
   },
   {
-    "mv_id": "632",
+    "mv_id": "635",
     "mr_id": "24",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "33",
     "mr_title": "Ул.Ленинградская - жилой массив Ферма-2",
     "directions": {
@@ -46555,7 +46609,7 @@
           {
             "order": "43",
             "st_id": "238",
-            "distance": 0.921,
+            "distance": 0.279,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -46563,66 +46617,75 @@
           },
           {
             "order": "44",
+            "st_id": "720",
+            "distance": 0.643,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 24.811999999999998
+          },
+          {
+            "order": "45",
             "st_id": "85",
             "distance": 1.19,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 25.453999999999997
+            "distanceToStop": 25.455
           },
           {
-            "order": "45",
+            "order": "46",
             "st_id": "86",
             "distance": 0.291,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.644
+            "distanceToStop": 26.645
           },
           {
-            "order": "46",
+            "order": "47",
             "st_id": "87",
             "distance": 0.699,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.935
+            "distanceToStop": 26.936
           },
           {
-            "order": "47",
+            "order": "48",
             "st_id": "88",
             "distance": 0.318,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.634
+            "distanceToStop": 27.635
           },
           {
-            "order": "48",
+            "order": "49",
             "st_id": "89",
             "distance": 0.391,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.952
+            "distanceToStop": 27.953000000000003
           },
           {
-            "order": "49",
+            "order": "50",
             "st_id": "1779",
             "distance": 0.25,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.343000000000004
+            "distanceToStop": 28.344
           },
           {
-            "order": "50",
+            "order": "51",
             "st_id": "132",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 28.593000000000004
+            "distanceToStop": 28.594
           }
         ],
         "geometry": [
@@ -49548,7 +49611,7 @@
     "mv_id": "574",
     "mr_id": "25",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "53",
     "mr_title": "Речной порт - ул.Ленинградская",
     "directions": {
@@ -50902,7 +50965,7 @@
           {
             "order": "11",
             "st_id": "125",
-            "distance": 0.742,
+            "distance": 0.745,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -50911,20 +50974,20 @@
           {
             "order": "12",
             "st_id": "1911",
-            "distance": 0.951,
+            "distance": 0.949,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.9639999999999995
+            "distanceToStop": 5.967
           },
           {
             "order": "13",
             "st_id": "1910",
-            "distance": 0.409,
+            "distance": 0.408,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.914999999999999
+            "distanceToStop": 6.9159999999999995
           },
           {
             "order": "14",
@@ -50933,7 +50996,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.323999999999999
+            "distanceToStop": 7.324
           },
           {
             "order": "15",
@@ -50942,7 +51005,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.044999999999998
+            "distanceToStop": 8.045
           },
           {
             "order": "16",
@@ -50951,7 +51014,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 8.563999999999998
+            "distanceToStop": 8.564
           },
           {
             "order": "17",
@@ -50960,7 +51023,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.887999999999998
+            "distanceToStop": 8.888
           },
           {
             "order": "18",
@@ -50969,7 +51032,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.440999999999999
+            "distanceToStop": 9.441
           },
           {
             "order": "19",
@@ -50978,7 +51041,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.966999999999999
+            "distanceToStop": 9.967
           },
           {
             "order": "20",
@@ -50987,7 +51050,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 12.886999999999999
+            "distanceToStop": 12.887
           },
           {
             "order": "21",
@@ -50996,7 +51059,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.383999999999999
+            "distanceToStop": 13.384
           },
           {
             "order": "22",
@@ -51005,7 +51068,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.719999999999999
+            "distanceToStop": 13.72
           },
           {
             "order": "23",
@@ -51014,7 +51077,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.133
+            "distanceToStop": 14.133000000000001
           },
           {
             "order": "24",
@@ -51023,7 +51086,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 14.337
+            "distanceToStop": 14.337000000000002
           },
           {
             "order": "25",
@@ -51032,7 +51095,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.758
+            "distanceToStop": 14.758000000000001
           },
           {
             "order": "26",
@@ -51041,7 +51104,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.175999999999998
+            "distanceToStop": 15.176
           },
           {
             "order": "27",
@@ -51050,7 +51113,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.883
+            "distanceToStop": 15.883000000000001
           }
         ],
         "geometry": [
@@ -55241,10 +55304,10 @@
     }
   },
   {
-    "mv_id": "624",
+    "mv_id": "643",
     "mr_id": "30",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "36а",
     "mr_title": "Жилой массив Залесный - Новониколаевский",
     "directions": {
@@ -55592,7 +55655,7 @@
           {
             "order": "5",
             "st_id": "574",
-            "distance": 1.718,
+            "distance": 0.744,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -55600,30 +55663,39 @@
           },
           {
             "order": "6",
+            "st_id": "572",
+            "distance": 0.975,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 15.427
+          },
+          {
+            "order": "7",
             "st_id": "571",
             "distance": 0.686,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.401
+            "distanceToStop": 16.402
           },
           {
-            "order": "7",
+            "order": "8",
             "st_id": "573",
             "distance": 0.722,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.087
+            "distanceToStop": 17.088
           },
           {
-            "order": "8",
+            "order": "9",
             "st_id": "575",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 17.809
+            "distanceToStop": 17.810000000000002
           }
         ],
         "geometry": [
@@ -56104,10 +56176,10 @@
     }
   },
   {
-    "mv_id": "496",
+    "mv_id": "648",
     "mr_id": "31",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "93",
     "mr_title": "КДК им. Ленина - н.п.Берновые Ковали",
     "directions": {
@@ -56188,7 +56260,7 @@
           {
             "order": "9",
             "st_id": "1849",
-            "distance": 0.641,
+            "distance": 0.486,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -56196,12 +56268,12 @@
           },
           {
             "order": "10",
-            "st_id": "1850",
-            "distance": 0.489,
+            "st_id": "606",
+            "distance": 0.44,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.888
+            "distanceToStop": 4.733
           },
           {
             "order": "11",
@@ -56210,7 +56282,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.377
+            "distanceToStop": 5.173
           },
           {
             "order": "12",
@@ -56219,7 +56291,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.827
+            "distanceToStop": 5.623
           },
           {
             "order": "13",
@@ -56228,7 +56300,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.345
+            "distanceToStop": 6.141
           },
           {
             "order": "14",
@@ -56237,7 +56309,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 6.809
+            "distanceToStop": 6.605
           },
           {
             "order": "15",
@@ -56246,7 +56318,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.457
+            "distanceToStop": 7.253
           },
           {
             "order": "16",
@@ -56255,7 +56327,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.128
+            "distanceToStop": 7.924
           },
           {
             "order": "17",
@@ -56264,7 +56336,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.084
+            "distanceToStop": 8.88
           },
           {
             "order": "18",
@@ -56273,7 +56345,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 9.815999999999999
+            "distanceToStop": 9.612
           },
           {
             "order": "19",
@@ -56282,7 +56354,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.248
+            "distanceToStop": 10.044
           },
           {
             "order": "20",
@@ -56291,7 +56363,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.905
+            "distanceToStop": 10.701
           },
           {
             "order": "21",
@@ -56300,7 +56372,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.350999999999999
+            "distanceToStop": 11.147
           },
           {
             "order": "22",
@@ -56309,7 +56381,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.892
+            "distanceToStop": 11.688
           },
           {
             "order": "23",
@@ -56318,7 +56390,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.962
+            "distanceToStop": 12.758000000000001
           },
           {
             "order": "24",
@@ -56327,7 +56399,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 14.05
+            "distanceToStop": 13.846
           },
           {
             "order": "25",
@@ -56336,7 +56408,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.595
+            "distanceToStop": 17.391
           },
           {
             "order": "26",
@@ -56345,7 +56417,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.837999999999997
+            "distanceToStop": 17.633999999999997
           },
           {
             "order": "27",
@@ -56354,7 +56426,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.276999999999997
+            "distanceToStop": 19.072999999999997
           },
           {
             "order": "28",
@@ -56363,7 +56435,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.906
+            "distanceToStop": 19.701999999999998
           },
           {
             "order": "29",
@@ -56372,7 +56444,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.694
+            "distanceToStop": 20.49
           },
           {
             "order": "30",
@@ -56381,7 +56453,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 22.291999999999998
+            "distanceToStop": 22.087999999999997
           }
         ],
         "geometry": [
@@ -56568,18 +56640,6 @@
           [
             49.096608,
             55.871449
-          ],
-          [
-            49.098185,
-            55.871534
-          ],
-          [
-            49.097307,
-            55.875692
-          ],
-          [
-            49.096927,
-            55.875668
           ],
           [
             49.095773,
@@ -63819,7 +63879,7 @@
     "mv_id": "515",
     "mr_id": "35",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "91",
     "mr_title": "ЦУМ - Высокая Гора (АРЗ)",
     "directions": {
@@ -66291,12 +66351,12 @@
             55.79243
           ],
           [
-            49.155695,
-            55.792482
+            49.156056,
+            55.792432
           ],
           [
-            49.15493,
-            55.792559
+            49.154935,
+            55.792538
           ],
           [
             49.153514,
@@ -66634,7 +66694,7 @@
     "mv_id": "430",
     "mr_id": "36",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "2",
     "mr_num": "34",
     "mr_title": "Жилой массив Ферма -2 - ДК им.Саид-Галеева",
     "directions": {
@@ -70387,7 +70447,7 @@
     "mv_id": "420",
     "mr_id": "39",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "4",
     "mr_title": "Жилой массив Ферма-2 - жилой массив Новая Сосновка",
     "directions": {
@@ -72723,12 +72783,12 @@
             55.79243
           ],
           [
-            49.155695,
-            55.792482
+            49.156056,
+            55.792432
           ],
           [
-            49.15493,
-            55.792559
+            49.154935,
+            55.792538
           ],
           [
             49.153514,
@@ -75515,10 +75575,10 @@
     }
   },
   {
-    "mv_id": "612",
+    "mv_id": "645",
     "mr_id": "41",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "36",
     "mr_title": "Вещевой рынок - Осиново",
     "directions": {
@@ -75797,7 +75857,7 @@
           {
             "order": "31",
             "st_id": "569",
-            "distance": 0.582,
+            "distance": 0.583,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -75810,7 +75870,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.99
+            "distanceToStop": 22.990999999999996
           },
           {
             "order": "33",
@@ -75819,7 +75879,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.676
+            "distanceToStop": 23.676999999999996
           },
           {
             "order": "34",
@@ -75828,7 +75888,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 24.395
+            "distanceToStop": 24.395999999999997
           },
           {
             "order": "35",
@@ -75837,7 +75897,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.115
+            "distanceToStop": 25.115999999999996
           },
           {
             "order": "36",
@@ -75846,70 +75906,61 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.843999999999998
+            "distanceToStop": 25.844999999999995
           },
           {
             "order": "37",
             "st_id": "1656",
-            "distance": 0.327,
+            "distance": 0.255,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.511999999999997
+            "distanceToStop": 26.512999999999995
           },
           {
             "order": "38",
             "st_id": "1660",
-            "distance": 0.297,
+            "distance": 0.638,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.839
+            "distanceToStop": 26.767999999999994
           },
           {
             "order": "39",
-            "st_id": "1658",
-            "distance": 0.269,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 27.136
-          },
-          {
-            "order": "40",
             "st_id": "749",
             "distance": 0.393,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.404999999999998
+            "distanceToStop": 27.405999999999995
           },
           {
-            "order": "41",
+            "order": "40",
             "st_id": "750",
             "distance": 0.569,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.798
+            "distanceToStop": 27.798999999999996
           },
           {
-            "order": "42",
+            "order": "41",
             "st_id": "1147",
             "distance": 0.668,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.366999999999997
+            "distanceToStop": 28.367999999999995
           },
           {
-            "order": "43",
+            "order": "42",
             "st_id": "1845",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 29.034999999999997
+            "distanceToStop": 29.035999999999994
           }
         ],
         "geometry": [
@@ -76722,28 +76773,28 @@
             55.845984
           ],
           [
-            48.923747,
-            55.846076
+            48.923782,
+            55.846069
           ],
           [
             48.923077,
             55.846164
           ],
           [
-            48.91926,
-            55.846647
+            48.919684,
+            55.846542
           ],
           [
-            48.917034,
-            55.846957
+            48.917044,
+            55.846895
           ],
           [
-            48.915718,
-            55.847128
+            48.915698,
+            55.847075
           ],
           [
-            48.914345,
-            55.847306
+            48.914362,
+            55.84725
           ],
           [
             48.911575,
@@ -76975,7 +77026,7 @@
           {
             "order": "4",
             "st_id": "820",
-            "distance": 0.19,
+            "distance": 0.374,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -76983,24 +77034,15 @@
           },
           {
             "order": "5",
-            "st_id": "1659",
-            "distance": 0.372,
+            "st_id": "1661",
+            "distance": 0.607,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 2.025
+            "distanceToStop": 2.209
           },
           {
             "order": "6",
-            "st_id": "1661",
-            "distance": 0.419,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 2.397
-          },
-          {
-            "order": "7",
             "st_id": "1657",
             "distance": 0.755,
             "isFinal": false,
@@ -77009,7 +77051,7 @@
             "distanceToStop": 2.816
           },
           {
-            "order": "8",
+            "order": "7",
             "st_id": "1809",
             "distance": 0.468,
             "isFinal": false,
@@ -77018,7 +77060,7 @@
             "distanceToStop": 3.5709999999999997
           },
           {
-            "order": "9",
+            "order": "8",
             "st_id": "880",
             "distance": 0.82,
             "isFinal": false,
@@ -77027,7 +77069,7 @@
             "distanceToStop": 4.039
           },
           {
-            "order": "10",
+            "order": "9",
             "st_id": "1837",
             "distance": 1.98,
             "isFinal": false,
@@ -77036,7 +77078,7 @@
             "distanceToStop": 4.859
           },
           {
-            "order": "11",
+            "order": "10",
             "st_id": "576",
             "distance": 0.672,
             "isFinal": false,
@@ -77045,7 +77087,7 @@
             "distanceToStop": 6.839
           },
           {
-            "order": "12",
+            "order": "11",
             "st_id": "574",
             "distance": 0.744,
             "isFinal": false,
@@ -77054,7 +77096,7 @@
             "distanceToStop": 7.511
           },
           {
-            "order": "13",
+            "order": "12",
             "st_id": "572",
             "distance": 0.522,
             "isFinal": false,
@@ -77063,7 +77105,7 @@
             "distanceToStop": 8.255
           },
           {
-            "order": "14",
+            "order": "13",
             "st_id": "570",
             "distance": 2.672,
             "isFinal": false,
@@ -77072,7 +77114,7 @@
             "distanceToStop": 8.777000000000001
           },
           {
-            "order": "15",
+            "order": "14",
             "st_id": "568",
             "distance": 4.171,
             "isFinal": false,
@@ -77081,7 +77123,7 @@
             "distanceToStop": 11.449000000000002
           },
           {
-            "order": "16",
+            "order": "15",
             "st_id": "566",
             "distance": 0.579,
             "isFinal": false,
@@ -77090,7 +77132,7 @@
             "distanceToStop": 15.620000000000001
           },
           {
-            "order": "17",
+            "order": "16",
             "st_id": "564",
             "distance": 0.378,
             "isFinal": false,
@@ -77099,7 +77141,7 @@
             "distanceToStop": 16.199
           },
           {
-            "order": "18",
+            "order": "17",
             "st_id": "130",
             "distance": 0.362,
             "isFinal": false,
@@ -77108,7 +77150,7 @@
             "distanceToStop": 16.577
           },
           {
-            "order": "19",
+            "order": "18",
             "st_id": "170",
             "distance": 0.413,
             "isFinal": false,
@@ -77117,7 +77159,7 @@
             "distanceToStop": 16.939
           },
           {
-            "order": "20",
+            "order": "19",
             "st_id": "1910",
             "distance": 1.002,
             "isFinal": false,
@@ -77126,7 +77168,7 @@
             "distanceToStop": 17.352
           },
           {
-            "order": "21",
+            "order": "20",
             "st_id": "1194",
             "distance": 0.433,
             "isFinal": false,
@@ -77135,7 +77177,7 @@
             "distanceToStop": 18.354
           },
           {
-            "order": "22",
+            "order": "21",
             "st_id": "214",
             "distance": 0.274,
             "isFinal": false,
@@ -77144,7 +77186,7 @@
             "distanceToStop": 18.787
           },
           {
-            "order": "23",
+            "order": "22",
             "st_id": "215",
             "distance": 0.265,
             "isFinal": false,
@@ -77153,7 +77195,7 @@
             "distanceToStop": 19.061
           },
           {
-            "order": "24",
+            "order": "23",
             "st_id": "216",
             "distance": 0.565,
             "isFinal": false,
@@ -77162,7 +77204,7 @@
             "distanceToStop": 19.326
           },
           {
-            "order": "25",
+            "order": "24",
             "st_id": "54",
             "distance": 0.306,
             "isFinal": false,
@@ -77171,7 +77213,7 @@
             "distanceToStop": 19.891000000000002
           },
           {
-            "order": "26",
+            "order": "25",
             "st_id": "55",
             "distance": 0.2,
             "isFinal": false,
@@ -77180,7 +77222,7 @@
             "distanceToStop": 20.197000000000003
           },
           {
-            "order": "27",
+            "order": "26",
             "st_id": "56",
             "distance": 0.343,
             "isFinal": false,
@@ -77189,7 +77231,7 @@
             "distanceToStop": 20.397000000000002
           },
           {
-            "order": "28",
+            "order": "27",
             "st_id": "49",
             "distance": 0.318,
             "isFinal": false,
@@ -77198,7 +77240,7 @@
             "distanceToStop": 20.740000000000002
           },
           {
-            "order": "29",
+            "order": "28",
             "st_id": "57",
             "distance": 0.538,
             "isFinal": false,
@@ -77207,7 +77249,7 @@
             "distanceToStop": 21.058000000000003
           },
           {
-            "order": "30",
+            "order": "29",
             "st_id": "58",
             "distance": 0.559,
             "isFinal": false,
@@ -77216,7 +77258,7 @@
             "distanceToStop": 21.596000000000004
           },
           {
-            "order": "31",
+            "order": "30",
             "st_id": "60",
             "distance": 0.344,
             "isFinal": false,
@@ -77225,7 +77267,7 @@
             "distanceToStop": 22.155000000000005
           },
           {
-            "order": "32",
+            "order": "31",
             "st_id": "370",
             "distance": 0.275,
             "isFinal": false,
@@ -77234,7 +77276,7 @@
             "distanceToStop": 22.499000000000006
           },
           {
-            "order": "33",
+            "order": "32",
             "st_id": "7",
             "distance": 0.591,
             "isFinal": false,
@@ -77243,7 +77285,7 @@
             "distanceToStop": 22.774000000000004
           },
           {
-            "order": "34",
+            "order": "33",
             "st_id": "8",
             "distance": 0.414,
             "isFinal": false,
@@ -77252,7 +77294,7 @@
             "distanceToStop": 23.365000000000006
           },
           {
-            "order": "35",
+            "order": "34",
             "st_id": "258",
             "distance": 0.458,
             "isFinal": false,
@@ -77261,7 +77303,7 @@
             "distanceToStop": 23.779000000000007
           },
           {
-            "order": "36",
+            "order": "35",
             "st_id": "259",
             "distance": 0.609,
             "isFinal": false,
@@ -77270,7 +77312,7 @@
             "distanceToStop": 24.237000000000005
           },
           {
-            "order": "37",
+            "order": "36",
             "st_id": "11",
             "distance": 0.495,
             "isFinal": false,
@@ -77279,7 +77321,7 @@
             "distanceToStop": 24.846000000000004
           },
           {
-            "order": "38",
+            "order": "37",
             "st_id": "12",
             "distance": 0.451,
             "isFinal": false,
@@ -77288,7 +77330,7 @@
             "distanceToStop": 25.341000000000005
           },
           {
-            "order": "39",
+            "order": "38",
             "st_id": "13",
             "distance": 0.705,
             "isFinal": false,
@@ -77297,7 +77339,7 @@
             "distanceToStop": 25.792000000000005
           },
           {
-            "order": "40",
+            "order": "39",
             "st_id": "14",
             "distance": 0.515,
             "isFinal": false,
@@ -77306,7 +77348,7 @@
             "distanceToStop": 26.497000000000003
           },
           {
-            "order": "41",
+            "order": "40",
             "st_id": "15",
             "distance": 0.532,
             "isFinal": false,
@@ -77315,7 +77357,7 @@
             "distanceToStop": 27.012000000000004
           },
           {
-            "order": "42",
+            "order": "41",
             "st_id": "16",
             "distance": 0.411,
             "isFinal": false,
@@ -77324,7 +77366,7 @@
             "distanceToStop": 27.544000000000004
           },
           {
-            "order": "43",
+            "order": "42",
             "st_id": "17",
             "distance": 0.664,
             "isFinal": false,
@@ -77333,7 +77375,7 @@
             "distanceToStop": 27.955000000000005
           },
           {
-            "order": "44",
+            "order": "43",
             "st_id": "218",
             "distance": 1.011,
             "isFinal": false,
@@ -77342,7 +77384,7 @@
             "distanceToStop": 28.619000000000007
           },
           {
-            "order": "45",
+            "order": "44",
             "st_id": "18",
             "distance": 1.006,
             "isFinal": false,
@@ -77351,7 +77393,7 @@
             "distanceToStop": 29.630000000000006
           },
           {
-            "order": "46",
+            "order": "45",
             "st_id": "276",
             "distance": 0.198,
             "isFinal": false,
@@ -77360,7 +77402,7 @@
             "distanceToStop": 30.636000000000006
           },
           {
-            "order": "47",
+            "order": "46",
             "st_id": "277",
             "distance": 2.061,
             "isFinal": false,
@@ -77369,7 +77411,7 @@
             "distanceToStop": 30.834000000000007
           },
           {
-            "order": "48",
+            "order": "47",
             "st_id": "432",
             "distance": 0.307,
             "isFinal": false,
@@ -77378,7 +77420,7 @@
             "distanceToStop": 32.89500000000001
           },
           {
-            "order": "49",
+            "order": "48",
             "st_id": "433",
             "distance": 0.482,
             "isFinal": false,
@@ -77387,7 +77429,7 @@
             "distanceToStop": 33.20200000000001
           },
           {
-            "order": "50",
+            "order": "49",
             "st_id": "434",
             "distance": 0,
             "isFinal": true,
@@ -77694,28 +77736,28 @@
             55.847666
           ],
           [
-            48.914345,
-            55.847306
+            48.914362,
+            55.84725
           ],
           [
-            48.915718,
-            55.847128
+            48.915698,
+            55.847075
           ],
           [
-            48.917034,
-            55.846957
+            48.917044,
+            55.846895
           ],
           [
-            48.91926,
-            55.846647
+            48.919684,
+            55.846542
           ],
           [
             48.923077,
             55.846164
           ],
           [
-            48.923747,
-            55.846076
+            48.923782,
+            55.846069
           ],
           [
             48.924444,
@@ -78641,7 +78683,7 @@
     "mv_id": "526",
     "mr_id": "42",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "77",
     "mr_title": "Деревня Универсиады - Нефтебаза",
     "directions": {
@@ -81925,10 +81967,10 @@
     }
   },
   {
-    "mv_id": "579",
+    "mv_id": "641",
     "mr_id": "45",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "18",
     "mr_title": "Ул.Челюскина - переулок Дуслык",
     "directions": {
@@ -81982,7 +82024,7 @@
           {
             "order": "6",
             "st_id": "458",
-            "distance": 0.726,
+            "distance": 0.254,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -81990,6 +82032,15 @@
           },
           {
             "order": "7",
+            "st_id": "640",
+            "distance": 0.472,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 2.3409999999999997
+          },
+          {
+            "order": "8",
             "st_id": "464",
             "distance": 0.99,
             "isFinal": false,
@@ -81998,7 +82049,7 @@
             "distanceToStop": 2.8129999999999997
           },
           {
-            "order": "8",
+            "order": "9",
             "st_id": "466",
             "distance": 0.722,
             "isFinal": false,
@@ -82007,7 +82058,7 @@
             "distanceToStop": 3.803
           },
           {
-            "order": "9",
+            "order": "10",
             "st_id": "367",
             "distance": 0.768,
             "isFinal": false,
@@ -82016,7 +82067,7 @@
             "distanceToStop": 4.525
           },
           {
-            "order": "10",
+            "order": "11",
             "st_id": "368",
             "distance": 0.356,
             "isFinal": false,
@@ -82025,7 +82076,7 @@
             "distanceToStop": 5.293
           },
           {
-            "order": "11",
+            "order": "12",
             "st_id": "369",
             "distance": 0.615,
             "isFinal": false,
@@ -82034,7 +82085,7 @@
             "distanceToStop": 5.649
           },
           {
-            "order": "12",
+            "order": "13",
             "st_id": "57",
             "distance": 0.538,
             "isFinal": false,
@@ -82043,7 +82094,7 @@
             "distanceToStop": 6.264
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "58",
             "distance": 0.559,
             "isFinal": false,
@@ -82052,7 +82103,7 @@
             "distanceToStop": 6.8020000000000005
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "60",
             "distance": 0.344,
             "isFinal": false,
@@ -82061,7 +82112,7 @@
             "distanceToStop": 7.361000000000001
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "370",
             "distance": 0.275,
             "isFinal": false,
@@ -82070,7 +82121,7 @@
             "distanceToStop": 7.705000000000001
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "7",
             "distance": 0.591,
             "isFinal": false,
@@ -82079,7 +82130,7 @@
             "distanceToStop": 7.980000000000001
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "8",
             "distance": 0.414,
             "isFinal": false,
@@ -82088,7 +82139,7 @@
             "distanceToStop": 8.571000000000002
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "258",
             "distance": 0.458,
             "isFinal": false,
@@ -82097,7 +82148,7 @@
             "distanceToStop": 8.985000000000001
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "259",
             "distance": 0.609,
             "isFinal": false,
@@ -82106,7 +82157,7 @@
             "distanceToStop": 9.443000000000001
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "11",
             "distance": 0.495,
             "isFinal": false,
@@ -82115,7 +82166,7 @@
             "distanceToStop": 10.052000000000001
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "12",
             "distance": 0.451,
             "isFinal": false,
@@ -82124,7 +82175,7 @@
             "distanceToStop": 10.547
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "13",
             "distance": 0.705,
             "isFinal": false,
@@ -82133,7 +82184,7 @@
             "distanceToStop": 10.998000000000001
           },
           {
-            "order": "23",
+            "order": "24",
             "st_id": "14",
             "distance": 0.515,
             "isFinal": false,
@@ -82142,7 +82193,7 @@
             "distanceToStop": 11.703000000000001
           },
           {
-            "order": "24",
+            "order": "25",
             "st_id": "15",
             "distance": 0.532,
             "isFinal": false,
@@ -82151,7 +82202,7 @@
             "distanceToStop": 12.218000000000002
           },
           {
-            "order": "25",
+            "order": "26",
             "st_id": "16",
             "distance": 0.411,
             "isFinal": false,
@@ -82160,7 +82211,7 @@
             "distanceToStop": 12.750000000000002
           },
           {
-            "order": "26",
+            "order": "27",
             "st_id": "17",
             "distance": 0.664,
             "isFinal": false,
@@ -82169,7 +82220,7 @@
             "distanceToStop": 13.161000000000001
           },
           {
-            "order": "27",
+            "order": "28",
             "st_id": "218",
             "distance": 1.011,
             "isFinal": false,
@@ -82178,7 +82229,7 @@
             "distanceToStop": 13.825000000000001
           },
           {
-            "order": "28",
+            "order": "29",
             "st_id": "18",
             "distance": 0.638,
             "isFinal": false,
@@ -82187,7 +82238,7 @@
             "distanceToStop": 14.836
           },
           {
-            "order": "29",
+            "order": "30",
             "st_id": "272",
             "distance": 0.334,
             "isFinal": false,
@@ -82196,7 +82247,7 @@
             "distanceToStop": 15.474
           },
           {
-            "order": "30",
+            "order": "31",
             "st_id": "268",
             "distance": 0.288,
             "isFinal": false,
@@ -82205,7 +82256,7 @@
             "distanceToStop": 15.808
           },
           {
-            "order": "31",
+            "order": "32",
             "st_id": "269",
             "distance": 0.447,
             "isFinal": false,
@@ -82214,7 +82265,7 @@
             "distanceToStop": 16.096
           },
           {
-            "order": "32",
+            "order": "33",
             "st_id": "270",
             "distance": 0.647,
             "isFinal": false,
@@ -82223,7 +82274,7 @@
             "distanceToStop": 16.543
           },
           {
-            "order": "33",
+            "order": "34",
             "st_id": "24",
             "distance": 0.495,
             "isFinal": false,
@@ -82232,7 +82283,7 @@
             "distanceToStop": 17.189999999999998
           },
           {
-            "order": "34",
+            "order": "35",
             "st_id": "25",
             "distance": 0.309,
             "isFinal": false,
@@ -82241,7 +82292,7 @@
             "distanceToStop": 17.685
           },
           {
-            "order": "35",
+            "order": "36",
             "st_id": "26",
             "distance": 0.325,
             "isFinal": false,
@@ -82250,7 +82301,7 @@
             "distanceToStop": 17.994
           },
           {
-            "order": "36",
+            "order": "37",
             "st_id": "961",
             "distance": 0.834,
             "isFinal": false,
@@ -82259,7 +82310,7 @@
             "distanceToStop": 18.319
           },
           {
-            "order": "37",
+            "order": "38",
             "st_id": "75",
             "distance": 0.327,
             "isFinal": false,
@@ -82268,7 +82319,7 @@
             "distanceToStop": 19.153
           },
           {
-            "order": "38",
+            "order": "39",
             "st_id": "76",
             "distance": 0.384,
             "isFinal": false,
@@ -82277,7 +82328,7 @@
             "distanceToStop": 19.48
           },
           {
-            "order": "39",
+            "order": "40",
             "st_id": "77",
             "distance": 1.147,
             "isFinal": false,
@@ -82286,7 +82337,7 @@
             "distanceToStop": 19.864
           },
           {
-            "order": "40",
+            "order": "41",
             "st_id": "78",
             "distance": 0.498,
             "isFinal": false,
@@ -82295,25 +82346,25 @@
             "distanceToStop": 21.011
           },
           {
-            "order": "41",
+            "order": "42",
             "st_id": "79",
-            "distance": 0.522,
+            "distance": 0.493,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
             "distanceToStop": 21.509
           },
           {
-            "order": "42",
+            "order": "43",
             "st_id": "80",
-            "distance": 0.531,
+            "distance": 0.56,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.031
+            "distanceToStop": 22.002
           },
           {
-            "order": "43",
+            "order": "44",
             "st_id": "440",
             "distance": 0.554,
             "isFinal": false,
@@ -82322,7 +82373,7 @@
             "distanceToStop": 22.561999999999998
           },
           {
-            "order": "44",
+            "order": "45",
             "st_id": "441",
             "distance": 0.483,
             "isFinal": false,
@@ -82331,7 +82382,7 @@
             "distanceToStop": 23.115999999999996
           },
           {
-            "order": "45",
+            "order": "46",
             "st_id": "442",
             "distance": 0.866,
             "isFinal": false,
@@ -82340,7 +82391,7 @@
             "distanceToStop": 23.598999999999997
           },
           {
-            "order": "46",
+            "order": "47",
             "st_id": "444",
             "distance": 0.535,
             "isFinal": false,
@@ -82349,7 +82400,7 @@
             "distanceToStop": 24.464999999999996
           },
           {
-            "order": "47",
+            "order": "48",
             "st_id": "135",
             "distance": 0.581,
             "isFinal": false,
@@ -82358,7 +82409,7 @@
             "distanceToStop": 24.999999999999996
           },
           {
-            "order": "48",
+            "order": "49",
             "st_id": "136",
             "distance": 0.415,
             "isFinal": false,
@@ -82367,7 +82418,7 @@
             "distanceToStop": 25.580999999999996
           },
           {
-            "order": "49",
+            "order": "50",
             "st_id": "137",
             "distance": 0.427,
             "isFinal": false,
@@ -82376,7 +82427,7 @@
             "distanceToStop": 25.995999999999995
           },
           {
-            "order": "50",
+            "order": "51",
             "st_id": "138",
             "distance": 0.253,
             "isFinal": false,
@@ -82385,7 +82436,7 @@
             "distanceToStop": 26.422999999999995
           },
           {
-            "order": "51",
+            "order": "52",
             "st_id": "139",
             "distance": 0.715,
             "isFinal": false,
@@ -82394,7 +82445,7 @@
             "distanceToStop": 26.675999999999995
           },
           {
-            "order": "52",
+            "order": "53",
             "st_id": "140",
             "distance": 0.691,
             "isFinal": false,
@@ -82403,7 +82454,7 @@
             "distanceToStop": 27.390999999999995
           },
           {
-            "order": "53",
+            "order": "54",
             "st_id": "142",
             "distance": 0.268,
             "isFinal": false,
@@ -82412,7 +82463,7 @@
             "distanceToStop": 28.081999999999994
           },
           {
-            "order": "54",
+            "order": "55",
             "st_id": "143",
             "distance": 0.534,
             "isFinal": false,
@@ -82421,7 +82472,7 @@
             "distanceToStop": 28.349999999999994
           },
           {
-            "order": "55",
+            "order": "56",
             "st_id": "1197",
             "distance": 0.681,
             "isFinal": false,
@@ -82430,7 +82481,7 @@
             "distanceToStop": 28.883999999999993
           },
           {
-            "order": "56",
+            "order": "57",
             "st_id": "1198",
             "distance": 0.518,
             "isFinal": false,
@@ -82439,7 +82490,7 @@
             "distanceToStop": 29.564999999999994
           },
           {
-            "order": "57",
+            "order": "58",
             "st_id": "1200",
             "distance": 0.482,
             "isFinal": false,
@@ -82448,7 +82499,7 @@
             "distanceToStop": 30.082999999999995
           },
           {
-            "order": "58",
+            "order": "59",
             "st_id": "1203",
             "distance": 0.372,
             "isFinal": false,
@@ -82457,7 +82508,7 @@
             "distanceToStop": 30.564999999999994
           },
           {
-            "order": "59",
+            "order": "60",
             "st_id": "447",
             "distance": 0.321,
             "isFinal": false,
@@ -82466,7 +82517,7 @@
             "distanceToStop": 30.936999999999994
           },
           {
-            "order": "60",
+            "order": "61",
             "st_id": "449",
             "distance": 0.363,
             "isFinal": false,
@@ -82475,7 +82526,7 @@
             "distanceToStop": 31.257999999999996
           },
           {
-            "order": "61",
+            "order": "62",
             "st_id": "451",
             "distance": 0,
             "isFinal": true,
@@ -85593,10 +85644,10 @@
     }
   },
   {
-    "mv_id": "517",
+    "mv_id": "646",
     "mr_id": "46",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "62",
     "mr_title": "Станция метро Яшьлек - жилой комплекс Салават Купере",
     "directions": {
@@ -85839,7 +85890,7 @@
           {
             "order": "27",
             "st_id": "1656",
-            "distance": 0.294,
+            "distance": 0.962,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -85847,15 +85898,6 @@
           },
           {
             "order": "28",
-            "st_id": "1661",
-            "distance": 0.668,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 20.935
-          },
-          {
-            "order": "29",
             "st_id": "1771",
             "distance": 0.397,
             "isFinal": false,
@@ -85864,7 +85906,7 @@
             "distanceToStop": 21.602999999999998
           },
           {
-            "order": "30",
+            "order": "29",
             "st_id": "1772",
             "distance": 0,
             "isFinal": true,
@@ -90889,7 +90931,7 @@
     "mv_id": "589",
     "mr_id": "48",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "68",
     "mr_title": "Станция метро Проспект Победы - ул.Иман",
     "directions": {
@@ -96041,10 +96083,10 @@
     }
   },
   {
-    "mv_id": "444",
+    "mv_id": "637",
     "mr_id": "51",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "74",
     "mr_title": "ДВВС - 10-й микрорайон",
     "directions": {
@@ -96071,7 +96113,7 @@
           {
             "order": "3",
             "st_id": "321",
-            "distance": 0.419,
+            "distance": 0.293,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -96079,6 +96121,15 @@
           },
           {
             "order": "4",
+            "st_id": "1788",
+            "distance": 0.126,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 1.289
+          },
+          {
+            "order": "5",
             "st_id": "322",
             "distance": 0.491,
             "isFinal": false,
@@ -96087,7 +96138,7 @@
             "distanceToStop": 1.415
           },
           {
-            "order": "5",
+            "order": "6",
             "st_id": "323",
             "distance": 0.382,
             "isFinal": false,
@@ -96096,7 +96147,7 @@
             "distanceToStop": 1.9060000000000001
           },
           {
-            "order": "6",
+            "order": "7",
             "st_id": "1003",
             "distance": 0.378,
             "isFinal": false,
@@ -96105,7 +96156,7 @@
             "distanceToStop": 2.2880000000000003
           },
           {
-            "order": "7",
+            "order": "8",
             "st_id": "330",
             "distance": 0.425,
             "isFinal": false,
@@ -96114,7 +96165,7 @@
             "distanceToStop": 2.6660000000000004
           },
           {
-            "order": "8",
+            "order": "9",
             "st_id": "331",
             "distance": 0.454,
             "isFinal": false,
@@ -96123,7 +96174,7 @@
             "distanceToStop": 3.091
           },
           {
-            "order": "9",
+            "order": "10",
             "st_id": "332",
             "distance": 0.386,
             "isFinal": false,
@@ -96132,7 +96183,7 @@
             "distanceToStop": 3.5450000000000004
           },
           {
-            "order": "10",
+            "order": "11",
             "st_id": "333",
             "distance": 0.326,
             "isFinal": false,
@@ -96141,7 +96192,7 @@
             "distanceToStop": 3.9310000000000005
           },
           {
-            "order": "11",
+            "order": "12",
             "st_id": "334",
             "distance": 0.344,
             "isFinal": false,
@@ -96150,7 +96201,7 @@
             "distanceToStop": 4.257000000000001
           },
           {
-            "order": "12",
+            "order": "13",
             "st_id": "335",
             "distance": 0.484,
             "isFinal": false,
@@ -96159,7 +96210,7 @@
             "distanceToStop": 4.601000000000001
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "336",
             "distance": 0.393,
             "isFinal": false,
@@ -96168,7 +96219,7 @@
             "distanceToStop": 5.085000000000001
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "63",
             "distance": 0.402,
             "isFinal": false,
@@ -96177,7 +96228,7 @@
             "distanceToStop": 5.478000000000001
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "64",
             "distance": 1.951,
             "isFinal": false,
@@ -96186,7 +96237,7 @@
             "distanceToStop": 5.880000000000001
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "291",
             "distance": 1.345,
             "isFinal": false,
@@ -96195,7 +96246,7 @@
             "distanceToStop": 7.831000000000001
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "240",
             "distance": 0.497,
             "isFinal": false,
@@ -96204,7 +96255,7 @@
             "distanceToStop": 9.176000000000002
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "241",
             "distance": 0.336,
             "isFinal": false,
@@ -96213,7 +96264,7 @@
             "distanceToStop": 9.673000000000002
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "298",
             "distance": 0.452,
             "isFinal": false,
@@ -96222,7 +96273,7 @@
             "distanceToStop": 10.009000000000002
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "1778",
             "distance": 0.304,
             "isFinal": false,
@@ -96231,7 +96282,7 @@
             "distanceToStop": 10.461000000000002
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "243",
             "distance": 0.552,
             "isFinal": false,
@@ -96240,7 +96291,7 @@
             "distanceToStop": 10.765000000000002
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "419",
             "distance": 0.442,
             "isFinal": false,
@@ -96249,7 +96300,7 @@
             "distanceToStop": 11.317000000000002
           },
           {
-            "order": "23",
+            "order": "24",
             "st_id": "417",
             "distance": 0.585,
             "isFinal": false,
@@ -96258,7 +96309,7 @@
             "distanceToStop": 11.759000000000002
           },
           {
-            "order": "24",
+            "order": "25",
             "st_id": "415",
             "distance": 0.424,
             "isFinal": false,
@@ -96267,7 +96318,7 @@
             "distanceToStop": 12.344000000000001
           },
           {
-            "order": "25",
+            "order": "26",
             "st_id": "413",
             "distance": 0.709,
             "isFinal": false,
@@ -96276,7 +96327,7 @@
             "distanceToStop": 12.768
           },
           {
-            "order": "26",
+            "order": "27",
             "st_id": "411",
             "distance": 0.638,
             "isFinal": false,
@@ -96285,7 +96336,7 @@
             "distanceToStop": 13.477
           },
           {
-            "order": "27",
+            "order": "28",
             "st_id": "409",
             "distance": 0.403,
             "isFinal": false,
@@ -96294,7 +96345,7 @@
             "distanceToStop": 14.115
           },
           {
-            "order": "28",
+            "order": "29",
             "st_id": "407",
             "distance": 0.6,
             "isFinal": false,
@@ -96303,25 +96354,25 @@
             "distanceToStop": 14.518
           },
           {
-            "order": "29",
+            "order": "30",
             "st_id": "405",
-            "distance": 0.941,
+            "distance": 0.966,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
             "distanceToStop": 15.118
           },
           {
-            "order": "30",
+            "order": "31",
             "st_id": "403",
-            "distance": 0.958,
+            "distance": 0.933,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.059
+            "distanceToStop": 16.084
           },
           {
-            "order": "31",
+            "order": "32",
             "st_id": "1009",
             "distance": 0.347,
             "isFinal": false,
@@ -96330,7 +96381,7 @@
             "distanceToStop": 17.017
           },
           {
-            "order": "32",
+            "order": "33",
             "st_id": "1007",
             "distance": 0.244,
             "isFinal": false,
@@ -96339,94 +96390,94 @@
             "distanceToStop": 17.364
           },
           {
-            "order": "33",
+            "order": "34",
             "st_id": "1006",
-            "distance": 0.762,
+            "distance": 0.743,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
             "distanceToStop": 17.608
           },
           {
-            "order": "34",
-            "st_id": "83",
-            "distance": 0.401,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 18.37
-          },
-          {
             "order": "35",
-            "st_id": "84",
-            "distance": 0.607,
+            "st_id": "83",
+            "distance": 0.391,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.771
+            "distanceToStop": 18.351
           },
           {
             "order": "36",
+            "st_id": "84",
+            "distance": 0.637,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 18.741999999999997
+          },
+          {
+            "order": "37",
             "st_id": "239",
             "distance": 0.874,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 19.378
+            "distanceToStop": 19.378999999999998
           },
           {
-            "order": "37",
+            "order": "38",
             "st_id": "133",
             "distance": 0.66,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.252
+            "distanceToStop": 20.252999999999997
           },
           {
-            "order": "38",
+            "order": "39",
             "st_id": "134",
             "distance": 0.487,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.912
+            "distanceToStop": 20.912999999999997
           },
           {
-            "order": "39",
+            "order": "40",
             "st_id": "135",
             "distance": 0.581,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.398999999999997
+            "distanceToStop": 21.399999999999995
           },
           {
-            "order": "40",
+            "order": "41",
             "st_id": "136",
             "distance": 0.415,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.979999999999997
+            "distanceToStop": 21.980999999999995
           },
           {
-            "order": "41",
+            "order": "42",
             "st_id": "137",
             "distance": 1.15,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.394999999999996
+            "distanceToStop": 22.395999999999994
           },
           {
-            "order": "42",
+            "order": "43",
             "st_id": "233",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 23.544999999999995
+            "distanceToStop": 23.545999999999992
           }
         ],
         "geometry": [
@@ -97590,7 +97641,7 @@
           {
             "order": "6",
             "st_id": "238",
-            "distance": 0.922,
+            "distance": 0.279,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -97598,300 +97649,309 @@
           },
           {
             "order": "7",
-            "st_id": "95",
-            "distance": 0.487,
+            "st_id": "720",
+            "distance": 0.645,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": true,
-            "distanceToStop": 3.446
+            "isControlPoint": false,
+            "distanceToStop": 2.803
           },
           {
             "order": "8",
-            "st_id": "96",
-            "distance": 0.285,
+            "st_id": "95",
+            "distance": 0.458,
             "isFinal": false,
             "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 3.9330000000000003
+            "isControlPoint": true,
+            "distanceToStop": 3.448
           },
           {
             "order": "9",
-            "st_id": "97",
-            "distance": 0.434,
+            "st_id": "96",
+            "distance": 0.4,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.218
+            "distanceToStop": 3.906
           },
           {
             "order": "10",
+            "st_id": "97",
+            "distance": 0.348,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 4.306
+          },
+          {
+            "order": "11",
             "st_id": "1004",
             "distance": 0.445,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.652
+            "distanceToStop": 4.654
           },
           {
-            "order": "11",
+            "order": "12",
             "st_id": "1011",
             "distance": 0.232,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.097
+            "distanceToStop": 5.099
           },
           {
-            "order": "12",
+            "order": "13",
             "st_id": "1008",
             "distance": 0.395,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.329000000000001
+            "distanceToStop": 5.331
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "1010",
             "distance": 0.795,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 5.724
+            "distanceToStop": 5.726000000000001
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "400",
             "distance": 0.338,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.519
+            "distanceToStop": 6.521000000000001
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "402",
             "distance": 0.991,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.857
+            "distanceToStop": 6.859000000000001
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "404",
             "distance": 0.564,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.848
+            "distanceToStop": 7.8500000000000005
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "406",
             "distance": 0.451,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.411999999999999
+            "distanceToStop": 8.414
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "408",
             "distance": 0.503,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.863
+            "distanceToStop": 8.865
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "410",
             "distance": 0.803,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 9.366
+            "distanceToStop": 9.368
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "412",
             "distance": 0.637,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.169
+            "distanceToStop": 10.171000000000001
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "414",
             "distance": 0.367,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.806000000000001
+            "distanceToStop": 10.808000000000002
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "416",
             "distance": 0.458,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.173000000000002
+            "distanceToStop": 11.175
           },
           {
-            "order": "23",
+            "order": "24",
             "st_id": "418",
             "distance": 0.665,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 11.631000000000002
-          },
-          {
-            "order": "24",
-            "st_id": "344",
-            "distance": 0.305,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 12.296000000000003
+            "distanceToStop": 11.633000000000001
           },
           {
             "order": "25",
+            "st_id": "344",
+            "distance": 0.306,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 12.298000000000002
+          },
+          {
+            "order": "26",
             "st_id": "836",
             "distance": 0.353,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.601000000000003
+            "distanceToStop": 12.604000000000001
           },
           {
-            "order": "26",
+            "order": "27",
             "st_id": "299",
             "distance": 0.255,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.954000000000002
+            "distanceToStop": 12.957
           },
           {
-            "order": "27",
+            "order": "28",
             "st_id": "300",
             "distance": 0.532,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.209000000000003
+            "distanceToStop": 13.212000000000002
           },
           {
-            "order": "28",
+            "order": "29",
             "st_id": "37",
             "distance": 0.286,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 13.741000000000003
+            "distanceToStop": 13.744000000000002
           },
           {
-            "order": "29",
+            "order": "30",
             "st_id": "38",
             "distance": 1.013,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.027000000000003
+            "distanceToStop": 14.030000000000001
           },
           {
-            "order": "30",
+            "order": "31",
             "st_id": "115",
             "distance": 2.18,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.040000000000003
+            "distanceToStop": 15.043000000000001
           },
           {
-            "order": "31",
+            "order": "32",
             "st_id": "116",
             "distance": 0.369,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 17.220000000000002
+            "distanceToStop": 17.223000000000003
           },
           {
-            "order": "32",
+            "order": "33",
             "st_id": "315",
             "distance": 0.505,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.589000000000002
+            "distanceToStop": 17.592000000000002
           },
           {
-            "order": "33",
+            "order": "34",
             "st_id": "316",
             "distance": 0.281,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.094
+            "distanceToStop": 18.097
           },
           {
-            "order": "34",
+            "order": "35",
             "st_id": "317",
             "distance": 0.383,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.375
+            "distanceToStop": 18.378
           },
           {
-            "order": "35",
+            "order": "36",
             "st_id": "318",
             "distance": 0.343,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.758
+            "distanceToStop": 18.761
           },
           {
-            "order": "36",
+            "order": "37",
             "st_id": "319",
             "distance": 0.356,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.101
+            "distanceToStop": 19.104
           },
           {
-            "order": "37",
+            "order": "38",
             "st_id": "320",
             "distance": 0.413,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.457
+            "distanceToStop": 19.46
           },
           {
-            "order": "38",
+            "order": "39",
             "st_id": "352",
             "distance": 1.365,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.87
+            "distanceToStop": 19.873
           },
           {
-            "order": "39",
+            "order": "40",
             "st_id": "1349",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 21.235
+            "distanceToStop": 21.238
           }
         ],
         "geometry": [
@@ -101338,7 +101398,7 @@
     }
   },
   {
-    "mv_id": "409",
+    "mv_id": "650",
     "mr_id": "59",
     "tt_id": "1",
     "mt_id": "3",
@@ -101368,7 +101428,7 @@
           {
             "order": "3",
             "st_id": "302",
-            "distance": 0.458,
+            "distance": 0.448,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
@@ -101377,11 +101437,11 @@
           {
             "order": "4",
             "st_id": "305",
-            "distance": 0.56,
+            "distance": 0.558,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 2.0780000000000003
+            "distanceToStop": 2.068
           },
           {
             "order": "5",
@@ -101390,7 +101450,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 2.6380000000000003
+            "distanceToStop": 2.6260000000000003
           },
           {
             "order": "6",
@@ -101399,7 +101459,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.0690000000000004
+            "distanceToStop": 3.0570000000000004
           },
           {
             "order": "7",
@@ -101408,7 +101468,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.3620000000000005
+            "distanceToStop": 3.3500000000000005
           },
           {
             "order": "8",
@@ -101417,7 +101477,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 3.7930000000000006
+            "distanceToStop": 3.7810000000000006
           },
           {
             "order": "9",
@@ -101426,7 +101486,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.227
+            "distanceToStop": 4.215000000000001
           },
           {
             "order": "10",
@@ -101435,7 +101495,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 5.105
+            "distanceToStop": 5.093000000000001
           },
           {
             "order": "11",
@@ -101444,7 +101504,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.53
+            "distanceToStop": 5.518000000000001
           },
           {
             "order": "12",
@@ -101453,7 +101513,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.893000000000001
+            "distanceToStop": 5.881
           },
           {
             "order": "13",
@@ -101462,7 +101522,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.453000000000001
+            "distanceToStop": 6.441000000000001
           },
           {
             "order": "14",
@@ -101471,7 +101531,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 6.956000000000001
+            "distanceToStop": 6.944000000000001
           },
           {
             "order": "15",
@@ -101480,7 +101540,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.873000000000001
+            "distanceToStop": 7.861000000000001
           },
           {
             "order": "16",
@@ -101489,25 +101549,25 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.434000000000001
+            "distanceToStop": 8.422
           },
           {
             "order": "17",
             "st_id": "101",
-            "distance": 0.539,
+            "distance": 0.712,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.839
+            "distanceToStop": 8.827
           },
           {
             "order": "18",
             "st_id": "102",
-            "distance": 0.608,
+            "distance": 0.435,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.378
+            "distanceToStop": 9.539
           },
           {
             "order": "19",
@@ -101516,7 +101576,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.986
+            "distanceToStop": 9.974
           },
           {
             "order": "20",
@@ -101525,7 +101585,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 10.397
+            "distanceToStop": 10.385
           },
           {
             "order": "21",
@@ -101534,7 +101594,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.763
+            "distanceToStop": 10.751
           },
           {
             "order": "22",
@@ -101543,7 +101603,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.021
+            "distanceToStop": 14.009
           },
           {
             "order": "23",
@@ -101552,7 +101612,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.472000000000001
+            "distanceToStop": 14.46
           },
           {
             "order": "24",
@@ -101561,7 +101621,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 14.975000000000001
+            "distanceToStop": 14.963000000000001
           },
           {
             "order": "25",
@@ -101570,7 +101630,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.778000000000002
+            "distanceToStop": 15.766000000000002
           },
           {
             "order": "26",
@@ -101579,7 +101639,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.415000000000003
+            "distanceToStop": 16.403000000000002
           },
           {
             "order": "27",
@@ -101588,7 +101648,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.782000000000004
+            "distanceToStop": 16.770000000000003
           },
           {
             "order": "28",
@@ -101597,7 +101657,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 17.240000000000002
+            "distanceToStop": 17.228
           },
           {
             "order": "29",
@@ -101606,7 +101666,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.905
+            "distanceToStop": 17.893
           },
           {
             "order": "30",
@@ -101615,7 +101675,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.204
+            "distanceToStop": 18.192
           },
           {
             "order": "31",
@@ -101624,7 +101684,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.408
+            "distanceToStop": 18.396
           },
           {
             "order": "32",
@@ -101633,7 +101693,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.829
+            "distanceToStop": 18.817
           },
           {
             "order": "33",
@@ -101642,7 +101702,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.52
+            "distanceToStop": 19.508
           },
           {
             "order": "34",
@@ -101651,7 +101711,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.741
+            "distanceToStop": 19.729
           },
           {
             "order": "35",
@@ -101660,7 +101720,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.023
+            "distanceToStop": 20.011
           },
           {
             "order": "36",
@@ -101669,7 +101729,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.87
+            "distanceToStop": 20.858
           },
           {
             "order": "37",
@@ -101678,7 +101738,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 21.571
+            "distanceToStop": 21.559
           },
           {
             "order": "38",
@@ -101687,142 +101747,151 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.013
+            "distanceToStop": 22.001
           },
           {
             "order": "39",
             "st_id": "956",
-            "distance": 0.566,
+            "distance": 0.466,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 22.389000000000003
+            "distanceToStop": 22.377000000000002
           },
           {
             "order": "40",
+            "st_id": "1940",
+            "distance": 0.1,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 22.843000000000004
+          },
+          {
+            "order": "41",
             "st_id": "951",
             "distance": 0.877,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.955000000000002
+            "distanceToStop": 22.943000000000005
           },
           {
-            "order": "41",
+            "order": "42",
             "st_id": "953",
             "distance": 0.483,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.832
+            "distanceToStop": 23.820000000000004
           },
           {
-            "order": "42",
+            "order": "43",
             "st_id": "914",
             "distance": 0.48,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.315
+            "distanceToStop": 24.303000000000004
           },
           {
-            "order": "43",
+            "order": "44",
             "st_id": "916",
             "distance": 0.483,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.795
+            "distanceToStop": 24.783000000000005
           },
           {
-            "order": "44",
+            "order": "45",
             "st_id": "918",
             "distance": 0.512,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.278000000000002
+            "distanceToStop": 25.266000000000005
           },
           {
-            "order": "45",
+            "order": "46",
             "st_id": "920",
             "distance": 0.328,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.790000000000003
+            "distanceToStop": 25.778000000000006
           },
           {
-            "order": "46",
+            "order": "47",
             "st_id": "922",
             "distance": 0.349,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 26.118000000000002
+            "distanceToStop": 26.106000000000005
           },
           {
-            "order": "47",
+            "order": "48",
             "st_id": "924",
             "distance": 0.907,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.467000000000002
+            "distanceToStop": 26.455000000000005
           },
           {
-            "order": "48",
+            "order": "49",
             "st_id": "925",
             "distance": 0.375,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.374000000000002
+            "distanceToStop": 27.362000000000005
           },
           {
-            "order": "49",
+            "order": "50",
             "st_id": "926",
             "distance": 0.548,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.749000000000002
+            "distanceToStop": 27.737000000000005
           },
           {
-            "order": "50",
+            "order": "51",
             "st_id": "930",
             "distance": 0.89,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 28.297000000000004
+            "distanceToStop": 28.285000000000004
           },
           {
-            "order": "51",
+            "order": "52",
             "st_id": "935",
             "distance": 0.647,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.187000000000005
+            "distanceToStop": 29.175000000000004
           },
           {
-            "order": "52",
+            "order": "53",
             "st_id": "933",
             "distance": 0.572,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 29.834000000000003
+            "distanceToStop": 29.822000000000003
           },
           {
-            "order": "53",
+            "order": "54",
             "st_id": "932",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 30.406000000000002
+            "distanceToStop": 30.394000000000002
           }
         ],
         "geometry": [
@@ -101955,56 +102024,56 @@
             55.782269
           ],
           [
-            49.225173,
-            55.782273
+            49.22472,
+            55.78226
           ],
           [
-            49.225584,
-            55.782306
+            49.225123,
+            55.782267
           ],
           [
-            49.226072,
-            55.782347
+            49.225723,
+            55.782285
           ],
           [
-            49.226582,
-            55.782245
+            49.226458,
+            55.782188
           ],
           [
-            49.227215,
-            55.782049
+            49.227038,
+            55.782001
           ],
           [
-            49.2278,
-            55.781783
+            49.227719,
+            55.781717
           ],
           [
-            49.228535,
-            55.781313
+            49.228497,
+            55.781301
           ],
           [
-            49.230512,
-            55.779239
+            49.23061,
+            55.779114
           ],
           [
-            49.231327,
-            55.778321
+            49.231372,
+            55.778221
           ],
           [
-            49.231745,
-            55.777497
+            49.231705,
+            55.777358
           ],
           [
             49.231724,
             55.776145
           ],
           [
-            49.231719,
-            55.774318
+            49.231743,
+            55.774564
           ],
           [
-            49.231674,
-            55.772459
+            49.231645,
+            55.772436
           ],
           [
             49.231672,
@@ -102571,16 +102640,16 @@
             55.782545
           ],
           [
-            49.115093,
-            55.78222
+            49.114928,
+            55.782094
           ],
           [
-            49.114422,
-            55.781739
+            49.114392,
+            55.781705
           ],
           [
-            49.113752,
-            55.781254
+            49.11377,
+            55.78124
           ],
           [
             49.112734,
@@ -103145,7 +103214,7 @@
           {
             "order": "13",
             "st_id": "954",
-            "distance": 0.912,
+            "distance": 0.733,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -103154,353 +103223,362 @@
           {
             "order": "14",
             "st_id": "952",
-            "distance": 0.55,
+            "distance": 0.244,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.364
+            "distanceToStop": 7.185
           },
           {
             "order": "15",
+            "st_id": "1941",
+            "distance": 0.484,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 7.428999999999999
+          },
+          {
+            "order": "16",
             "st_id": "957",
             "distance": 0.393,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 7.914
+            "distanceToStop": 7.912999999999999
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "959",
             "distance": 0.489,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.307
+            "distanceToStop": 8.306
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "950",
             "distance": 0.713,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.796000000000001
+            "distanceToStop": 8.795
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "948",
             "distance": 0.8,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.509
+            "distanceToStop": 9.508
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "944",
             "distance": 0.307,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.309000000000001
+            "distanceToStop": 10.308
           },
           {
-            "order": "20",
+            "order": "21",
             "st_id": "942",
             "distance": 0.265,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.616000000000001
+            "distanceToStop": 10.615
           },
           {
-            "order": "21",
+            "order": "22",
             "st_id": "940",
             "distance": 0.7,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.881000000000002
+            "distanceToStop": 10.88
           },
           {
-            "order": "22",
+            "order": "23",
             "st_id": "339",
             "distance": 0.44,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.581000000000001
+            "distanceToStop": 11.58
           },
           {
-            "order": "23",
+            "order": "24",
             "st_id": "340",
             "distance": 0.518,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.021
+            "distanceToStop": 12.02
           },
           {
-            "order": "24",
+            "order": "25",
             "st_id": "243",
             "distance": 0.552,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.539000000000001
+            "distanceToStop": 12.538
           },
           {
-            "order": "25",
+            "order": "26",
             "st_id": "419",
             "distance": 0.442,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 13.091000000000001
+            "distanceToStop": 13.09
           },
           {
-            "order": "26",
+            "order": "27",
             "st_id": "417",
             "distance": 0.585,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.533000000000001
+            "distanceToStop": 13.532
           },
           {
-            "order": "27",
+            "order": "28",
             "st_id": "415",
             "distance": 0.424,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.118000000000002
+            "distanceToStop": 14.117
           },
           {
-            "order": "28",
+            "order": "29",
             "st_id": "413",
             "distance": 0.709,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.542000000000002
+            "distanceToStop": 14.541
           },
           {
-            "order": "29",
+            "order": "30",
             "st_id": "411",
             "distance": 0.638,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.251000000000001
+            "distanceToStop": 15.25
           },
           {
-            "order": "30",
+            "order": "31",
             "st_id": "409",
             "distance": 0.403,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.889000000000001
+            "distanceToStop": 15.888
           },
           {
-            "order": "31",
+            "order": "32",
             "st_id": "407",
             "distance": 1.433,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 16.292
+            "distanceToStop": 16.291
           },
           {
-            "order": "32",
+            "order": "33",
             "st_id": "965",
             "distance": 0.3,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 17.725
+            "distanceToStop": 17.724
           },
           {
-            "order": "33",
+            "order": "34",
             "st_id": "967",
             "distance": 0.436,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 18.025000000000002
-          },
-          {
-            "order": "34",
-            "st_id": "969",
-            "distance": 0.598,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 18.461000000000002
+            "distanceToStop": 18.024
           },
           {
             "order": "35",
-            "st_id": "80",
-            "distance": 0.531,
+            "st_id": "969",
+            "distance": 0.569,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.059
+            "distanceToStop": 18.46
           },
           {
             "order": "36",
+            "st_id": "80",
+            "distance": 0.56,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 19.029
+          },
+          {
+            "order": "37",
             "st_id": "440",
             "distance": 0.554,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 19.59
+            "distanceToStop": 19.589
           },
           {
-            "order": "37",
+            "order": "38",
             "st_id": "441",
             "distance": 0.483,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.144
+            "distanceToStop": 20.142999999999997
           },
           {
-            "order": "38",
+            "order": "39",
             "st_id": "442",
             "distance": 0.866,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 20.627
+            "distanceToStop": 20.625999999999998
           },
           {
-            "order": "39",
+            "order": "40",
             "st_id": "444",
             "distance": 0.535,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 21.493
+            "distanceToStop": 21.491999999999997
           },
           {
-            "order": "40",
+            "order": "41",
             "st_id": "135",
             "distance": 0.581,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.028
+            "distanceToStop": 22.026999999999997
           },
           {
-            "order": "41",
+            "order": "42",
             "st_id": "136",
             "distance": 0.415,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 22.608999999999998
+            "distanceToStop": 22.607999999999997
           },
           {
-            "order": "42",
+            "order": "43",
             "st_id": "137",
             "distance": 0.427,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.023999999999997
+            "distanceToStop": 23.022999999999996
           },
           {
-            "order": "43",
+            "order": "44",
             "st_id": "138",
             "distance": 0.253,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 23.450999999999997
+            "distanceToStop": 23.449999999999996
           },
           {
-            "order": "44",
+            "order": "45",
             "st_id": "139",
             "distance": 0.715,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 23.703999999999997
+            "distanceToStop": 23.702999999999996
           },
           {
-            "order": "45",
+            "order": "46",
             "st_id": "140",
             "distance": 0.691,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 24.418999999999997
+            "distanceToStop": 24.417999999999996
           },
           {
-            "order": "46",
+            "order": "47",
             "st_id": "142",
             "distance": 0.268,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 25.109999999999996
+            "distanceToStop": 25.108999999999995
           },
           {
-            "order": "47",
+            "order": "48",
             "st_id": "143",
             "distance": 0.559,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 25.377999999999997
-          },
-          {
-            "order": "48",
-            "st_id": "144",
-            "distance": 0.385,
-            "isFinal": false,
-            "isFirst": false,
-            "isControlPoint": false,
-            "distanceToStop": 25.936999999999998
+            "distanceToStop": 25.376999999999995
           },
           {
             "order": "49",
-            "st_id": "304",
-            "distance": 0.555,
+            "st_id": "144",
+            "distance": 0.384,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.322
+            "distanceToStop": 25.935999999999996
           },
           {
             "order": "50",
+            "st_id": "304",
+            "distance": 0.552,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 26.319999999999997
+          },
+          {
+            "order": "51",
             "st_id": "303",
             "distance": 1.088,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 26.877
+            "distanceToStop": 26.871999999999996
           },
           {
-            "order": "51",
+            "order": "52",
             "st_id": "224",
             "distance": 0.608,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 27.965
+            "distanceToStop": 27.959999999999997
           },
           {
-            "order": "52",
+            "order": "53",
             "st_id": "1214",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 28.573
+            "distanceToStop": 28.567999999999998
           }
         ],
         "geometry": [
@@ -104401,56 +104479,56 @@
             55.772078
           ],
           [
-            49.231674,
-            55.772459
+            49.231645,
+            55.772436
           ],
           [
-            49.231719,
-            55.774318
+            49.231743,
+            55.774564
           ],
           [
             49.231724,
             55.776145
           ],
           [
-            49.231745,
-            55.777497
+            49.231705,
+            55.777358
           ],
           [
-            49.231327,
-            55.778321
+            49.231372,
+            55.778221
           ],
           [
-            49.230512,
-            55.779239
+            49.23061,
+            55.779114
           ],
           [
-            49.228535,
-            55.781313
+            49.228497,
+            55.781301
           ],
           [
             49.22802,
             55.781783
           ],
           [
-            49.227607,
-            55.782145
+            49.227622,
+            55.782113
           ],
           [
-            49.227006,
-            55.782596
+            49.227027,
+            55.782535
           ],
           [
-            49.226448,
-            55.782611
+            49.226823,
+            55.782577
           ],
           [
-            49.225785,
-            55.782618
+            49.225718,
+            55.782589
           ],
           [
-            49.224517,
-            55.782623
+            49.224538,
+            55.78261
           ],
           [
             49.223498,
@@ -107628,7 +107706,7 @@
     "mv_id": "625",
     "mr_id": "63",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "89",
     "mr_title": "Ул.Академика Сахарова - ул.Гудованцева",
     "directions": {
@@ -109616,7 +109694,7 @@
           },
           {
             "order": "5",
-            "st_id": "356",
+            "st_id": "392",
             "distance": 0.264,
             "isFinal": false,
             "isFirst": false,
@@ -114063,7 +114141,7 @@
     }
   },
   {
-    "mv_id": "497",
+    "mv_id": "649",
     "mr_id": "73",
     "tt_id": "1",
     "mt_id": "3",
@@ -114147,7 +114225,7 @@
           {
             "order": "9",
             "st_id": "1849",
-            "distance": 0.641,
+            "distance": 0.486,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -114155,12 +114233,12 @@
           },
           {
             "order": "10",
-            "st_id": "1850",
-            "distance": 0.489,
+            "st_id": "606",
+            "distance": 0.44,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.888
+            "distanceToStop": 4.733
           },
           {
             "order": "11",
@@ -114169,7 +114247,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.377
+            "distanceToStop": 5.173
           },
           {
             "order": "12",
@@ -114178,7 +114256,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.827
+            "distanceToStop": 5.623
           },
           {
             "order": "13",
@@ -114187,7 +114265,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.345
+            "distanceToStop": 6.141
           },
           {
             "order": "14",
@@ -114196,7 +114274,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 6.809
+            "distanceToStop": 6.605
           },
           {
             "order": "15",
@@ -114205,7 +114283,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 7.457
+            "distanceToStop": 7.253
           },
           {
             "order": "16",
@@ -114214,7 +114292,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 8.128
+            "distanceToStop": 7.924
           },
           {
             "order": "17",
@@ -114223,7 +114301,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.084
+            "distanceToStop": 8.88
           },
           {
             "order": "18",
@@ -114232,7 +114310,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 9.815999999999999
+            "distanceToStop": 9.612
           },
           {
             "order": "19",
@@ -114241,7 +114319,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.248
+            "distanceToStop": 10.044
           },
           {
             "order": "20",
@@ -114250,7 +114328,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 10.905
+            "distanceToStop": 10.701
           },
           {
             "order": "21",
@@ -114259,7 +114337,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.350999999999999
+            "distanceToStop": 11.147
           },
           {
             "order": "22",
@@ -114268,7 +114346,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 11.892
+            "distanceToStop": 11.688
           },
           {
             "order": "23",
@@ -114277,7 +114355,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 12.758
+            "distanceToStop": 12.554
           },
           {
             "order": "24",
@@ -114286,7 +114364,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.228
+            "distanceToStop": 13.024000000000001
           },
           {
             "order": "25",
@@ -114295,7 +114373,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 13.943999999999999
+            "distanceToStop": 13.74
           },
           {
             "order": "26",
@@ -114304,7 +114382,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.389999999999999
+            "distanceToStop": 14.186
           },
           {
             "order": "27",
@@ -114313,7 +114391,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 14.719999999999999
+            "distanceToStop": 14.516
           },
           {
             "order": "28",
@@ -114322,7 +114400,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 15.078999999999999
+            "distanceToStop": 14.875
           },
           {
             "order": "29",
@@ -114331,7 +114409,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 15.418
+            "distanceToStop": 15.214
           }
         ],
         "geometry": [
@@ -114518,18 +114596,6 @@
           [
             49.096608,
             55.871449
-          ],
-          [
-            49.098185,
-            55.871534
-          ],
-          [
-            49.097307,
-            55.875692
-          ],
-          [
-            49.096927,
-            55.875668
           ],
           [
             49.095773,
@@ -124256,7 +124322,7 @@
     }
   },
   {
-    "mv_id": "566",
+    "mv_id": "638",
     "mr_id": "135",
     "tt_id": "2",
     "mt_id": "1",
@@ -125050,8 +125116,8 @@
             55.829401
           ],
           [
-            49.134082,
-            55.831842
+            49.134077,
+            55.831691
           ],
           [
             49.134061,
@@ -125140,7 +125206,7 @@
           {
             "order": "5",
             "st_id": "321",
-            "distance": 0.908,
+            "distance": 0.293,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
@@ -125148,6 +125214,15 @@
           },
           {
             "order": "6",
+            "st_id": "1788",
+            "distance": 0.615,
+            "isFinal": false,
+            "isFirst": false,
+            "isControlPoint": false,
+            "distanceToStop": 2.6170000000000004
+          },
+          {
+            "order": "7",
             "st_id": "331",
             "distance": 0.454,
             "isFinal": false,
@@ -125156,7 +125231,7 @@
             "distanceToStop": 3.232
           },
           {
-            "order": "7",
+            "order": "8",
             "st_id": "332",
             "distance": 0.386,
             "isFinal": false,
@@ -125165,7 +125240,7 @@
             "distanceToStop": 3.6860000000000004
           },
           {
-            "order": "8",
+            "order": "9",
             "st_id": "333",
             "distance": 0.326,
             "isFinal": false,
@@ -125174,7 +125249,7 @@
             "distanceToStop": 4.072
           },
           {
-            "order": "9",
+            "order": "10",
             "st_id": "334",
             "distance": 0.344,
             "isFinal": false,
@@ -125183,7 +125258,7 @@
             "distanceToStop": 4.398
           },
           {
-            "order": "10",
+            "order": "11",
             "st_id": "335",
             "distance": 0.484,
             "isFinal": false,
@@ -125192,7 +125267,7 @@
             "distanceToStop": 4.742
           },
           {
-            "order": "11",
+            "order": "12",
             "st_id": "336",
             "distance": 0.343,
             "isFinal": false,
@@ -125201,7 +125276,7 @@
             "distanceToStop": 5.226
           },
           {
-            "order": "12",
+            "order": "13",
             "st_id": "1224",
             "distance": 0.357,
             "isFinal": false,
@@ -125210,7 +125285,7 @@
             "distanceToStop": 5.569
           },
           {
-            "order": "13",
+            "order": "14",
             "st_id": "1225",
             "distance": 0.49,
             "isFinal": false,
@@ -125219,7 +125294,7 @@
             "distanceToStop": 5.926
           },
           {
-            "order": "14",
+            "order": "15",
             "st_id": "1345",
             "distance": 1.057,
             "isFinal": false,
@@ -125228,7 +125303,7 @@
             "distanceToStop": 6.416
           },
           {
-            "order": "15",
+            "order": "16",
             "st_id": "1341",
             "distance": 0.483,
             "isFinal": false,
@@ -125237,40 +125312,40 @@
             "distanceToStop": 7.473000000000001
           },
           {
-            "order": "16",
+            "order": "17",
             "st_id": "1339",
-            "distance": 0.503,
+            "distance": 0.504,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
             "distanceToStop": 7.956
           },
           {
-            "order": "17",
+            "order": "18",
             "st_id": "43",
             "distance": 0.915,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 8.459
+            "distanceToStop": 8.46
           },
           {
-            "order": "18",
+            "order": "19",
             "st_id": "44",
             "distance": 0.349,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 9.373999999999999
+            "distanceToStop": 9.375
           },
           {
-            "order": "19",
+            "order": "20",
             "st_id": "45",
             "distance": 0,
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 9.722999999999999
+            "distanceToStop": 9.724
           }
         ],
         "geometry": [
@@ -155866,10 +155941,10 @@
     }
   },
   {
-    "mv_id": "512",
+    "mv_id": "647",
     "mr_id": "250",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "37а",
     "mr_title": "КДК им. Ленина - жилой массив Сухая Река",
     "directions": {
@@ -155950,7 +156025,7 @@
           {
             "order": "9",
             "st_id": "1849",
-            "distance": 0.641,
+            "distance": 0.486,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
@@ -155958,12 +156033,12 @@
           },
           {
             "order": "10",
-            "st_id": "1850",
-            "distance": 0.489,
+            "st_id": "606",
+            "distance": 0.44,
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 4.888
+            "distanceToStop": 4.733
           },
           {
             "order": "11",
@@ -155972,7 +156047,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.377
+            "distanceToStop": 5.173
           },
           {
             "order": "12",
@@ -155981,7 +156056,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 5.827
+            "distanceToStop": 5.623
           },
           {
             "order": "13",
@@ -155990,7 +156065,7 @@
             "isFinal": false,
             "isFirst": false,
             "isControlPoint": false,
-            "distanceToStop": 6.345
+            "distanceToStop": 6.141
           },
           {
             "order": "14",
@@ -155999,7 +156074,7 @@
             "isFinal": true,
             "isFirst": false,
             "isControlPoint": true,
-            "distanceToStop": 6.859999999999999
+            "distanceToStop": 6.656
           }
         ],
         "geometry": [
@@ -156186,18 +156261,6 @@
           [
             49.096608,
             55.871449
-          ],
-          [
-            49.098185,
-            55.871534
-          ],
-          [
-            49.097307,
-            55.875692
-          ],
-          [
-            49.096927,
-            55.875668
           ],
           [
             49.095773,
@@ -156708,7 +156771,7 @@
     "mv_id": "595",
     "mr_id": "262",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "90а",
     "mr_title": "Станция метро Проспект Победы - Новые Салмачи",
     "directions": {

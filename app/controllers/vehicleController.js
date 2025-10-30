@@ -158,7 +158,6 @@ const updateTableCur2 = async () => {
   stations.clear();
 
   table.forEach((item) => {
-    if (Number(item.tc_len2target) === -1) return;
     const key = `${item.srv_id}-${item.uniqueid}`;
     const vehicle = vehicles.get(key);
     const station = stations.get(Number(item.st_id)) || {};
