@@ -15,7 +15,7 @@
   {
     "mr_id": "3",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "22",
     "mr_title": "Ул.Можайского - жилой массив Ферма-2",
     "ok_id": "92401",
@@ -28,15 +28,15 @@
   {
     "mr_id": "4",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "45",
     "mr_title": "Жилой массив Ферма-2 - Су Анасы",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Jiloy massiv Ferma-2 - Su Anasyi",
     "mr_regnum": "45",
-    "mv_id": "565",
-    "mv_startdate": "2024-11-24 00:00:00"
+    "mv_id": "636",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "5",
@@ -67,7 +67,7 @@
   {
     "mr_id": "7",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "35а",
     "mr_title": "Станция метро Площадь Г.Тукая - Авторынок (кольцевой)",
     "ok_id": "92401",
@@ -93,15 +93,15 @@
   {
     "mr_id": "9",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "75",
     "mr_title": "Комбинат Здоровье - Универсам 2",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Kombinat Zdorove - Universam 2",
     "mr_regnum": "75",
-    "mv_id": "542",
-    "mv_startdate": "2024-07-01 00:00:00"
+    "mv_id": "639",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "10",
@@ -119,7 +119,7 @@
   {
     "mr_id": "11",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "29",
     "mr_title": "Строительный институт - ул.Гудованцева",
     "ok_id": "92401",
@@ -139,8 +139,8 @@
     "ag_id": "1",
     "mr_note": "Ul.Batyirshina - Derevnya Universiadyi",
     "mr_regnum": "47",
-    "mv_id": "626",
-    "mv_startdate": "2025-09-20 00:00:00"
+    "mv_id": "644",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "15",
@@ -171,7 +171,7 @@
   {
     "mr_id": "17",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "1",
     "mr_title": "Речной порт - жилой массив Дербышки",
     "ok_id": "92401",
@@ -184,15 +184,15 @@
   {
     "mr_id": "19",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "60",
     "mr_title": "Ул.Химическая - жилой массив Дербышки",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Ul.Himicheskaya - jiloy massiv Derbyishki",
     "mr_regnum": "60",
-    "mv_id": "439",
-    "mv_startdate": "2022-09-13 00:00:00"
+    "mv_id": "642",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "21",
@@ -204,13 +204,13 @@
     "ag_id": "1",
     "mr_note": "Stantsiya metro YAshlek - jiloy massiv Krutushka",
     "mr_regnum": "78",
-    "mv_id": "495",
-    "mv_startdate": "2023-10-14 00:00:00"
+    "mv_id": "640",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "22",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "46",
     "mr_title": "Жилой комплекс Экопарк Дубрава - Профилакторий",
     "ok_id": "92401",
@@ -223,7 +223,7 @@
   {
     "mr_id": "23",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "72",
     "mr_title": "Театр им.Г.Камала - Профилакторий",
     "ok_id": "92401",
@@ -236,20 +236,20 @@
   {
     "mr_id": "24",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "33",
     "mr_title": "Ул.Ленинградская - жилой массив Ферма-2",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Ul.Leningradskaya - jiloy massiv Ferma-2",
     "mr_regnum": "33",
-    "mv_id": "632",
-    "mv_startdate": "2025-10-04 00:00:00"
+    "mv_id": "635",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "25",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "53",
     "mr_title": "Речной порт - ул.Ленинградская",
     "ok_id": "92401",
@@ -301,28 +301,28 @@
   {
     "mr_id": "30",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "36а",
     "mr_title": "Жилой массив Залесный - Новониколаевский",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Jiloy massiv Zalesnyiy - Novonikolaevskiy",
     "mr_regnum": "361",
-    "mv_id": "624",
-    "mv_startdate": "2025-08-30 00:00:00"
+    "mv_id": "643",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "31",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "93",
     "mr_title": "КДК им. Ленина - н.п.Берновые Ковали",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "KDK im. Lenina - n.p.Bernovyie Kovali",
     "mr_regnum": "93",
-    "mv_id": "496",
-    "mv_startdate": "2023-10-14 00:00:00"
+    "mv_id": "648",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "32",
@@ -353,7 +353,7 @@
   {
     "mr_id": "35",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "91",
     "mr_title": "ЦУМ - Высокая Гора (АРЗ)",
     "ok_id": "92401",
@@ -366,7 +366,7 @@
   {
     "mr_id": "36",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "2",
     "mr_num": "34",
     "mr_title": "Жилой массив Ферма -2 - ДК им.Саид-Галеева",
     "ok_id": "92401",
@@ -392,7 +392,7 @@
   {
     "mr_id": "39",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "4",
     "mr_title": "Жилой массив Ферма-2 - жилой массив Новая Сосновка",
     "ok_id": "92401",
@@ -418,20 +418,20 @@
   {
     "mr_id": "41",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "36",
     "mr_title": "Вещевой рынок - Осиново",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Veschevoy ryinok - Osinovo",
     "mr_regnum": "36",
-    "mv_id": "612",
-    "mv_startdate": "2025-08-30 00:00:00"
+    "mv_id": "645",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "42",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "77",
     "mr_title": "Деревня Универсиады - Нефтебаза",
     "ok_id": "92401",
@@ -470,28 +470,28 @@
   {
     "mr_id": "45",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "18",
     "mr_title": "Ул.Челюскина - переулок Дуслык",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "Ul.Chelyuskin - pereulok Duslyik",
     "mr_regnum": "18",
-    "mv_id": "579",
-    "mv_startdate": "2025-01-11 00:00:00"
+    "mv_id": "641",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "46",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "62",
     "mr_title": "Станция метро Яшьлек - жилой комплекс Салават Купере",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "st.m.Yashlek - jiloy kompleks Salavat Kupere",
     "mr_regnum": "62",
-    "mv_id": "517",
-    "mv_startdate": "2024-07-08 00:00:00"
+    "mv_id": "646",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "47",
@@ -509,7 +509,7 @@
   {
     "mr_id": "48",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "68",
     "mr_title": "Станция метро Проспект Победы - ул.Иман",
     "ok_id": "92401",
@@ -548,15 +548,15 @@
   {
     "mr_id": "51",
     "tt_id": "1",
-    "mt_id": "1",
+    "mt_id": "3",
     "mr_num": "74",
     "mr_title": "ДВВС - 10-й микрорайон",
     "ok_id": "92401",
     "ag_id": "1",
     "mr_note": "DVVS - 10-y mikrorayon",
     "mr_regnum": "74",
-    "mv_id": "444",
-    "mv_startdate": "2024-05-30 00:00:00"
+    "mv_id": "637",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "56",
@@ -594,8 +594,8 @@
     "ag_id": "1",
     "mr_note": "Magazin IKEA - jiloy massiv Staroe Pobedilovo",
     "mr_regnum": "31",
-    "mv_id": "409",
-    "mv_startdate": "2022-11-01 00:00:00"
+    "mv_id": "650",
+    "mv_startdate": "2025-10-25 00:00:00"
   },
   {
     "mr_id": "60",
@@ -639,7 +639,7 @@
   {
     "mr_id": "63",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "89",
     "mr_title": "Ул.Академика Сахарова - ул.Гудованцева",
     "ok_id": "92401",
@@ -685,8 +685,8 @@
     "ag_id": "1",
     "mr_note": "KDK im. Lenina - Dalnie sadyi",
     "mr_regnum": "992",
-    "mv_id": "497",
-    "mv_startdate": "2023-10-14 00:00:00"
+    "mv_id": "649",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "75",
@@ -763,8 +763,8 @@
     "ag_id": "1",
     "mr_note": "Ul.Gorkovskoe shosse - Roddom",
     "mr_regnum": "401",
-    "mv_id": "566",
-    "mv_startdate": "2025-01-29 00:00:00"
+    "mv_id": "638",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "136",
@@ -1029,20 +1029,20 @@
   {
     "mr_id": "250",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "37а",
     "mr_title": "КДК им. Ленина - жилой массив Сухая Река",
     "ok_id": "",
     "ag_id": "1",
     "mr_note": "KDK im. Lenina - jiloy massiv Suhaya Reka",
     "mr_regnum": "371",
-    "mv_id": "512",
-    "mv_startdate": "2024-03-06 00:00:00"
+    "mv_id": "647",
+    "mv_startdate": "2025-10-18 00:00:00"
   },
   {
     "mr_id": "262",
     "tt_id": "1",
-    "mt_id": "3",
+    "mt_id": "1",
     "mr_num": "90а",
     "mr_title": "Станция метро Проспект Победы - Новые Салмачи",
     "ok_id": "",
