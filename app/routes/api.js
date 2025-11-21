@@ -26,4 +26,17 @@ router.get("/sync", (req, res) => {
   res.send("started sync");
 });
 
+router.get("/server-ip", async (req, res) => {
+  try {
+    const response = await (await fetch("https://api.ipify.org?format=json")).json();
+    res.json(response);
+  } catch (error) {
+    try {
+      console.log(JSON.stringify(error));
+    } catch (err) {}
+
+    res.status(500).send(error.message);
+  }
+});
+
 module.exports = router;
